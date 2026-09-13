@@ -29,9 +29,18 @@ Este repositório organiza o desenvolvimento do RPG e preserva os motivos das de
 
 Os documentos temáticos descrevem a versão atual; o registro de decisões preserva o histórico e os motivos. Uma proposta não passa a ser canônica automaticamente.
 
-## Ponto de partida
+## Conteúdo organizado
 
-[Notas recuperadas das conversas](ideias/notas-iniciais.md) reúne referências do contexto disponível. É um inventário inicial a revisar, não uma transcrição completa nem uma nova aprovação das regras.
+As pastas já contêm documentos temáticos sobre o mundo, a Igreja, as mecânicas recuperadas, os cinco personagens, NPCs, a aventura piloto e a direção visual.
+
+- [Fontes e cobertura da revisão](fontes/README.md)
+- [Divergências entre versões](ideias/divergencias.md)
+- [Pendências e material da outra IA](ideias/pendencias.md)
+- [Anão combatente](personagens/anao-combatente.md)
+
+**Atenção à versão das regras:** o resumo antigo foi preservado com seu estado de versão. Foi identificada divergência com um anexo de ficha recuperado separadamente, cuja importação ficou pendente. O conteúdo da outra IA ainda não foi incorporado.
+
+Esta é uma revisão do material disponível, não uma transcrição integral de todos os chats. As [notas iniciais](ideias/notas-iniciais.md) foram preservadas como registro histórico.
 
 ## Compartilhamento
 

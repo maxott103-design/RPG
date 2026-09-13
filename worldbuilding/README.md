@@ -1,5 +1,12 @@
 # Worldbuilding
 
-Funcionamento do mundo no presente: geografia, cidades, povos, facções, economia, tecnologia, fauna e vida cotidiana.
+- [Visão geral, povos e organização territorial](visao-geral.md)
+- [Pedra Negra, entreposto e sede da SEDP](localidades.md)
+- [Economia, transporte e facções](economia-e-faccoes.md)
+- [Ameaças das áreas abertas](ameacas.md)
 
-Crie um arquivo por assunto usando o [modelo de documento](../modelos/documento.md). Registre decisões importantes no [histórico de decisões](../decisoes/README.md).
+## Como interpretar
+
+O conteúdo foi organizado a partir das [fontes disponíveis](../fontes/README.md). Cada documento distingue informações recuperadas, decisões explícitas e lacunas. As divergências não foram resolvidas por suposição.
+
+Para novas entradas, use os [modelos](../modelos/README.md).

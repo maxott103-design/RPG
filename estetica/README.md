@@ -1,5 +1,11 @@
-# Estética e referências
+# Estética
 
-Direção visual de arquitetura, vestuário, armas, armaduras e tecnologia; prompts e artes. Identifique referência, proposta, versão aceita e versão descartada.
+- [Direção visual](direcao-visual.md)
+- [Armas e armaduras](armas-e-armaduras.md)
+- [Briefings visuais e miniaturas](cenas-e-personagens.md)
 
-Crie um arquivo por assunto usando o [modelo de documento](../modelos/documento.md). Registre decisões importantes no [histórico de decisões](../decisoes/README.md).
+## Como interpretar
+
+O conteúdo foi organizado a partir das [fontes disponíveis](../fontes/README.md). Cada documento distingue informações recuperadas, decisões explícitas e lacunas. As divergências não foram resolvidas por suposição.
+
+Para novas entradas, use os [modelos](../modelos/README.md).

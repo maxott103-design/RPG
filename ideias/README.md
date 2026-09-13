@@ -1,5 +1,11 @@
-# Ideias em aberto
+# Ideias e pendências
 
-Propostas, dúvidas, alternativas e assuntos ainda não decididos. Não trate o conteúdo desta pasta como cânone.
+- [Pendências de recuperação](pendencias.md)
+- [Divergências entre versões](divergencias.md)
+- [Inventário anterior — referência histórica](notas-iniciais.md)
 
-Crie um arquivo por assunto usando o [modelo de documento](../modelos/documento.md). Registre decisões importantes no [histórico de decisões](../decisoes/README.md).
+## Como interpretar
+
+O conteúdo foi organizado a partir das [fontes disponíveis](../fontes/README.md). Cada documento distingue informações recuperadas, decisões explícitas e lacunas. As divergências não foram resolvidas por suposição.
+
+Para novas entradas, use os [modelos](../modelos/README.md).

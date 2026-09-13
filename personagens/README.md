@@ -1,5 +1,14 @@
 # Personagens
 
-Personagens de jogadores, fichas, históricos, NPCs, objetivos e vínculos. Marque informações exclusivas do mestre.
+- [Anão combatente](anao-combatente.md)
+- [Anão minerador](anao-minerador.md)
+- [Humano combatente](humano-combatente.md)
+- [Humano industrial](humano-industrial.md)
+- [Meio-orc caçador](meio-orc-cacador.md)
+- [NPCs](npcs.md)
 
-Crie um arquivo por assunto usando o [modelo de documento](../modelos/documento.md). Registre decisões importantes no [histórico de decisões](../decisoes/README.md).
+## Como interpretar
+
+O conteúdo foi organizado a partir das [fontes disponíveis](../fontes/README.md). Cada documento distingue informações recuperadas, decisões explícitas e lacunas. As divergências não foram resolvidas por suposição.
+
+Para novas entradas, use os [modelos](../modelos/README.md).

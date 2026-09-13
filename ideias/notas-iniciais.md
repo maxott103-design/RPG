@@ -1,5 +1,7 @@
 # Inventário inicial das conversas
 
+> Registro histórico da primeira organização. O conteúdo foi distribuído nos documentos temáticos. Há divergências nos valores de Fôlego e Exaustão; consulte [comparação de versões](divergencias.md). Este arquivo não é o manual atual.
+
 Estado: **A revisar**. Fonte: resumo e trechos de conversas disponíveis na organização inicial, em 13/09/2026. As notas abaixo não substituem as fichas nem os documentos originais. Não foram acrescentados motivos ou detalhes ausentes do contexto.
 
 ## Worldbuilding

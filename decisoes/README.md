@@ -1,8 +1,11 @@
-# Registro de decisões
+# Decisões
 
-Crie arquivos numerados a partir do [modelo](../modelos/decisao.md): `0001-assunto.md`, `0002-assunto.md` etc.
+- [Ameaças das áreas abertas](0001-ameacas-das-areas-abertas.md)
+- [Armas dos orcs do norte](0002-armas-dos-orcs-do-norte.md)
+- [Passado do meio-orc caçador](0003-passado-do-meio-orc.md)
 
-| ID | Tema | Estado | Documento |
-| --- | --- | --- | --- |
+## Como interpretar
 
-Preencha a tabela ao registrar a primeira decisão. A data do registro pode ser diferente da data em que a decisão foi tomada; não invente datas retrospectivas.
+O conteúdo foi organizado a partir das [fontes disponíveis](../fontes/README.md). Cada documento distingue informações recuperadas, decisões explícitas e lacunas. As divergências não foram resolvidas por suposição.
+
+Para novas entradas, use os [modelos](../modelos/README.md).
