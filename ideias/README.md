@@ -1,11 +1,7 @@
-# Ideias e pendências
+# Pendências e ideias
 
-- [Pendências de recuperação](pendencias.md)
-- [Divergências entre versões](divergencias.md)
-- [Inventário anterior — referência histórica](notas-iniciais.md)
+- [Lista unificada e priorizada](pendencias.md): recuperação, desenvolvimento, decisão e validação
+- [Conciliação das versões](divergencias.md): substituições comprovadas e conflitos restantes
+- [Notas iniciais](notas-iniciais.md): histórico, não manual vigente
 
-## Como interpretar
-
-O conteúdo foi organizado a partir das [fontes disponíveis](../fontes/README.md). Cada documento distingue informações recuperadas, decisões explícitas e lacunas. As divergências não foram resolvidas por suposição.
-
-Para novas entradas, use os [modelos](../modelos/README.md).
+Uma alternativa de calibração só vira regra após decisão registrada e atualização dos documentos afetados.

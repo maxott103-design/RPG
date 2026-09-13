@@ -27,3 +27,11 @@ Há um padre assimilado ligado ao contexto da aventura. Sua direção visual inc
 ## Pendências
 
 Nome da Igreja e da ordem, desenho definitivo do emblema, dogmas, ritos, organização interna e relação exata com o reino teocrático a nordeste.
+
+## Complemento da consolidação
+
+O [cânone de mundo de 28/08](../worldbuilding/canone-do-mundo.md) acrescenta ambiguidade: a doutrina “o arcano destruiu o mundo” é parcialmente verdadeira, e a Igreja pode conhecer corrupção e contenção melhor que outros grupos. Isso não confirma conhecimento uniforme de todos os sacerdotes nem a proposta de instalações-prisão.
+
+A ordem secreta de purificação por corrupção vem da síntese anterior e do contexto GPT; foi preservada como segredo registrado, sem promover os novos “pode saber” a fatos fechados. O padre assimilado da aventura não é automaticamente o pregador humano da ficha de combate.
+
+Faltam também o nome/natureza da divindade venerada, o artefato que dissemina corrupção e a extensão real da conspiração.

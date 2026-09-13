@@ -28,3 +28,11 @@ A síntese de julho descrevia escolta/transporte para uma vila isolada e introdu
 ## Falta para conduzir a sessão
 
 Mapa jogável, gatilho e termos da missão, objetivos dos NPCs, encontros e valores de Ameaça, pistas, condições do bloqueio, consequências de caminhos alternativos e recompensas quantificadas.
+
+## Consolidação com o material Claude
+
+O README-projeto e o roadmap do Claude ainda chamam a aventura de “escolta para vila isolada”; não trazem uma aventura escrita que substitua o roteiro acima. A sequência **entreposto → Pedra Negra → SEDP → redomas** é o roteiro mais detalhado encontrado, mas sua precedência sobre a escolta antiga não pode ser comprovada apenas pela data do upload. É a base de preparação disponível, com escopo a confirmar.
+
+Os cinco pré-gerados e o catálogo de sete inimigos já estão [documentados](../regras/regras-partida-piloto.md). Não existe ligação automática de cada ficha com um encontro desta aventura. O pregador humano do catálogo não deve ser identificado com o padre assimilado por semelhança de papel.
+
+Para um primeiro teste, a briga de bar e um encontro mundano delimitado são uma proposta de recorte — ainda não uma sessão pronta. Definir objetivo, oposição, rotas de saída, custo de retorno e recompensas antes da mesa.
