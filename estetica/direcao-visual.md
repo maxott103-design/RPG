@@ -23,3 +23,11 @@ A referência de Dead Space é a armadura que lembra equipamento de proteção d
 ## Limites da recuperação
 
 Os pedidos visuais foram recuperados em texto; as imagens finais não foram inspecionadas nem incluídas nesta etapa. Não foi reconstruído um prompt como se fosse a transcrição original. Os briefings recuperados estão em [cenas e personagens](cenas-e-personagens.md).
+
+## Complementos recuperados
+
+A [base estética completa](base-estetica.md) define explicitamente: **sem diesel como tecnologia corrente**, carvão/vapor, sistemas hidráulicos e mecânicos, tecnologia prática, sem ornamentação steampunk. O rótulo “dieselpunk” dos resumos ficou impreciso.
+
+Pré-Guerra: aparência aproximada dos anos 1960–70, concreto, eletrônica e tecnologia arcana/gemas. Jogadores podem reconhecer objetos que os personagens desconhecem; a descrição não deve virar adivinhação artificial.
+
+Os dois HTML de ficha foram encontrados na pasta Claude, mas são layouts com números antigos. Não há imagens finais no inventário do repositório. Os briefings de agosto/setembro continuam válidos como preferências documentadas, sem prova de aprovação das artes finais.

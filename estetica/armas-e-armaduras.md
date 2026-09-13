@@ -29,3 +29,13 @@ Couro, cota de malha ajustada, braçadeiras, caneleiras e joelheiras metálicas 
 Proteções metálicas completas não seriam banais. Usar armadura deve exigir especialização e sacrifícios em outras capacidades; o balanceamento geral não foi recuperado.
 
 Os valores mecânicos de armaduras precisam ser recuperados dos documentos de regras; não foram deduzidos do design visual.
+
+## Conciliação com a versão completa
+
+Consultar [base estética](base-estetica.md) e [manual v2](../regras/regras-partida-piloto.md). Os números de Peso, Aparo, recarga e efeitos foram recuperados; deixam de ser pendência de importação.
+
+Macuahuitl e atlatl aparecem na base estética como tradição do Norte. O cânone de mundo posterior enfatiza caça em contato com lança pesada. Atlatl não é arco, portanto as duas tradições podem coexistir, mas o escopo da proibição de caça à distância precisa ser definido pelo autor.
+
+O manual e a ficha do soldado incluem rifle de repetição militar de cinco tiros, enquanto o briefing visual enfatiza um ou dois disparos. Registrar a exceção militar é uma solução possível, ainda a confirmar na direção visual.
+
+Armadura tem custo mecânico por Peso e reparo. A ideia estética de especialização/treinamento não autoriza inventar pré-requisito mecânico para vestir armadura.

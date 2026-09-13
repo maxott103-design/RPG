@@ -1,15 +1,15 @@
-# Ameaças e áreas abertas
+# Ameaças das áreas abertas e das ruínas
 
-Estado: **Decisão registrada; detalhes incompletos**. Organização: 13/09/2026.
+Estado: **direção convergente nas duas versões**. Fontes: [decisão 0001](../decisoes/0001-ameacas-das-areas-abertas.md), [cânone de mundo](canone-do-mundo.md), [manual §9 e §13](../regras/regras-partida-piloto.md).
 
-Fontes: C03 e M01. Consulte [procedência e limites](../fontes/README.md).
+Perigos cotidianos: bandido, saqueador, escravagista, tribo hostil/canibal, predador, criatura alterada por contato antigo com antiarcano, fome, sede, clima, estrada ruim, ruína instável e falta de socorro.
 
-A orientação mais recente disponível retira os “corrompidos” como ameaça das áreas abertas. O foco passa a ser tribos canibais, bandidos e criaturas selvagens mutadas pelo antiarcano, com referência a Kenshi.
+Corrompidos deixaram de ser a ameaça cotidiana das Wastelands. Não são espécie, facção ou população errante: encontrar um sinaliza algo excepcional. Isso não elimina mutações antigas nem o horror nas ruínas.
 
-Esses perigos ajudam a conter a expansão urbana e tornam relevantes os núcleos protegidos, as caravanas e os pontos seguros de viagem.
+## Material mecânico recuperado
 
-A alteração não elimina o antiarcano, a corrupção nem o horror das ruínas ou da Igreja. Seu alcance é a composição das ameaças das áreas abertas.
+O manual contém sete fichas: cão-de-ruína, saqueador, saqueador com marreta, capanga veterano, pregador humano da Igreja, capataz da mina e Coisa do poço. Há estrutura para Ralé, Nomeados e Coisas, nove habilidades de Nomeados e ações táticas.
 
-Foram mencionados bandidos famintos e lobos como referências de miniaturas para a aventura; não há fichas de inimigos recuperadas. Não foram inventados valores de Ameaça, dano, população de bandos ou tabelas de encontros.
+Essas fichas são um catálogo, não encontros já distribuídos na aventura. A Coisa do poço tem inconsistência com a regra de uma única exceção; consulte [divergências](../ideias/divergencias.md). As simulações existentes não validam ainda esses encontros nem o grupo real de cinco personagens.
 
-Registro relacionado: [0001 — Ameaças das áreas abertas](../decisoes/0001-ameacas-das-areas-abertas.md).
+[Auditoria de calibragem](../playtests/auditoria-simulador.md)

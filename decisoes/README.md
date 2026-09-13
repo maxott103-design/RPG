@@ -1,11 +1,8 @@
-# Decisões
+# Decisões e histórico
 
-- [Ameaças das áreas abertas](0001-ameacas-das-areas-abertas.md)
-- [Armas dos orcs do norte](0002-armas-dos-orcs-do-norte.md)
-- [Passado do meio-orc caçador](0003-passado-do-meio-orc.md)
+- [0001 — Ameaças das áreas abertas](0001-ameacas-das-areas-abertas.md)
+- [0002 — Armas dos orcs do Norte](0002-armas-dos-orcs-do-norte.md)
+- [0003 — Passado do meio-orc](0003-passado-do-meio-orc.md)
+- [0004 — Consolidação documental GPT e Claude](0004-consolidacao-documental.md)
 
-## Como interpretar
-
-O conteúdo foi organizado a partir das [fontes disponíveis](../fontes/README.md). Cada documento distingue informações recuperadas, decisões explícitas e lacunas. As divergências não foram resolvidas por suposição.
-
-Para novas entradas, use os [modelos](../modelos/README.md).
+Registros anteriores mantêm sua procedência; notas de conciliação não fingem determinar a data original. [Matriz de divergências](../ideias/divergencias.md) · [Modelo](../modelos/decisao.md).

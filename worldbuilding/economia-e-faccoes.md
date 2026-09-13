@@ -1,25 +1,39 @@
-# Economia, transporte e facções
+# Economia, instituições e Expedicionários
 
-Estado: **Registrado no contexto**. Organização: 13/09/2026.
-
-Fontes: C02, C03 e M01. Consulte [procedência e limites](../fontes/README.md).
+Estado: **conteúdo reunido com distinção entre fala autoral e proposta**. Fontes: [transcrição de mundo](../versao-claude/Mundo/Lore%20e%20Worldbuilding.txt), [cânone atual](canone-do-mundo.md) e [contexto GPT](../fontes/README.md).
 
 ## Recursos e trabalho
 
-Carvão é um recurso central de Pedra Negra. Latão, salitre e enxofre também integram as referências materiais do cenário. Água, poços, agricultura e estufas foram considerados para o abastecimento. Não há quantitativos, preços ou cadeias produtivas completas recuperados.
+Carvão, metais, latão, salitre, enxofre, madeira, água, alimentos e peças sustentam as cidades. Pedra Negra depende de mineração e ferrovia. Agricultura, poços, estufas e comércio aparecem como soluções consideradas; faltam preços, produção e consumo quantificados.
 
-Ferrovia e caravanas conectam os núcleos habitados. Carroças são puxadas por bisões de quatro chifres. Descarregar um trem, trabalhar em uma oficina e frequentar um bar de mineiros são situações já propostas para apresentar esse cotidiano.
+Ferrovias e caravanas conectam os núcleos. Bisões de quatro chifres puxam cargas. Reparo, reaproveitamento e transmissão de conhecimento técnico fazem parte da economia cotidiana.
 
-## Organizações
+## Expedicionários — detalhe autoral recuperado
 
-| Organização | Papel registrado |
-| --- | --- |
-| Guildas de comerciantes | Comércio e organização econômica; detalhes não recuperados |
-| Guildas de engenheiros | Conhecimento e atividade técnica; detalhes não recuperados |
-| Guildas de exploradores | Exploração; relação formal com a SEDP não definida no material |
-| Sociedade Expedicionária de Pedra Negra — SEDP | Expedições e contato da aventura piloto, com sede decadente e liderança do Comissário |
-| Igreja | Repressão à magia, elfos/meio-elfos e artefatos; ver lore para segredos |
+O autor descreve uma sociedade inspirada nos exploradores britânicos dos séculos XVIII/XIX: aristocratas financiam grandes expedições porque ser Expedicionário confere status. Descobertas e recuperação de tecnologias geram heróis e reconhecimento social. Trabalho mal pago e escravizado sustenta esse prestígio.
+
+**A existência da instituição não depende da lucratividade de cada expedição.** Investimentos da elite em reconhecimento e aventura são parte explícita do conceito. Isso complementa, sem contradizer, a relevância econômica das expedições para cidades e trabalhadores.
+
+A **Sociedade Expedicionária de Pedra Negra (SEDP)** está nomeada nos documentos da raiz. Sua sede decadente tem o Comissário como líder e expõe teclado e mouse como troféus.
+
+Ainda falta definir a relação formal da SEDP com uma rede maior: filial, sociedade autônoma ou associação federada. Não foi adotado automaticamente um dos nomes sugeridos pela IA (“Ordem”, “Liga” etc.).
+
+Patronos, naturalistas, cartógrafos, engenheiros, banquetes, medalhas e lemas foram desenvolvidos pela IA como possibilidades. A estrutura nominal e a hierarquia não receberam aceite específico recuperado.
+
+## Organizações transregionais
+
+O autor quer instituições presentes em várias cidades, com influência, interesses próprios e benefícios de filiação — como poder contar com hospedagem. Também afirma que organizações grandes usam seu poder para atender quem as controla.
+
+Guildas mercantis, engenheiros/exploradores e organizações de transporte pertencem à direção estabelecida. Os nomes Liga Mercantil dos Vales, Corpo Ferroviário, Ordem dos Curadores, Liga dos Correios, Ordem das Lanternas, Irmãos da Cinza e outros constam de brainstorming. Não viraram automaticamente facções canônicas.
+
+A Igreja reprime magia e conhecimento antigo; seus segredos ficam em [lore](../lore/igreja.md).
+
+## Governo de Pedra Negra
+
+A transcrição propõe oligarquia, liderança militar, conselho e dinastia eletiva, e termina defendendo uma coalizão de elites econômicas, militares e religiosas responsável por manter minas, ferrovia, guarda e abastecimento. O autor responde aceitando a política de Pedra Negra “por hora”.
+
+Isso é evidência de aceite da direção política, mas não permite escolher silenciosamente um dos modelos anteriores. “Conselho do Carvão”, composição de seis membros, Governador e mandato vitalício devem permanecer identificados como propostas, até confirmar exatamente o que foi aceito. O resumo de 28/08, ao dizer apenas “não fechado”, perdeu parte dessa nuance.
 
 ## Em aberto
 
-Moeda, preços, legislação da escravidão, estrutura das guildas, relações diplomáticas e hierarquia formal da SEDP.
+Moeda, preços, consumo e salários; propriedade e leis de escravidão; critérios de filiação e benefícios; estrutura de guildas; patrocínio e contratos da SEDP; governo exato; relações diplomáticas.

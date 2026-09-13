@@ -1,3 +1,52 @@
+# Fontes, cobertura e precedência
+
+Revisão unificada: 13/09/2026. Base imutável: [27721dbca38a1d1ed52656995b9318318237aa79](https://github.com/maxott103-design/RPG/tree/27721dbca38a1d1ed52656995b9318318237aa79). [Inventário de todos os arquivos](inventario.md).
+
+## Escopo efetivamente acessado
+
+82 arquivos (incluindo backups, dois HTML e simulador), cinco commits, uma branch main. Issues e PRs estavam vazios na consulta inicial. Não foram acessados históricos privados externos das IAs; C01–C06/M01/R01 abaixo descrevem a procedência da revisão anterior, não novas consultas feitas nesta consolidação.
+
+O estado importado do Claude está em [versao-claude](../versao-claude/README.md). O texto original foi preservado ali. Os documentos anteriores da raiz são recuperáveis no commit-base; alterações atuais têm registro próprio.
+
+## Precedência adotada
+
+1. **Escolha explícita do autor, com escopo e contexto identificáveis**, é evidência mais forte que uma sugestão da IA.
+2. Documento detalhado designado como fonte de trabalho prevalece sobre seu resumo, índice ou roadmap quando descrevem a mesma versão. Assim, fichas completas e habilidades v4 prevalecem sobre a tabela atrasada de DECISOES-DOS-CHATS.
+3. Substituição explícita e versões internas estabelecem sequência: piloto v2 substitui v1; habilidades v4 substituem v1–v3; chassi mínimo 1 substitui fichas com atributo 0.
+4. A extensão do arquivo não resolve precedência. O GUIA DO JOGADOR.txt é guia v2, enquanto outros TXT são transcrições antigas. Nem todo MD está correto.
+5. **Data de importação não é data de decisão.** Todos os commits consultados são de 13/09/2026; conteúdos remetem a julho, agosto e setembro. Não usar “Claude entrou depois” como aprovação de todo o seu conteúdo.
+6. Quando a ordem não está provada, preservar as variantes com fontes. Silêncio de um resumo não revoga um detalhe autoral; proposta não vira regra.
+
+## Cronologia do Git
+
+| Commit | Data/hora UTC | Conteúdo |
+| --- | --- | --- |
+| 2c0a9ee | 13/09/2026 21:26:00 | Inicial |
+| 1bf9161 | 13/09/2026 21:28:40 | Estrutura e modelos |
+| 8acc7e4 | 13/09/2026 21:30:22 | Notas iniciais |
+| da5f10b | 13/09/2026 21:43:49 | Organização temática GPT |
+| 27721db | 13/09/2026 23:17:26 | Importação Claude sem compatibilização |
+
+## Estado das fontes
+
+| Material | Tratamento |
+| --- | --- |
+| Piloto v2, atributos/competências v1, habilidades v4 | Incorporados integralmente na área de regras, com referências e avisos de conflito |
+| Fichas Markdown atuais | Incorporadas com números e habilidades atuais; complementadas pelo material GPT |
+| Cânone de mundo e estética | Incorporados e ligados aos complementos de lore/localidades |
+| Transcrição de mundo | Extração de informação omitida nos resumos, distinguindo fala do autor de sugestões |
+| Regras Gerais / Síntese Desatualizada / backups | História de design; não são manual atual |
+| HTML de personagens | Layouts de referência com regras antigas; não fichas prontas da versão atual |
+| Simulador | Artefato histórico auditado, não comprovação de balanceamento |
+| Resumos da raiz | Atualizados; originais preservados no Git |
+| Artes finais e chats ausentes | Recuperação pendente; não presumir que não existam fora do repositório |
+
+## Procedência herdada da recuperação GPT
+
+O bloco abaixo é o registro anterior, preservado para rastreabilidade. Frases como “outra IA não acessível” e “ficha não importada” descrevem aquela etapa e foram superadas pela revisão atual.
+
+---
+
 # Procedência, cobertura e limites
 
 Organização documental: **13/09/2026**. Esta revisão organiza o conteúdo acessível, não declara ter recuperado integralmente todos os chats.
@@ -39,3 +88,10 @@ As imagens finais e a ficha HTML não foram importadas. O material desenvolvido 
 ## Como integrar o material externo
 
 Importar os textos fornecidos pelo autor com identificação de origem/versão, comparar com [divergências](../ideias/divergencias.md), atualizar os documentos temáticos afetados e registrar substituições no histórico de decisões. Não usar a data desta organização como prova de que o conteúdo é mais novo.
+
+
+---
+
+## Regra de manutenção
+
+Edite o documento temático atual. Registre a decisão em decisoes/, citando o trecho/fonte, e atualize pendências e fichas afetadas. Mantenha propostas marcadas; arquive o substituído com indicação da nova referência.

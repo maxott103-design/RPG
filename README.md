@@ -1,56 +1,38 @@
-# RPG — Documentação de desenvolvimento
+# RPG — desenvolvimento unificado
 
-Repositório: **RPG**. O título final do jogo permanece em aberto.
+RPG autoral de expedição e sobrevivência num mundo industrial de carvão, vapor e ruínas. O nome final do jogo continua em aberto.
 
-Este repositório organiza o desenvolvimento do RPG e preserva os motivos das decisões.
+**Comece pelo [estado consolidado](ESTADO-DO-PROJETO.md).** A revisão de 13/09/2026 reuniu os 82 arquivos da versão GPT e da pasta Claude, separando decisões, propostas, histórico e conflitos.
 
-## Navegação
+## Para trabalhar no jogo
 
-| Espaço | Conteúdo |
+| Área | Documento |
 | --- | --- |
-| [Worldbuilding](worldbuilding/README.md) | Geografia, povos, sociedade, economia e funcionamento do mundo |
-| [Lore](lore/README.md) | História, cosmologia, acontecimentos e segredos |
-| [Regras](regras/README.md) | Mecânicas, criação de personagens e testes |
-| [Personagens](personagens/README.md) | Personagens de jogadores e NPCs |
-| [Aventuras](aventuras/README.md) | Cenários, encontros e registros de sessões |
-| [Estética](estetica/README.md) | Direção visual, armas, armaduras e referências |
-| [Decisões](decisoes/README.md) | O que foi decidido e por quê |
-| [Ideias](ideias/README.md) | Propostas e dúvidas ainda abertas |
-| [Playtests](playtests/README.md) | Observações de mesa e ajustes a avaliar |
-| [Modelos](modelos/README.md) | Formulários para novos registros |
+| Visão de conjunto | [Estado do projeto](ESTADO-DO-PROJETO.md) |
+| O que decidir/escrever/testar | [Pendências priorizadas](ideias/pendencias.md) |
+| O que diverge entre fontes | [Conciliação e divergências](ideias/divergencias.md) |
+| Regras completas e guia do jogador | [Regras](regras/README.md) |
+| Cinco fichas reunidas | [Personagens](personagens/README.md) |
+| Mundo, localidades, política e instituições | [Worldbuilding](worldbuilding/README.md) |
+| Cosmologia, Igreja e segredos | [Lore](lore/README.md) |
+| Piloto e redomas | [Aventuras](aventuras/README.md) |
+| Direção visual e equipamento | [Estética](estetica/README.md) |
+| Evidência e plano de teste | [Playtests](playtests/README.md) |
+| Fontes e cobertura completa | [Procedência](fontes/README.md) · [Inventário](fontes/inventario.md) |
+| Histórico de decisões | [Decisões](decisoes/README.md) |
+| Novos registros | [Modelos](modelos/README.md) |
 
-## Como usar
+## Versão de trabalho
 
-1. Abra o arquivo da área desejada e use o lápis do GitHub para editar.
-2. Para uma nova entrada, copie um modelo para a pasta correspondente, usando um nome como `nome-do-assunto.md`.
-3. Indique o estado: **Proposto**, **Em teste**, **Consolidado**, **Descartado** ou **Substituído**.
-4. Quando tomar uma decisão importante, registre-a em `decisoes/` e atualize o documento temático correspondente.
-5. Ao mudar uma decisão, preserve o registro anterior e indique qual decisão a substituiu.
+**Piloto v2 + atributos v1 + competências v1 + habilidades v4**, com cinco pré-gerados. As regras existem, mas ainda têm ambiguidades operacionais e não há playtest real registrado. A organização documental não muda a versão do sistema para v0.2.
 
-Os documentos temáticos descrevem a versão atual; o registro de decisões preserva o histórico e os motivos. Uma proposta não passa a ser canônica automaticamente.
+A pasta [versao-claude](versao-claude/README.md) é fonte preservada. Seus resumos e HTML podem estar desatualizados; use a navegação acima para trabalhar. Os documentos anteriores da raiz continuam no [commit-base](https://github.com/maxott103-design/RPG/tree/27721dbca38a1d1ed52656995b9318318237aa79).
 
-## Versões paralelas a compatibilizar
+## Como manter
 
-| Pasta | Origem | Estado |
-| --- | --- | --- |
-| Raiz (`regras/`, `worldbuilding/`, `lore/`, …) | Organização feita em outra IA a partir dos chats | Revisão, com pendências e divergências registradas |
-| [`versao-claude/`](versao-claude/README.md) | Cópia fiel da pasta local `Projeto RPG` desenvolvida nos chats do Claude (regras v2, 28/08/2026) | Fonte mais recente; ver [decisões dos chats](versao-claude/DECISOES-DOS-CHATS.md) |
+1. Edite o documento do assunto, indicando estado: documentado para teste, proposto, em conflito, substituído ou não recuperado.
+2. Registre decisões importantes com fonte, escopo e motivo.
+3. Atualize fichas, guia e pendências quando uma regra mudar.
+4. Preserve o histórico; sugestão de IA não se torna canônica automaticamente.
 
-As duas ficam separadas até a comparação ponto a ponto. Nada da raiz foi alterado ao adicionar `versao-claude/`.
-
-## Conteúdo organizado
-
-As pastas já contêm documentos temáticos sobre o mundo, a Igreja, as mecânicas recuperadas, os cinco personagens, NPCs, a aventura piloto e a direção visual.
-
-- [Fontes e cobertura da revisão](fontes/README.md)
-- [Divergências entre versões](ideias/divergencias.md)
-- [Pendências e material da outra IA](ideias/pendencias.md)
-- [Anão combatente](personagens/anao-combatente.md)
-
-**Atenção à versão das regras:** o resumo antigo foi preservado com seu estado de versão. Foi identificada divergência com um anexo de ficha recuperado separadamente, cuja importação ficou pendente. O conteúdo da outra IA ainda não foi incorporado.
-
-Esta é uma revisão do material disponível, não uma transcrição integral de todos os chats. As [notas iniciais](ideias/notas-iniciais.md) foram preservadas como registro histórico.
-
-## Compartilhamento
-
-Lore e aventuras podem conter segredos do mestre. As pastas não têm permissões separadas: quem acessa o repositório pode ler tudo. Para jogadores, prepare cópias específicas dos materiais que deseja compartilhar.
+Lore e aventuras contêm segredos do mestre. O repositório não separa acesso por pasta; o guia do jogador foi preparado sem esses segredos.

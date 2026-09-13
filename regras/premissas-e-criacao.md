@@ -1,14 +1,17 @@
-# Premissas e criação de personagens
+# Premissas e criação
 
-Estado: **Conceito registrado; implementação parcial**.
-Fontes: C01 e M01, conforme [procedência](../fontes/README.md).
+Estado: **base documentada para teste**. Fontes: [atributos](atributos.md), [competências](competencias.md), [habilidades v4](habilidades.md). As preferências autorais da versão GPT são preservadas: sem classes rígidas e sem “disciplinas” como rótulo de organização.
 
-O desenvolvimento descrito nos chats trabalha sem classes rígidas. O arquétipo emerge das habilidades e da história, sem precisar corresponder a uma função fechada de combate.
+1. Descrever ofício, história e motivo para partir. Arquétipo descreve a personagem; não é uma classe.
+2. Distribuir **10 pontos** entre Vigor, Agilidade, Percepção, Intelecto e Vontade. Mínimo 1, máximo 3 na criação. Escala geral até 4; acesso ao 4 em jogo depende da progressão ainda aberta.
+3. Escolher **3 + Intelecto competências**, incluindo as de combate. Distribuição inicial: **1 Profissional (+3), 2 Práticos (+2), restantes Aprendizes (+1)**.
+4. Respeitar rank máximo = atributo âncora + 1; Mestre (+4) só em jogo, exige âncora 3+. Vontade limita quantas competências podem estar em Profissional/Mestre.
+5. Escolher **1 Passiva + 1 Ativável**, sustentadas pela história. Pré-requisitos iniciais adicionais não foram fechados.
+6. Calcular Fôlego = Vigor + 7 e teto de Exaustão = Vontade + 1. Resistência a ferimentos é comum a todos, salvo habilidades.
+7. Para os pré-gerados, usar o equipamento escrito em cada ficha. Não existe ainda regra geral fechada de orçamento, compra ou pacote de origem.
 
-O usuário rejeitou “disciplina” como nome dessa organização e não gostou de nomes como “disciplina do combate brutal”. A preferência é por identidades práticas, relacionadas à trajetória do personagem.
+Raça funciona como ficção no piloto; modificadores raciais do sistema geral continuam abertos. Origens têm função conceitual definida, mas faltam os pacotes. O plano antigo de duas armas ou uma arma e uma armadura não prevalece sobre o equipamento completo dos pré-gerados nem constitui uma regra universal de compra.
 
-Atributos e competências fazem parte da estrutura conceitual; talentos/habilidades estavam em desenvolvimento no material disponível. O planejamento dos cinco pré-gerados menciona **duas habilidades: uma passiva e uma ativa**, e **duas armas**, com possibilidade de combatentes receberem **uma arma e uma armadura**.
+## Pilares
 
-Não foram recuperadas nos trechos dos chats as regras completas de distribuição de atributos, compra de competências, progressão ou benefícios raciais. O anexo da ficha foi separado desta publicação.
-
-A síntese antiga menciona “classes”; esse termo não substitui automaticamente a orientação posterior sem classes rígidas.
+Difícil sem ser frustrante; combate curto e perigoso; ferimentos alteram ações e escolhas; poucas habilidades impactantes; progressão por capacidades; explorar, sofrer, recuperar e voltar a explorar. O mestre não rola, e atributos não somam ao teste.

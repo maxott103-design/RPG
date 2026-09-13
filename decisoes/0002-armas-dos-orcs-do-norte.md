@@ -20,3 +20,7 @@ Motivo adicional não explicitado no trecho; não foi criado retrospectivamente.
 ## Consequências e limites
 
 Consultar [documento temático](../estetica/armas-e-armaduras.md). Este registro documenta a escolha recuperada e não acrescenta mecânicas ou detalhes ausentes. Versões conflitantes, quando existentes, permanecem em [divergências](../ideias/divergencias.md).
+
+## Conciliação de 13/09/2026
+
+A base estética Claude também preserva macuahuitl e atlatl. O cânone de mundo de 28/08 define caça em contato com lança pesada e sem arco. Mantido o registro histórico; o escopo do atlatl precisa ser esclarecido em D11. Não foi descartado nem interpretado como arco.

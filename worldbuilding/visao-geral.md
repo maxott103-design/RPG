@@ -1,31 +1,27 @@
 # Visão geral do mundo
 
-Estado: **Registrado no contexto**. Organização: 13/09/2026.
+Estado: **cânone de trabalho e complementos documentados**. Fontes: [cânone de 28/08](canone-do-mundo.md), [estética detalhada](../estetica/base-estetica.md) e documentos de contexto da raiz preservados no [histórico](../fontes/README.md).
 
-Fontes: C01, C02, C03 e M01. Consulte [procedência e limites](../fontes/README.md).
+Cerca de mil anos depois da Grande Guerra, cidades industriais de tijolos, fumaça, carvão, vapor e ferrovias sobrevivem entre grandes regiões sem controle estatal. A sociedade atual é pobre em relação ao passado, mas seus habitantes desconhecem a dimensão dessa perda. Manter água, comida, patrulha, minas e rotas custa caro: a fragmentação tem razões materiais.
 
-O cenário se passa em um futuro distante após um colapso tecnomágico. A sociedade atual vive entre indústria, baixa magia e vestígios de uma civilização cujo conhecimento foi perdido. Explorar ruínas, recuperar objetos e enfrentar o desconhecido são componentes centrais da ambientação.
+Os personagens são trabalhadores, mercenários e exploradores. Expedições oferecem dinheiro, oportunidades e prestígio, sustentadas também pelo investimento aristocrático dos Expedicionários.
 
-O cotidiano combina carvão, vapor, mineração, ferrovias e caravanas com povos de fantasia. A existência de tecnologia antiga não significa que os habitantes compreendam seu funcionamento: teclados, mouses e outros objetos banais para o mundo anterior podem ser exibidos como troféus incompreensíveis.
+## Camadas e raridade
 
-## Organização territorial
+Cotidiano → tecnologia perdida → arcano → antiarcano → desconhecido. Perigos mundanos são frequentes; corrupção aparece como pista; Corrompidos são acontecimentos raros, não fauna comum nem uma população de estrada.
 
-| Elemento | Informação recuperada | Limite |
-| --- | --- | --- |
-| Pedra Negra | Cidade mineira murada, ligada ao carvão | Ver documento de localidades |
-| Confederação dos vales | Unidade política registrada no cenário | Fronteiras e governo não recuperados |
-| Confederação agrícola | Situada em uma península | Nome definitivo não recuperado |
-| Reino teocrático | Localizado a nordeste | Não presumir que controle toda a Igreja |
-| Cidade voadora élfica | Remanescente do mundo antigo | Localização e funcionamento não recuperados |
+## Territórios e povos recuperados
 
-Não foi recuperado um mapa com distâncias e fronteiras. A viagem de três dias do entreposto até Pedra Negra é o único trajeto quantificado no material disponível.
+- Pedra Negra: cidade mineira murada ligada ao carvão.
+- Confederação dos Vales; confederação agrícola numa península; reino teocrático a nordeste.
+- Cidade voadora élfica: registro de versões anteriores, mecanismo e posição na cronologia em aberto.
+- Humanos, anões, elfos, meio-elfos, orcs e meio-orcs. Ofício não é determinado pela raça.
+- Orcs e meio-orcs do Norte: caça de megafauna em contato, em grupo, com lança pesada; sem arco. O atlatl cultural também aparece na base estética e precisa ter seu escopo conciliado com essa formulação.
 
-## Povos e relações sociais
+## Tecnologia
 
-Há humanos, anões, elfos, meio-elfos, orcs e meio-orcs. Mineração, trabalho industrial, aristocracia, escravidão e expedições aparecem nas histórias e cenas. Essas ocorrências não estabelecem uma profissão ou posição social obrigatória para cada povo.
+O documento estético declara **não usar diesel como tecnologia corrente**. Essa decisão específica prevalece sobre o rótulo genérico “dieselpunk” em resumos. O mundo anterior tem estética de anos 1960–70 e tecnologia arcana. Isso não o identifica automaticamente como a Terra.
 
-Os orcs do norte receberam referências de armamento asteca. A história do meio-orc inclui captura por tribos escravistas; isso não caracteriza automaticamente todos os orcs como escravistas.
+Cidades móveis e dirigíveis aparecem na síntese antiga; sua permanência não foi confirmada na documentação vigente. São referências históricas a decidir, não exclusões automáticas.
 
-## Elementos de versões antigas
-
-A síntese de julho também menciona dieselpunk, cidades móveis e dirigíveis. Foram preservados como referências anteriores em [versões e divergências](../ideias/divergencias.md), pois o contexto posterior enfatiza carvão e vapor e não detalha esses elementos.
+[Localidades](localidades.md) · [Economia e facções](economia-e-faccoes.md) · [Ameaças](ameacas.md) · [Questões abertas](../ideias/pendencias.md)

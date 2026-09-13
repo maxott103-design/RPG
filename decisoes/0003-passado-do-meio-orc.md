@@ -20,3 +20,7 @@ A alteração liga a resistência do personagem à sua experiência de vida.
 ## Consequências e limites
 
 Consultar [documento temático](../personagens/meio-orc-cacador.md). Este registro documenta a escolha recuperada e não acrescenta mecânicas ou detalhes ausentes. Versões conflitantes, quando existentes, permanecem em [divergências](../ideias/divergencias.md).
+
+## Conciliação de 13/09/2026
+
+A ficha Markdown Claude ainda descreve salto de trem, apesar do pedido de alteração recuperado acima. O registro da alteração é evidência autoral, mas a cronologia das duas fontes não prova se houve reversão posterior. A ficha unificada apresenta explicitamente as variantes e mantém a decisão pendente D10.
