@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ficha — Meio-Orc Caçador</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Metamorphous&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pitch:#0A0908;
+  --hide:#BFAB8D; --hide-dk:#9E8A6D; --hide-lt:#DACBB1; --cut:#EADCC0;
+  --burn:#2A1607; --burn-mid:#57330F; --scorch:#96591F;
+  --blood:#6E2617; --sinew:#4A3A26;
+  --hair:rgba(42,22,7,.20);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  background:var(--pitch);
+  background-image:
+    radial-gradient(110% 70% at 50% 0%, rgba(150,89,31,.11), transparent 58%),
+    radial-gradient(70% 50% at 50% 105%, rgba(110,38,23,.07), transparent 65%);
+  color:var(--burn);font-family:'Crimson Pro',Georgia,serif;
+  padding:0 16px 70px;-webkit-font-smoothing:antialiased;
+}
+
+/* ---------- BARRA ---------- */
+.bar{max-width:960px;margin:0 auto;padding:18px 0 30px;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+.btn{background:rgba(0,0,0,.45);border:1px solid rgba(191,171,141,.26);color:#A8977C;cursor:pointer;
+  font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;padding:7px 13px;transition:.12s}
+.btn:hover{border-color:var(--scorch);color:#C89355}
+.btn:focus-visible{outline:2px solid var(--scorch);outline-offset:2px}
+.btn.live{background:var(--scorch);border-color:var(--scorch);color:#110903;font-weight:600}
+.bar .note{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.1em;
+  text-transform:uppercase;color:#59503F;margin-left:auto}
+
+/* ---------- PELE ---------- */
+.shell{max-width:960px;margin:0 auto;position:relative;
+  filter:drop-shadow(0 30px 64px rgba(0,0,0,.85)) drop-shadow(0 3px 2px rgba(0,0,0,.6))}
+.pelt{
+  position:relative;isolation:isolate;
+  background-color:#BFAB8D;
+  background-image:
+    radial-gradient(64% 34% at 44% 2%, #D3C0A2 0%, transparent 58%),
+    radial-gradient(52% 44% at 88% 44%, #AC9878 0%, transparent 62%),
+    radial-gradient(46% 30% at 8% 76%, #C6B294 0%, transparent 60%),
+    linear-gradient(171deg,#C9B597 0%,#BFAB8D 22%,#B29E80 56%,#A6906F 80%,#BBA789 100%);
+  padding:0 30px 0 34px;   /* margens desiguais de propósito */
+}
+.lay{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;display:block}
+.lay-fur{z-index:0;mix-blend-mode:soft-light;opacity:.92}
+.lay-grain{z-index:0;mix-blend-mode:overlay;opacity:.44}
+.lay-spine{z-index:0;mix-blend-mode:multiply;opacity:.34}
+.lay-stain{z-index:1;mix-blend-mode:multiply;opacity:.55}
+.lay-soot{z-index:1;mix-blend-mode:multiply;opacity:.6}
+.content{position:relative;z-index:3}
+
+/* bordas rasgadas, com espessura de corte e pelo */
+.edge{position:absolute;z-index:6;pointer-events:none;display:block}
+.edge.l{left:0;top:0;bottom:0;width:34px}
+.edge.r{right:0;top:0;bottom:0;width:34px}
+.edge.t{left:0;right:0;top:0;height:26px}
+.edge.b{left:0;right:0;bottom:0;height:26px}
+.thong{position:absolute;top:0;bottom:0;width:24px;z-index:5;pointer-events:none}
+.thong.l{left:30px}.thong.r{right:26px}
+
+/* osso e cordão no topo */
+.toggle{position:absolute;z-index:8;top:-16px;left:50%;transform:translateX(-52%) rotate(-4deg);
+  pointer-events:none;filter:drop-shadow(0 3px 4px rgba(0,0,0,.7))}
+
+/* ---------- EDIÇÃO ---------- */
+[data-edit]{outline:none;border-radius:2px}
+body.editing [data-edit]{box-shadow:inset 0 -1px 0 rgba(150,89,31,.55);cursor:text}
+body.editing [data-edit]:hover{background:rgba(150,89,31,.10)}
+[data-edit]:focus{background:rgba(150,89,31,.16)!important;box-shadow:inset 0 -1px 0 var(--scorch)!important}
+[data-edit]:empty::before{content:attr(data-ph);color:#8B7657;font-style:italic}
+.only-edit{display:none}
+body.editing .only-edit{display:inline-flex}
+body.editing .only-edit.block{display:block}
+
+/* ---------- PIROGRAFIA ---------- */
+.burn{color:var(--burn);filter:url(#f-burn)}
+.burn span{display:inline-block}
+body.editing .burn{filter:none}
+body.editing .burn span{display:inline}
+
+/* ---------- CABEÇALHO ---------- */
+header{padding:40px 10px 26px 4px;display:grid;grid-template-columns:1fr auto;gap:28px;align-items:end}
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--burn-mid);margin-bottom:18px;transform:rotate(-.3deg)}
+h1{font-family:'Metamorphous',Georgia,serif;font-weight:400;
+  font-size:clamp(30px,5.6vw,54px);line-height:1.06;letter-spacing:.02em;transform:rotate(-.5deg)}
+.epithet{font-style:italic;font-size:21px;color:var(--burn-mid);margin-top:14px;
+  transform:rotate(-.25deg);text-shadow:0 0 8px rgba(150,89,31,.22)}
+.mark{text-align:right;transform:rotate(2.2deg)}
+.mark svg{display:block;margin-left:auto}
+.mark .cap{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.16em;
+  text-transform:uppercase;color:#6B5334;margin-top:12px;line-height:1.7}
+
+/* linhas queimadas à mão */
+.rule{flex:1;height:12px;display:block;min-width:30px}
+
+/* ---------- META ---------- */
+.meta{display:flex;flex-wrap:wrap;padding:4px 0 6px;margin:0 6px 4px}
+.meta div{flex:1 1 190px;padding:12px 18px 12px 4px}
+.meta dt{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--burn-mid);display:block;margin-bottom:5px}
+.meta dd{font-size:19px;color:var(--burn)}
+
+/* ---------- ENTALHES ---------- */
+.notchband{display:grid;grid-template-columns:repeat(5,1fr);padding:22px 0 18px;margin:0 4px}
+.post{padding:0 10px;text-align:center}
+.notches{display:flex;flex-direction:column-reverse;gap:8px;height:106px;margin-bottom:16px}
+.notches b{display:block;height:100%;background:rgba(42,22,7,.07);border-radius:1px}
+.notches b.on{background:linear-gradient(92deg,#1E1004,#3B220D 52%,#160C03);
+  box-shadow:0 0 9px rgba(122,60,20,.55), inset 0 0 4px rgba(0,0,0,.55)}
+body.editing .notches{cursor:pointer}
+.post .nm{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--burn-mid);display:block}
+.post .vl{font-family:'Metamorphous',serif;font-size:23px;color:var(--burn);
+  display:block;margin-top:7px;line-height:1}
+.post.zero .vl{color:var(--blood)}
+.post.zero .nm{color:#8B7657}
+
+/* ---------- SEÇÕES ---------- */
+section{padding:26px 8px 26px 4px}
+h2{font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.24em;
+  text-transform:uppercase;color:var(--burn-mid);margin-bottom:20px;
+  display:flex;align-items:center;gap:12px}
+
+/* fôlego */
+.folego{display:flex;align-items:flex-end;gap:22px;flex-wrap:wrap}
+.strokes{display:flex;gap:9px;flex:1;min-width:200px;align-items:flex-end}
+.stroke{width:16px;padding:0;cursor:pointer;flex:none;border:none;border-radius:2px;
+  background:linear-gradient(180deg,#3A2109,#1B0E03 58%,#40270F);
+  box-shadow:0 0 10px rgba(122,60,20,.5), inset 0 0 5px rgba(0,0,0,.5);transition:.12s}
+.stroke.spent{background:rgba(42,22,7,.10);box-shadow:none}
+.stroke:active{filter:brightness(.85)}
+.stroke:focus-visible{outline:2px solid var(--scorch);outline-offset:3px}
+.fcount{font-family:'Metamorphous',serif;font-size:31px;line-height:1;color:var(--burn)}
+.fcount small{font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--burn-mid)}
+.broken{margin-top:16px;padding:9px 14px;border-left:4px solid var(--blood);
+  background:rgba(110,38,23,.15);color:#5E1F12;font-family:'IBM Plex Mono',monospace;
+  font-size:10px;letter-spacing:.1em;text-transform:uppercase;display:none;transform:rotate(-.3deg)}
+.broken.on{display:block}
+.hint{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.12em;
+  text-transform:uppercase;color:#7A6647;margin-top:16px}
+.hint .btn,.add.btn{background:rgba(42,22,7,.07);border-color:rgba(42,22,7,.28);color:var(--burn-mid)}
+.hint .btn:hover,.add.btn:hover{border-color:var(--scorch);color:var(--scorch)}
+
+/* habilidades — retalhos costurados */
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px}
+.skill{position:relative;padding:22px 24px;background:rgba(122,96,58,.13);
+  box-shadow:inset 0 1px 0 rgba(255,246,222,.3), 0 2px 5px rgba(60,40,20,.18)}
+.skill::before{content:"";position:absolute;inset:0;pointer-events:none;
+  border:1px dashed rgba(74,58,38,.55);border-radius:2px}
+.skill:nth-child(odd){transform:rotate(-.55deg)}
+.skill:nth-child(even){transform:rotate(.4deg)}
+.tag{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--burn-mid);display:inline-block;margin-bottom:10px}
+.tag.act{color:var(--blood)}
+.skill h3{font-family:'Metamorphous',serif;font-weight:400;font-size:23px;line-height:1.15;margin-bottom:12px}
+.skill p{font-size:17px;line-height:1.55;color:#3D2814}
+.used{display:inline-flex;align-items:center;gap:8px;margin-top:15px;cursor:pointer;
+  font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.13em;
+  text-transform:uppercase;color:#7A6647;user-select:none}
+.used input{appearance:none;width:15px;height:15px;border:1px solid var(--burn-mid);
+  background:rgba(42,22,7,.08);cursor:pointer;position:relative}
+.used input:checked{background:var(--blood);border-color:var(--blood)}
+.used input:checked::after{content:"×";position:absolute;inset:0;color:#EEDFC5;
+  font-size:14px;line-height:13px;text-align:center}
+.used input:checked ~ span{color:var(--blood)}
+.del{background:none;border:1px solid rgba(110,38,23,.5);color:var(--blood);cursor:pointer;
+  font-family:'IBM Plex Mono',monospace;font-size:13px;line-height:1;width:22px;height:22px;
+  flex:none;align-items:center;justify-content:center;padding:0}
+.del:hover{background:var(--blood);color:#EEDFC5}
+.skill .del{position:absolute;top:12px;right:12px}
+.add{margin-top:20px}
+
+/* equipamento */
+.gear{list-style:none}
+.gear li.item{position:relative}
+.gear li.item + li.item{margin-top:2px}
+.gear .row{display:flex;align-items:center;gap:14px;padding:13px 2px;cursor:pointer}
+.gear .row:hover{background:rgba(150,89,31,.07)}
+.gear .rune{width:14px;height:16px;flex:none;opacity:.9}
+.gear .nm{font-size:19px;color:var(--burn);flex:1;min-width:60px}
+.gear .lbl{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.06em;
+  color:var(--burn-mid);text-align:right;white-space:nowrap}
+.chev{color:#8B7657;font-size:11px;flex:none;transition:transform .15s}
+.item.open .chev{transform:rotate(90deg)}
+.desc{display:none;padding:0 2px 16px 30px;font-size:16px;line-height:1.6;color:#4A3520}
+.item.open .desc{display:block}
+.item.open .row{background:rgba(150,89,31,.08)}
+.gearline{display:block;height:8px;margin:0 2px}
+
+/* anexo + rodapé */
+.annex{padding:28px 8px 30px 4px}
+.annex .text{columns:2;column-gap:40px;font-size:16px;line-height:1.6;color:#4A3520}
+.annex .text p{margin-bottom:10px;break-inside:avoid}
+footer{padding:14px 8px 40px 4px;display:flex;gap:26px;justify-content:space-between;align-items:flex-end}
+.play{font-style:italic;font-size:17px;color:#4A3520;line-height:1.55;max-width:66ch}
+.play b{font-style:normal;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--burn-mid);display:block;margin-bottom:8px}
+.tally{flex:none;text-align:right;transform:rotate(-1.4deg)}
+.tally .cap{font-family:'IBM Plex Mono',monospace;font-size:8px;letter-spacing:.2em;
+  text-transform:uppercase;color:#7A6647;margin-top:8px}
+
+@media (max-width:820px){
+  body{padding:0 8px 44px}
+  .pelt{padding:0 20px 0 22px}
+  header{grid-template-columns:1fr;padding:34px 4px 22px 2px;align-items:start}
+  .mark{text-align:left;transform:rotate(1.6deg)}.mark svg{margin-left:0}
+  section,.annex,footer,.meta{padding-left:2px;padding-right:2px}
+  .post{padding:0 3px}
+  .notches{height:76px;gap:6px}
+  .post .nm{font-size:8px;letter-spacing:.03em}
+  .stroke{width:13px}
+  .annex .text{columns:1}
+  footer{flex-direction:column;align-items:flex-start}
+  .tally{text-align:left}
+  .edge.l,.edge.r,.thong,.toggle{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media print{
+  body{background:#fff;padding:0}
+  .bar,.hint,.del,.add,.chev,.lay,.edge,.thong,.toggle{display:none!important}
+  .shell{filter:none}
+  .pelt{background:#fff;padding:0}
+  .burn{filter:none}
+  .skill{transform:none;box-shadow:none;background:#fff;border:1px solid #bbb}
+  h1,.epithet,.eyebrow,.broken,.tally,.mark{transform:none}
+  .desc{display:block!important}
+  *{print-color-adjust:exact;-webkit-print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <filter id="f-fur" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.013 0.86" numOctaves="4" seed="11" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope=".64"/></feComponentTransfer>
+  </filter>
+  <filter id="f-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.1" numOctaves="5" seed="29" result="n"/>
+    <feDiffuseLighting in="n" lighting-color="#fff" surfaceScale="2.4" diffuseConstant="1">
+      <feDistantLight azimuth="215" elevation="56"/>
+    </feDiffuseLighting>
+  </filter>
+  <filter id="f-stain" x="-60%" y="-60%" width="220%" height="220%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="5" seed="5" result="w"/>
+    <feDisplacementMap in="SourceGraphic" in2="w" scale="120" result="b"/>
+    <feGaussianBlur in="b" stdDeviation="3.5"/>
+  </filter>
+  <filter id="f-soot" x="-50%" y="-50%" width="200%" height="200%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="4" seed="61" result="w"/>
+    <feDisplacementMap in="SourceGraphic" in2="w" scale="60"/>
+    <feGaussianBlur stdDeviation="7"/>
+  </filter>
+  <filter id="f-burn" x="-5%" y="-14%" width="110%" height="132%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="13" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="1.9" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+  <filter id="f-burnline" x="-6%" y="-90%" width="112%" height="280%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.55" numOctaves="3" seed="47" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="2.4"/>
+    <feGaussianBlur stdDeviation=".35"/>
+  </filter>
+  <radialGradient id="g-stain"><stop offset="0%" stop-color="#6B5231"/><stop offset="58%" stop-color="#7C6240" stop-opacity=".55"/><stop offset="100%" stop-color="#8B7657" stop-opacity="0"/></radialGradient>
+  <radialGradient id="g-blood"><stop offset="0%" stop-color="#5C2416"/><stop offset="70%" stop-color="#6E3220" stop-opacity=".45"/><stop offset="100%" stop-color="#6E3220" stop-opacity="0"/></radialGradient>
+  <radialGradient id="g-soot"><stop offset="0%" stop-color="#2A2118"/><stop offset="100%" stop-color="#2A2118" stop-opacity="0"/></radialGradient>
+  <linearGradient id="g-spine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#8B7657" stop-opacity="0"/>
+    <stop offset="44%" stop-color="#725D3C" stop-opacity=".8"/>
+    <stop offset="56%" stop-color="#725D3C" stop-opacity=".8"/>
+    <stop offset="100%" stop-color="#8B7657" stop-opacity="0"/>
+  </linearGradient>
+</defs></svg>
+
+<div class="bar">
+  <button class="btn" id="toggleEdit">Modo edição</button>
+  <button class="btn" id="save">Baixar cópia</button>
+  <button class="btn" id="print">Imprimir</button>
+  <span class="note" id="status">Pronta para jogar</span>
+</div>
+
+<div class="shell">
+<div class="pelt" id="sheet">
+  <svg class="lay lay-fur" preserveAspectRatio="none" aria-hidden="true"><rect width="100%" height="100%" filter="url(#f-fur)"/></svg>
+  <svg class="lay lay-grain" preserveAspectRatio="none" aria-hidden="true"><rect width="100%" height="100%" filter="url(#f-grain)"/></svg>
+  <svg class="lay lay-spine" preserveAspectRatio="none" viewBox="0 0 960 1700" aria-hidden="true">
+    <rect x="372" y="0" width="196" height="1700" fill="url(#g-spine)"/>
+  </svg>
+
+  <svg class="lay lay-stain" preserveAspectRatio="none" viewBox="0 0 960 1700" aria-hidden="true">
+    <g filter="url(#f-stain)">
+      <ellipse cx="128" cy="252" rx="92" ry="62" fill="url(#g-stain)" opacity=".7"/>
+      <ellipse cx="830" cy="742" rx="72" ry="94" fill="url(#g-stain)" opacity=".6"/>
+      <ellipse cx="308" cy="1214" rx="112" ry="72" fill="url(#g-stain)" opacity=".55"/>
+      <ellipse cx="656" cy="1508" rx="84" ry="52" fill="url(#g-stain)" opacity=".5"/>
+      <ellipse cx="482" cy="546" rx="146" ry="42" fill="url(#g-stain)" opacity=".3"/>
+      <ellipse cx="742" cy="1104" rx="52" ry="44" fill="url(#g-blood)" opacity=".55"/>
+      <ellipse cx="768" cy="1146" rx="16" ry="13" fill="url(#g-blood)" opacity=".5"/>
+      <ellipse cx="716" cy="1062" rx="11" ry="9" fill="url(#g-blood)" opacity=".45"/>
+      <!-- marca de caneca -->
+      <circle cx="196" cy="880" r="46" fill="none" stroke="#7A6140" stroke-width="7" opacity=".45"/>
+      <circle cx="196" cy="880" r="46" fill="#7A6140" opacity=".08"/>
+    </g>
+  </svg>
+
+  <!-- fuligem e dedadas -->
+  <svg class="lay lay-soot" preserveAspectRatio="none" viewBox="0 0 960 1700" aria-hidden="true">
+    <g filter="url(#f-soot)" fill="url(#g-soot)">
+      <ellipse cx="60" cy="60" rx="110" ry="90" opacity=".55"/>
+      <ellipse cx="906" cy="1650" rx="120" ry="96" opacity=".6"/>
+      <ellipse cx="900" cy="330" rx="42" ry="58" opacity=".5"/>
+      <ellipse cx="66" cy="1320" rx="46" ry="62" opacity=".45"/>
+      <ellipse cx="480" cy="1694" rx="380" ry="60" opacity=".4"/>
+    </g>
+  </svg>
+
+  <svg class="edge l" preserveAspectRatio="none" viewBox="0 0 34 1000" aria-hidden="true" id="edgeL"></svg>
+  <svg class="edge r" preserveAspectRatio="none" viewBox="0 0 34 1000" aria-hidden="true" id="edgeR"></svg>
+  <svg class="edge t" preserveAspectRatio="none" viewBox="0 0 1000 26" aria-hidden="true" id="edgeT"></svg>
+  <svg class="edge b" preserveAspectRatio="none" viewBox="0 0 1000 26" aria-hidden="true" id="edgeB"></svg>
+  <svg class="thong l" preserveAspectRatio="none" viewBox="0 0 24 1000" aria-hidden="true" id="thongL"></svg>
+  <svg class="thong r" preserveAspectRatio="none" viewBox="0 0 24 1000" aria-hidden="true" id="thongR"></svg>
+
+  <svg class="toggle" width="94" height="42" viewBox="0 0 94 42" aria-hidden="true">
+    <g stroke="#3A2C1B" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".85">
+      <path d="M30 30 C36 16, 58 16, 64 30"/>
+      <path d="M34 32 C40 20, 54 20, 60 32"/>
+    </g>
+    <g fill="#D6C7A8" stroke="#6B5A3E" stroke-width="1.6">
+      <path d="M12 22 c-5-6 4-12 8-6 l50 -8 c5-6 12 2 6 7 c5 5 -3 12 -8 6 l-49 8 c-4 6 -12 -1 -7 -7 Z"/>
+    </g>
+  </svg>
+
+  <div class="content">
+
+    <header>
+      <div>
+        <div class="eyebrow" data-edit data-ph="procedência">Sem tribo · sem cidade · sem registro</div>
+        <h1 class="burn" data-edit data-ph="nome">Meio-Orc Caçador</h1>
+        <div class="epithet" data-edit data-ph="epíteto">O Homem do Norte</div>
+      </div>
+      <div class="mark">
+        <svg width="146" height="58" viewBox="0 0 146 58" aria-hidden="true">
+          <g fill="none" stroke="#2A1607" stroke-width="3.6" stroke-linecap="square"
+             opacity=".92" filter="url(#f-burn)">
+            <path d="M9 7 L8 51 M9 15 L22 8 M8 28 L21 21"/>
+            <path d="M37 51 L36 13 L49 6 L50 51"/>
+            <path d="M66 6 L65 51 M66 17 L77 23 L65 32"/>
+            <path d="M92 51 L91 7 L104 13 L91 24 L105 51"/>
+            <path d="M137 9 L124 28 L138 47"/>
+          </g>
+        </svg>
+        <div class="cap" data-edit data-ph="legenda">Marca de trilha<br>queimada a ferro</div>
+      </div>
+    </header>
+
+    <dl class="meta">
+      <div><dt data-edit>Raça</dt><dd data-edit data-ph="—">Meio-Orc</dd></div>
+      <div><dt data-edit>Arquétipo</dt><dd data-edit data-ph="—">Caçador / Explorador</dd></div>
+      <div><dt data-edit>Experiência</dt><dd data-edit data-ph="—">Caça · Rastreamento · Sobrevivência</dd></div>
+    </dl>
+
+    <div class="notchband" id="attrs">
+      <div class="post"><div class="notches" data-v="2"></div><span class="nm" data-edit>Vigor</span><span class="vl"></span></div>
+      <div class="post"><div class="notches" data-v="3"></div><span class="nm" data-edit>Agilidade</span><span class="vl"></span></div>
+      <div class="post"><div class="notches" data-v="0"></div><span class="nm" data-edit>Intelecto</span><span class="vl"></span></div>
+      <div class="post"><div class="notches" data-v="3"></div><span class="nm" data-edit>Percepção</span><span class="vl"></span></div>
+      <div class="post"><div class="notches" data-v="2"></div><span class="nm" data-edit>Vontade</span><span class="vl"></span></div>
+    </div>
+
+    <section>
+      <h2>Fôlego<i class="rule"></i></h2>
+      <div class="folego">
+        <div class="strokes" id="strokes"></div>
+        <div class="fcount"><span id="cur">8</span><small> / <span id="max" data-edit data-ph="8">8</span></small></div>
+      </div>
+      <div class="broken" id="broken">Quebrado — sem Defesa, sem ações de Fôlego</div>
+      <div class="hint">Toque nos traços para gastar · <button class="btn" id="reset" style="padding:4px 9px">Restaurar</button></div>
+    </section>
+
+    <section>
+      <h2>Habilidades<i class="rule"></i></h2>
+      <div class="skills" id="skills">
+        <article class="skill">
+          <span class="tag" data-edit data-ph="tipo">Passiva</span>
+          <h3 class="burn" data-edit data-ph="nome da habilidade">Rastreador</h3>
+          <p data-edit data-ph="o que ela faz">Identifica e segue rastros de pessoas, animais, grupos e veículos. Estima quantidade aproximada, direção e tempo desde a passagem.</p>
+          <button class="del only-edit" title="Remover">×</button>
+        </article>
+        <article class="skill">
+          <span class="tag act" data-edit data-ph="tipo">Utilizável · exige preparo</span>
+          <h3 class="burn" data-edit data-ph="nome da habilidade">Emboscada</h3>
+          <p data-edit data-ph="o que ela faz">Com tempo para preparar a posição, gasta Fôlego para obter vantagem significativa no primeiro ataque contra um alvo que não percebeu sua presença.</p>
+          <label class="used"><input type="checkbox"><span>Posição já usada</span></label>
+          <button class="del only-edit" title="Remover">×</button>
+        </article>
+      </div>
+      <button class="btn add only-edit" id="addSkill">+ Habilidade</button>
+    </section>
+
+    <section>
+      <h2>Equipamento<i class="rule"></i></h2>
+      <ul class="gear" id="gear">
+        <li class="item"><div class="row"><svg class="rune" viewBox="0 0 14 16"><path d="M2 1 L2 15 M2 4 L12 2 M2 9 L12 7" stroke="#2A1607" stroke-width="1.8" fill="none"/></svg><span class="nm" data-edit data-ph="item">Arco de caça</span><span class="lbl" data-edit data-ph="etiqueta">Arcos e Bestas · longo alcance</span><span class="chev">▸</span><button class="del only-edit" title="Remover">×</button></div><div class="desc" data-edit data-ph="dano, alcance, observações…">Arco de guerra do Norte, feito para derrubar animal grande. Silencioso — não denuncia posição como uma arma de fogo. Flechas recuperáveis se houver tempo para procurar.</div></li>
+        <li class="item"><div class="row"><svg class="rune" viewBox="0 0 14 16"><path d="M2 1 L2 15 M2 4 L12 2 M2 9 L12 7" stroke="#2A1607" stroke-width="1.8" fill="none"/></svg><span class="nm" data-edit data-ph="item">Faca de caça</span><span class="lbl" data-edit data-ph="etiqueta">Armas Leves · Peso 0 · corte</span><span class="chev">▸</span><button class="del only-edit" title="Remover">×</button></div><div class="desc" data-edit data-ph="dano, alcance, observações…">Lâmina de esfolar. Serve para brigar de perto, mas o uso dela é abrir bicho e tirar pele.</div></li>
+        <li class="item"><div class="row"><svg class="rune" viewBox="0 0 14 16"><path d="M2 1 L2 15 M2 4 L12 2 M2 9 L12 7" stroke="#2A1607" stroke-width="1.8" fill="none"/></svg><span class="nm" data-edit data-ph="item">Armadilhas simples</span><span class="lbl" data-edit data-ph="etiqueta">exige tempo de preparo</span><span class="chev">▸</span><button class="del only-edit" title="Remover">×</button></div><div class="desc" data-edit data-ph="dano, alcance, observações…">Laços, fossos e alçapões armados com corda e madeira. Pegam caça pequena sozinhos durante a noite; contra gente, servem para atrasar e ferir perna.</div></li>
+        <li class="item"><div class="row"><svg class="rune" viewBox="0 0 14 16"><path d="M2 1 L2 15 M2 4 L12 2 M2 9 L12 7" stroke="#2A1607" stroke-width="1.8" fill="none"/></svg><span class="nm" data-edit data-ph="item">Kit de caça</span><span class="lbl" data-edit data-ph="etiqueta"></span><span class="chev">▸</span><button class="del only-edit" title="Remover">×</button></div><div class="desc" data-edit data-ph="dano, alcance, observações…">Facas de esfolar, agulhas, sal e linha. Transforma carcaça em carne e pele que valem dinheiro na cidade.</div></li>
+        <li class="item"><div class="row"><svg class="rune" viewBox="0 0 14 16"><path d="M2 1 L2 15 M2 4 L12 2 M2 9 L12 7" stroke="#2A1607" stroke-width="1.8" fill="none"/></svg><span class="nm" data-edit data-ph="item">Peles</span><span class="lbl" data-edit data-ph="etiqueta">mercadoria</span><span class="chev">▸</span><button class="del only-edit" title="Remover">×</button></div><div class="desc" data-edit data-ph="dano, alcance, observações…">Peles curtidas prontas para venda. Também servem de agasalho e de cama seca no chão frio.</div></li>
+        <li class="item"><div class="row"><svg class="rune" viewBox="0 0 14 16"><path d="M2 1 L2 15 M2 4 L12 2 M2 9 L12 7" stroke="#2A1607" stroke-width="1.8" fill="none"/></svg><span class="nm" data-edit data-ph="item">Corda</span><span class="lbl" data-edit data-ph="etiqueta">15 m</span><span class="chev">▸</span><button class="del only-edit" title="Remover">×</button></div><div class="desc" data-edit data-ph="dano, alcance, observações…"></div></li>
+        <li class="item"><div class="row"><svg class="rune" viewBox="0 0 14 16"><path d="M2 1 L2 15 M2 4 L12 2 M2 9 L12 7" stroke="#2A1607" stroke-width="1.8" fill="none"/></svg><span class="nm" data-edit data-ph="item">Cantil</span><span class="lbl" data-edit data-ph="etiqueta"></span><span class="chev">▸</span><button class="del only-edit" title="Remover">×</button></div><div class="desc" data-edit data-ph="dano, alcance, observações…"></div></li>
+        <li class="item"><div class="row"><svg class="rune" viewBox="0 0 14 16"><path d="M2 1 L2 15 M2 4 L12 2 M2 9 L12 7" stroke="#2A1607" stroke-width="1.8" fill="none"/></svg><span class="nm" data-edit data-ph="item">Mochila</span><span class="lbl" data-edit data-ph="etiqueta"></span><span class="chev">▸</span><button class="del only-edit" title="Remover">×</button></div><div class="desc" data-edit data-ph="dano, alcance, observações…"></div></li>
+      </ul>
+      <button class="btn add only-edit" id="addGear">+ Equipamento</button>
+    </section>
+
+    <div class="annex">
+      <h2>Registro — anexo<i class="rule"></i></h2>
+      <div class="text" data-edit data-ph="história do personagem">
+        <p>Nasceu em uma tribo de caçadores nas florestas infinitas do Norte. Aprendeu desde criança a caçar, rastrear, achar abrigo, preparar carne e sobreviver longe das cidades.</p>
+        <p>Na adolescência a tribo foi atacada por um grupo que capturava gente de outras tribos para vender como escravo. Foi capturado e vendido. Durante o transporte, pulou do trem e escapou. Sobreviveu sozinho.</p>
+        <p>Ao chegar às regiões civilizadas, descobriu que aquilo que sabia fazer tinha valor. Carne de caça e peles se vendem. Um guerreiro competente sempre acha trabalho.</p>
+        <p>Passou a viver como caçador e mercenário. É extremamente determinado. E quase não tem instrução formal.</p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="play">
+        <b>Estilo de jogo</b>
+        <span data-edit data-ph="como o personagem joga">O melhor do grupo para lidar com a Wasteland: mobilidade, percepção e rastreamento. Pouco instruído, mas carrega conhecimentos práticos que nenhum personagem criado na cidade possui.</span>
+      </div>
+      <div class="tally">
+        <svg width="118" height="34" viewBox="0 0 118 34" aria-hidden="true" id="tallymark"></svg>
+        <div class="cap" data-edit data-ph="legenda">Invernos sozinho</div>
+      </div>
+    </footer>
+  </div>
+</div>
+</div>
+
+<script>
+(function(){
+  var editing=false, cur=8;
+  var $=function(s){return document.querySelector(s)};
+  var status=$('#status');
+  var NS='http://www.w3.org/2000/svg';
+  var BG='#0A0908', HIDE='#B29E80', CUT='#EADCC0';
+  function rng(seed){var s=seed;return function(){s=(s*1103515245+12345)&0x7fffffff;return s/0x7fffffff}}
+  function tag(n,a){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);return e}
+
+  /* ---- borda rasgada com espessura de corte e pelo ---- */
+  function sideEdge(el,seed,right){
+    var r=rng(seed), pts=[], y=0, H=1000, W=34;
+    while(y<=H){ pts.push([4+r()*14, y]); y+=15+r()*12 }
+    pts.push([4+r()*14,H]);
+    var line=pts.map(function(p){return (right?W-p[0]:p[0]).toFixed(1)+','+p[1].toFixed(1)});
+    el.appendChild(tag('path',{d:(right?'M'+W+',0 L':'M0,0 L')+line.join(' L')+(right?' L'+W+','+H:' L0,'+H)+' Z',fill:BG}));
+    /* aresta do corte: a pele tem espessura */
+    el.appendChild(tag('path',{d:'M'+line.join(' L'),fill:'none',stroke:CUT,'stroke-width':'2.2',opacity:'.55'}));
+    el.appendChild(tag('path',{d:'M'+line.join(' L'),fill:'none',stroke:'#8B7657','stroke-width':'.9',opacity:'.5',transform:'translate('+(right?-2.4:2.4)+',0)'}));
+    /* pelo */
+    var g=tag('g',{stroke:HIDE,'stroke-width':'1.15','stroke-linecap':'round',opacity:'.9'});
+    pts.forEach(function(p,i){
+      if(i%2) return;
+      var x=right?W-p[0]:p[0], len=5+r()*11, dir=right?1:-1;
+      g.appendChild(tag('line',{x1:x,y1:p[1],x2:x+dir*len,y2:p[1]+(r()*8-4)}));
+    });
+    el.appendChild(g);
+  }
+  function capEdge(el,seed,bottom){
+    var r=rng(seed), pts=[], x=0, W=1000, H=26;
+    while(x<=W){ pts.push([x, 4+r()*12]); x+=20+r()*24 }
+    pts.push([W,4+r()*12]);
+    var line=pts.map(function(p){return p[0].toFixed(1)+','+(bottom?H-p[1]:p[1]).toFixed(1)});
+    el.appendChild(tag('path',{d:(bottom?'M0,'+H:'M0,0')+' L'+line.join(' L')+' L'+W+','+(bottom?H:0)+' Z',fill:BG}));
+    el.appendChild(tag('path',{d:'M'+line.join(' L'),fill:'none',stroke:CUT,'stroke-width':'2',opacity:'.5'}));
+  }
+  function thong(el,seed){
+    var r=rng(seed), y=18;
+    while(y<985){
+      var w=7+r()*4, o=r()*4-2;
+      var g=tag('g',{stroke:'#4A3A26','stroke-width':(2.3+r()*1.2).toFixed(1),
+        'stroke-linecap':'round',opacity:(.45+r()*.4).toFixed(2)});
+      g.appendChild(tag('line',{x1:12-w+o,y1:y,x2:12+w+o,y2:y+9+r()*3}));
+      g.appendChild(tag('line',{x1:12+w+o,y1:y,x2:12-w+o,y2:y+9+r()*3}));
+      el.appendChild(g);
+      y+=25+r()*22;
+    }
+  }
+  function drawEdges(){
+    sideEdge($('#edgeL'),97,false); sideEdge($('#edgeR'),241,true);
+    capEdge($('#edgeT'),53,false); capEdge($('#edgeB'),181,true);
+    thong($('#thongL'),311); thong($('#thongR'),419);
+  }
+  function clearEdges(){
+    ['#edgeL','#edgeR','#edgeT','#edgeB','#thongL','#thongR','#tallymark'].forEach(function(s){$(s).innerHTML=''});
+  }
+
+  /* ---- risquinhos de contagem no rodapé ---- */
+  function drawTally(){
+    var el=$('#tallymark'), r=rng(707), x=6;
+    for(var g=0;g<4;g++){
+      for(var i=0;i<4;i++){
+        el.appendChild(tag('line',{x1:x+(r()*2-1),y1:5+r()*3,x2:x+(r()*3-1.5),y2:29-r()*3,
+          stroke:'#2A1607','stroke-width':(2.2+r()*1).toFixed(1),'stroke-linecap':'round',
+          opacity:(.72+r()*.28).toFixed(2)}));
+        x+=5.4;
+      }
+      el.appendChild(tag('line',{x1:x-23,y1:26-r()*4,x2:x+2,y2:7+r()*4,
+        stroke:'#2A1607','stroke-width':'2.4','stroke-linecap':'round',opacity:'.85'}));
+      x+=9;
+    }
+    el.setAttribute('filter','url(#f-burnline)');
+  }
+
+  /* ---- linhas queimadas à mão nos títulos ---- */
+  function drawRules(){
+    document.querySelectorAll('h2 .rule').forEach(function(el,idx){
+      el.innerHTML='';
+      var svg=tag('svg',{viewBox:'0 0 300 12',preserveAspectRatio:'none',
+        width:'100%',height:'12',filter:'url(#f-burnline)'});
+      var r=rng(1301+idx*97), d='M2,'+(6+r()*2).toFixed(1);
+      for(var x=14;x<=298;x+=14) d+=' L'+x+','+(4.5+r()*4).toFixed(1);
+      svg.appendChild(tag('path',{d:d,fill:'none',stroke:'#3A2109',
+        'stroke-width':(1.7+r()*.8).toFixed(1),'stroke-linecap':'round',opacity:'.7'}));
+      el.appendChild(svg);
+    });
+  }
+
+  /* ---- pirografia caractere a caractere ---- */
+  function burnText(el,seed){
+    var raw = el.dataset.raw!==undefined ? el.dataset.raw : el.textContent;
+    el.dataset.raw=raw;
+    var r=rng(seed), out='';
+    for(var i=0;i<raw.length;i++){
+      var c=raw[i];
+      if(c===' '){out+=' ';continue}
+      var rot=(r()*2.6-1.3).toFixed(2), dy=(r()*1.8-.9).toFixed(2),
+          dark=(.72+r()*.28).toFixed(2), halo=(3+r()*8).toFixed(1);
+      out+='<span style="transform:rotate('+rot+'deg) translateY('+dy+'px);opacity:'+dark+
+           ';text-shadow:0 0 1px rgba(42,22,7,.8),0 0 '+halo+'px rgba(150,89,31,.5),0 1px 0 rgba(235,218,186,.3)">'
+         + c.replace(/&/g,'&amp;').replace(/</g,'&lt;') + '</span>';
+    }
+    el.innerHTML=out;
+  }
+  function unburn(el){ if(el.dataset.raw!==undefined) el.textContent=el.dataset.raw }
+  function burnAll(){
+    var s=3;
+    document.querySelectorAll('.burn').forEach(function(el){ burnText(el,(s+=137)) });
+  }
+  function unburnAll(){ document.querySelectorAll('.burn').forEach(unburn) }
+  document.addEventListener('blur',function(e){
+    if(e.target.classList && e.target.classList.contains('burn') && !editing){
+      delete e.target.dataset.raw; burnText(e.target,331);
+    }
+  },true);
+
+  /* ---- modo edição ---- */
+  function setEdit(on){
+    editing=on;
+    document.body.classList.toggle('editing',on);
+    $('#toggleEdit').classList.toggle('live',on);
+    document.querySelectorAll('[data-edit]').forEach(function(el){el.contentEditable=on?'true':'false'});
+    on ? unburnAll() : burnAll();
+    status.textContent = on ? 'Editando — clique em qualquer texto' : 'Pronta para jogar';
+  }
+  $('#toggleEdit').addEventListener('click',function(){setEdit(!editing)});
+
+  /* ---- entalhes irregulares ---- */
+  function paintAttrs(){
+    var r=rng(929);
+    document.querySelectorAll('.notches').forEach(function(n){
+      var v=Math.max(0,Math.min(4,parseInt(n.dataset.v,10)||0));
+      n.innerHTML='';
+      for(var i=0;i<4;i++){
+        var b=document.createElement('b');
+        if(i<v) b.className='on';
+        b.style.transform='skewX('+(-18+r()*10).toFixed(1)+'deg) rotate('+(r()*2-1).toFixed(1)+'deg)';
+        b.style.marginLeft=(r()*6-3).toFixed(1)+'px';
+        b.style.marginRight=(r()*6-3).toFixed(1)+'px';
+        n.appendChild(b);
+      }
+      var post=n.parentNode;
+      post.querySelector('.vl').textContent='+'+v;
+      post.classList.toggle('zero',v===0);
+    });
+  }
+  $('#attrs').addEventListener('click',function(e){
+    if(!editing) return;
+    var n=e.target.closest('.notches'); if(!n) return;
+    var segs=[].slice.call(n.children), i=segs.indexOf(e.target); if(i<0) return;
+    var v=parseInt(n.dataset.v,10)||0;
+    n.dataset.v=(v===i+1)?i:i+1;
+    paintAttrs();
+  });
+
+  /* ---- fôlego: traços desiguais ---- */
+  var strokes=$('#strokes'), maxEl=$('#max');
+  function maxV(){return Math.max(1,Math.min(24,parseInt(maxEl.textContent,10)||1))}
+  function build(){
+    strokes.innerHTML='';
+    var m=maxV(); if(cur>m) cur=m;
+    var r=rng(577);
+    for(var i=0;i<m;i++){
+      var b=document.createElement('button');
+      b.type='button'; b.className='stroke'+(i>=cur?' spent':'');
+      b.dataset.i=i; b.setAttribute('aria-label','Fôlego '+(i+1));
+      b.style.height=(42+r()*10).toFixed(0)+'px';
+      b.style.transform='skewX('+(-16+r()*9).toFixed(1)+'deg) rotate('+(r()*3-1.5).toFixed(1)+'deg)';
+      strokes.appendChild(b);
+    }
+    $('#cur').textContent=cur;
+    $('#broken').classList.toggle('on',cur===0);
+  }
+  strokes.addEventListener('click',function(e){
+    var s=e.target.closest('.stroke'); if(!s) return;
+    var i=+s.dataset.i; cur=(i>=cur)?i+1:i; build();
+  });
+  maxEl.addEventListener('input',function(){cur=maxV();build()});
+  maxEl.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();this.blur()}});
+  $('#reset').addEventListener('click',function(){cur=maxV();build()});
+
+  /* ---- runas do equipamento com inclinações diferentes ---- */
+  function jitterRunes(){
+    var r=rng(1777);
+    document.querySelectorAll('.gear .rune').forEach(function(s){
+      s.style.transform='rotate('+(r()*10-5).toFixed(1)+'deg)';
+      s.style.opacity=(.75+r()*.25).toFixed(2);
+    });
+  }
+
+  /* ---- equipamento ---- */
+  var RUNE='<svg class="rune" viewBox="0 0 14 16"><path d="M2 1 L2 15 M2 4 L12 2 M2 9 L12 7" stroke="#2A1607" stroke-width="1.8" fill="none"/></svg>';
+  var gear=$('#gear');
+  gear.addEventListener('click',function(e){
+    if(e.target.closest('.del')){e.target.closest('.item').remove();return}
+    if(e.target.closest('[data-edit]') && editing) return;
+    var row=e.target.closest('.row'); if(!row) return;
+    row.parentNode.classList.toggle('open');
+  });
+  $('#addGear').addEventListener('click',function(){
+    var li=document.createElement('li'); li.className='item open';
+    li.innerHTML='<div class="row">'+RUNE+'<span class="nm" data-edit data-ph="item"></span>'+
+      '<span class="lbl" data-edit data-ph="etiqueta"></span><span class="chev">▸</span>'+
+      '<button class="del only-edit" title="Remover">×</button></div>'+
+      '<div class="desc" data-edit data-ph="dano, alcance, observações…"></div>';
+    gear.appendChild(li);
+    li.querySelectorAll('[data-edit]').forEach(function(el){el.contentEditable='true'});
+    jitterRunes();
+    li.querySelector('.nm').focus();
+  });
+
+  /* ---- habilidades ---- */
+  var skills=$('#skills');
+  skills.addEventListener('click',function(e){
+    if(e.target.closest('.del')) e.target.closest('.skill').remove();
+  });
+  $('#addSkill').addEventListener('click',function(){
+    var a=document.createElement('article'); a.className='skill';
+    a.innerHTML='<span class="tag" data-edit data-ph="tipo">Passiva</span>'+
+      '<h3 class="burn" data-edit data-ph="nome da habilidade"></h3>'+
+      '<p data-edit data-ph="o que ela faz"></p>'+
+      '<button class="del only-edit" title="Remover">×</button>';
+    skills.appendChild(a);
+    a.querySelectorAll('[data-edit]').forEach(function(el){el.contentEditable='true'});
+    a.querySelector('h3').focus();
+  });
+
+  document.addEventListener('paste',function(e){
+    if(!e.target.closest || !e.target.closest('[data-edit]')) return;
+    e.preventDefault();
+    document.execCommand('insertText',false,(e.clipboardData||window.clipboardData).getData('text/plain'));
+  });
+
+  /* ---- baixar cópia ---- */
+  $('#save').addEventListener('click',function(){
+    var was=editing; setEdit(false);
+    document.querySelectorAll('.item.open').forEach(function(i){i.classList.remove('open')});
+    unburnAll(); clearEdges();
+    document.querySelectorAll('h2 .rule').forEach(function(el){el.innerHTML=''});
+    var html='<!DOCTYPE html>\n'+document.documentElement.outerHTML;
+    drawEdges(); drawTally(); drawRules(); burnAll();
+    var nome=($('h1').textContent||'ficha').trim().toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+    var a=document.createElement('a');
+    a.href=URL.createObjectURL(new Blob([html],{type:'text/html'}));
+    a.download=(nome||'ficha')+'.html'; a.click();
+    setTimeout(function(){URL.revokeObjectURL(a.href)},1000);
+    if(was) setEdit(true);
+    status.textContent='Cópia baixada';
+    setTimeout(function(){status.textContent=editing?'Editando — clique em qualquer texto':'Pronta para jogar'},2500);
+  });
+  $('#print').addEventListener('click',function(){window.print()});
+
+  clearEdges(); drawEdges(); drawTally(); drawRules();
+  jitterRunes(); paintAttrs(); build(); setEdit(false);
+})();
+</script>
+</body>
+</html>

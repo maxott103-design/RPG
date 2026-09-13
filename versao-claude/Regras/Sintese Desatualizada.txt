@@ -1,0 +1,1536 @@
+Abaixo está uma **síntese canônica do estado atual do RPG**, separando o que parece consolidado do que ainda está em desenvolvimento. A ideia é que este texto possa servir como documento-base para um novo Projeto.
+
+# RPG — Documento Canônico de Estado Atual
+
+**Versão:** 0.1 — Conceito e núcleo de regras
+**Status:** Protótipo em desenvolvimento e aguardando playtest
+
+---
+
+# 1. Conceito geral
+
+O jogo se passa em um **futuro extremamente distante**, após o colapso de uma civilização avançada que combinava **tecnologia e magia**.
+
+O mundo atual não é uma reconstrução da sociedade moderna. A humanidade e as demais raças se reorganizaram de formas diferentes, criando novas civilizações sobre as ruínas de um passado que já não compreendem completamente.
+
+O cenário mistura:
+
+* fantasia de baixa magia;
+* dieselpunk;
+* pós-apocalipse;
+* exploração de ruínas;
+* horror e corrupção;
+* tecnologia perdida;
+* armas de fogo raras;
+* cidades industriais;
+* dirigíveis;
+* locomotivas e cidades móveis;
+* magia antiga e perigosa.
+
+A inspiração estética e conceitual inclui elementos de:
+
+* *Máquinas Mortais*;
+* *Kenshi*;
+* *Warhammer*;
+* *Dead Space*;
+* fantasia pós-apocalíptica;
+* dieselpunk.
+
+A identidade do jogo deve ser baseada na sensação de:
+
+> **Uma civilização industrial sobrevivendo sobre os restos de uma civilização tecnomágica destruída.**
+
+---
+
+# 2. O mundo antigo e o apocalipse
+
+A civilização antiga possuía conhecimentos muito superiores aos atuais.
+
+A magia não era apenas uma força mística separada da tecnologia. As duas eram utilizadas em conjunto.
+
+Em algum momento, os elfos abriram um portal para uma dimensão, mundo ou realidade desconhecida.
+
+A natureza exata desse outro lado ainda não está completamente definida, mas ele era associado a uma forma de:
+
+* energia corrompida;
+* magia hostil;
+* influência extradimensional;
+* criaturas aberrantes;
+* transformação da matéria e da vida.
+
+A abertura do portal permitiu que:
+
+* energia corrompida atravessasse para o mundo;
+* criaturas atravessassem;
+* a corrupção começasse a se espalhar.
+
+O evento ameaçou todas as civilizações.
+
+Em um último esforço conjunto, as diferentes raças se uniram para destruir ou fechar o portal.
+
+O processo foi devastador.
+
+A destruição do portal — ou a tentativa de destruí-lo — provocou uma catástrofe de proporções civilizacionais.
+
+O mundo não foi simplesmente destruído por uma guerra.
+
+Ele foi:
+
+> **contaminado pela própria tentativa de impedir uma ameaça extradimensional.**
+
+A antiga civilização entrou em colapso.
+
+---
+
+# 3. A corrupção
+
+A corrupção é uma das forças centrais do cenário.
+
+Ela não é simplesmente uma doença.
+
+Pode afetar:
+
+* corpo;
+* mente;
+* matéria;
+* animais;
+* plantas;
+* artefatos;
+* regiões inteiras.
+
+A corrupção pode produzir criaturas chamadas provisoriamente de:
+
+> **Vampiros**
+
+O nome é popular, mas não necessariamente descreve sua natureza real.
+
+Os Vampiros são seres corrompidos.
+
+Eles podem:
+
+* sofrer mutações físicas;
+* manter inteligência;
+* manter consciência;
+* agir em grupos;
+* apresentar comportamento religioso ou ritualístico;
+* seguir uma entidade, força ou divindade;
+* eventualmente formar uma espécie de consciência coletiva ou estrutura de hive mind.
+
+Uma possibilidade importante é que a corrupção não destrua imediatamente a consciência da vítima.
+
+O indivíduo pode continuar:
+
+> **sabendo quem é, lembrando de sua vida e acreditando sinceramente que está sendo transformado ou purificado.**
+
+Isso cria a possibilidade de cultos de infectados.
+
+A corrupção pode ser apresentada como:
+
+> uma doença, uma religião, uma revelação ou uma forma de salvação.
+
+---
+
+# 4. A antiga civilização élfica
+
+Os elfos foram os principais responsáveis pela abertura do portal.
+
+A consequência foi quase a extinção da raça.
+
+Os elfos sobreviventes são extremamente raros.
+
+Os meio-elfos, porém, são relativamente numerosos e vivem espalhados pelo mundo.
+
+Existe uma cidade voadora associada aos elfos.
+
+Ela foi:
+
+* uma das últimas grandes criações da civilização antiga;
+* um reduto de conhecimento;
+* um dos últimos grandes centros de conhecimento élfico;
+* construída ou mantida por um poderoso artefato arcano.
+
+Sua existência ainda precisa ser melhor justificada tecnicamente dentro do cenário, mas ela representa:
+
+> **o último grande bastião do conhecimento da civilização que destruiu o mundo.**
+
+A cidade voadora pode ser simultaneamente:
+
+* uma maravilha;
+* um arquivo de conhecimento;
+* um símbolo da antiga civilização;
+* um alvo político;
+* uma ameaça potencial.
+
+---
+
+# 5. A sociedade atual
+
+O mundo atual é fragmentado.
+
+Não existe uma civilização global.
+
+O cenário é formado por:
+
+* grandes nações enfraquecidas;
+* cidades-estado;
+* fortalezas;
+* povoados isolados;
+* comunidades industriais;
+* cidades móveis;
+* guildas transnacionais;
+* regiões sem governo;
+* wastelands perigosas.
+
+Existem uma ou duas grandes potências capazes de manter estruturas semelhantes a Estados, mas nenhuma possui controle absoluto sobre grandes territórios.
+
+A decadência e a violência são elementos normais da vida.
+
+A civilização existe, mas é:
+
+> **fragmentada, defensiva, dependente de recursos e constantemente ameaçada.**
+
+---
+
+# 6. Cidades e recursos
+
+As cidades precisam se sustentar em um mundo onde a infraestrutura global desapareceu.
+
+Recursos essenciais incluem:
+
+* água;
+* alimentos;
+* combustível;
+* metais;
+* salitre;
+* enxofre;
+* madeira;
+* medicamentos;
+* peças industriais.
+
+A água é relativamente mais fácil de resolver por meio de:
+
+* poços;
+* sistemas de captação;
+* purificação;
+* antigas infraestruturas.
+
+A comida é um problema mais difícil.
+
+As grandes cidades precisam de:
+
+* agricultura;
+* criação de animais;
+* estufas;
+* comunidades agrícolas dependentes;
+* comércio;
+* expedições.
+
+Uma cidade industrial não consegue existir isolada indefinidamente sem uma estrutura de produção de alimentos.
+
+Isso torna as relações entre cidades economicamente importantes.
+
+---
+
+# 7. Cidades industriais e anãs
+
+Os anões são associados à engenharia e à indústria.
+
+Uma cidade anã pode funcionar como:
+
+* fortaleza;
+* centro industrial;
+* refinaria;
+* cidade mineradora;
+* centro de fabricação de armas;
+* núcleo de produção de máquinas.
+
+O diesel é um recurso estratégico.
+
+Pode ser usado para:
+
+* máquinas;
+* veículos;
+* geradores;
+* locomotivas;
+* sistemas industriais;
+* dirigíveis.
+
+Uma possibilidade importante do cenário é a existência de:
+
+> **cidades móveis gigantes construídas pelos anões.**
+
+Essas estruturas podem se deslocar em busca de:
+
+* recursos;
+* combustível;
+* alimentos;
+* segurança.
+
+Também podem fugir de:
+
+* exércitos;
+* hordas de criaturas;
+* regiões contaminadas.
+
+Algumas cidades móveis podem exercer poder sobre comunidades menores, funcionando como verdadeiros Estados itinerantes.
+
+---
+
+# 8. Cidades mineradoras e conflitos econômicos
+
+Uma ideia importante para a política do cenário é a existência de cidades industriais especializadas.
+
+Por exemplo:
+
+### Cidade A
+
+Produz:
+
+* cobre;
+* zinco;
+* latão.
+
+O latão é utilizado na fabricação de:
+
+* cartuchos;
+* componentes industriais;
+* instrumentos.
+
+### Cidade B
+
+Produz recursos necessários à pólvora, como:
+
+* salitre;
+* enxofre.
+
+A interrupção da produção de qualquer uma das duas pode ameaçar a capacidade militar de um Estado inteiro.
+
+Um conflito entre as duas cidades pode:
+
+* interromper a produção de munição;
+* desestabilizar uma nação;
+* provocar guerra;
+* gerar escassez;
+* atrair facções externas.
+
+Esse tipo de conflito é uma boa forma de criar aventuras que começam como problemas locais e revelam consequências políticas maiores.
+
+---
+
+# 9. Facções e guildas
+
+As facções não precisam coincidir com os Estados.
+
+Algumas organizações podem atravessar fronteiras.
+
+Exemplos:
+
+* guilda dos comerciantes;
+* guilda dos engenheiros;
+* organizações de exploradores;
+* instituições religiosas;
+* grupos de estudiosos;
+* organizações de transporte;
+* companhias militares.
+
+Uma guilda pode:
+
+* ser dominante em uma nação;
+* possuir apenas um pequeno escritório em outra;
+* controlar uma rota comercial;
+* influenciar cidades independentes.
+
+Isso cria estruturas de poder que não dependem exclusivamente de fronteiras nacionais.
+
+---
+
+# 10. A Igreja anti-magia
+
+Existe uma grande Igreja anti-magia.
+
+Sua inspiração conceitual inclui a relação entre:
+
+* religião;
+* medo;
+* fanatismo;
+* controle social;
+* repressão da magia.
+
+A Igreja acredita que a magia e os artefatos arcanos são perigosos.
+
+Sua hostilidade é especialmente intensa contra:
+
+* elfos;
+* meio-elfos;
+* artefatos arcanos;
+* magia antiga;
+* conhecimento tecnomágico.
+
+A Igreja possui uma justificativa histórica para esse ódio:
+
+> **A magia foi diretamente associada à destruição do mundo.**
+
+Os elfos foram os responsáveis pela abertura do portal e, portanto, são vistos como os principais causadores da catástrofe.
+
+A Igreja não necessariamente está simplesmente “errada”.
+
+O mundo realmente foi destruído por uma combinação de:
+
+> **magia + tecnologia + arrogância civilizacional.**
+
+Isso torna a Igreja mais interessante.
+
+Sua posição pode ser:
+
+> **A magia deve ser destruída antes que alguém destrua o mundo novamente.**
+
+---
+
+# 11. A conspiração dentro da Igreja
+
+Existe uma ordem secreta dentro da própria Igreja.
+
+Essa ordem acredita que a corrupção não deve ser destruída.
+
+Ela acredita que:
+
+> **a corrupção é uma forma de purificação ou salvação.**
+
+Os membros da ordem:
+
+* genuinamente acreditam em sua doutrina;
+* não estão simplesmente fingindo;
+* acreditam estar cumprindo uma missão divina.
+
+Eles espalham artefatos corrompidos.
+
+Esses artefatos:
+
+* contaminam comunidades;
+* transformam pessoas;
+* provocam desaparecimentos;
+* podem criar cultos;
+* podem causar o abandono de cidades inteiras.
+
+A conspiração é especialmente interessante porque os personagens podem inicialmente trabalhar para a própria Igreja.
+
+A estrutura da campanha pode começar com:
+
+> **missões aparentemente legítimas realizadas em nome de uma instituição que os personagens respeitam.**
+
+Aos poucos, os jogadores descobrem que:
+
+* as cargas que transportam não são o que parecem;
+* as cidades para onde levam os materiais desaparecem;
+* comunidades inteiras se tornam cidades-fantasma;
+* a Igreja está envolvida;
+* existe uma ordem secreta dentro da instituição;
+* os responsáveis acreditam genuinamente que estão salvando o mundo.
+
+---
+
+# 12. O arco inicial
+
+A ideia inicial é começar com uma missão relativamente simples.
+
+Os personagens são contratados por um gnomo.
+
+Ele parece ser apenas um NPC comum.
+
+Porém, possui algum:
+
+* símbolo;
+* medalhão;
+* colar;
+* distintivo;
+
+que o identifica como membro da Igreja.
+
+Os personagens realizam trabalhos de transporte e escolta.
+
+Inicialmente, as missões parecem banais:
+
+> levar mercadorias para cidades e povoados.
+
+Depois, começam a surgir padrões.
+
+As cidades para onde as cargas foram levadas:
+
+* desaparecem;
+* ficam abandonadas;
+* tornam-se cidades-fantasma;
+* apresentam sinais de corrupção.
+
+Os personagens gradualmente descobrem que suas missões estavam conectadas a uma conspiração.
+
+A natureza exata do artefato utilizado pela ordem ainda está em aberto.
+
+---
+
+# 13. A aventura piloto
+
+A aventura inicial deve apresentar o mundo de forma orgânica.
+
+O grupo pode começar em uma missão de:
+
+> **escolta ou transporte até uma vila pequena e isolada.**
+
+Durante a missão, os jogadores devem encontrar alguns elementos do cenário sem receber uma exposição artificial.
+
+A aventura pode apresentar:
+
+* a escassez de recursos;
+* uma cidade ou povoado;
+* tecnologia industrial;
+* armas de fogo;
+* combate corpo a corpo;
+* exploração;
+* ruínas;
+* corrupção;
+* Vampiros;
+* uma organização religiosa;
+* uma pista sobre o passado.
+
+Uma ideia especialmente forte é que os infectados:
+
+* ainda pareçam humanos;
+* mantenham parte da consciência;
+* tenham comportamento organizado;
+* sigam rituais;
+* considerem a corrupção uma forma de salvação.
+
+Isso permite que o primeiro contato com a corrupção não seja simplesmente:
+
+> “monstros atacam.”
+
+Pode ser:
+
+> **pessoas aparentemente normais realizando algo profundamente errado.**
+
+---
+
+# 14. Filosofia do sistema
+
+O sistema deve ter:
+
+* pouca progressão numérica;
+* personagens com poucas habilidades;
+* habilidades muito impactantes;
+* combate perigoso;
+* combate relativamente rápido;
+* consequências narrativas produzidas pelas regras;
+* baixa dependência de pontos de vida tradicionais.
+
+A filosofia central é:
+
+> **um personagem ferido deve realmente estar ferido.**
+
+Um personagem não deve poder continuar funcionando normalmente apenas porque ainda possui 1 ponto de vida.
+
+O sistema busca representar:
+
+* exaustão;
+* dor;
+* perda de mobilidade;
+* perda de capacidade de combate;
+* necessidade de tratamento;
+* necessidade de abrigo;
+* custo da recuperação.
+
+---
+
+# 15. A resolução básica
+
+O sistema está migrando de d20 para:
+
+> **3d6 + Proficiência − Ameaça**
+
+A razão é aproveitar a curva de probabilidade de 3d6.
+
+A distribuição central torna os resultados:
+
+* mais previsíveis;
+* menos dependentes de extremos;
+* mais sensíveis a diferenças de competência.
+
+A escala definitiva de ND ainda será calibrada.
+
+A estrutura de resultados planejada possui quatro graus:
+
+1. **sucesso completo**;
+2. **sucesso parcial**;
+3. **falha**;
+4. **desastre**.
+
+Os nomes finais e os ND ainda precisam ser definidos para 3d6.
+
+---
+
+# 16. Proficiência
+
+O personagem não utiliza necessariamente uma divisão tradicional entre:
+
+* Força;
+* Destreza;
+* ataque físico.
+
+A ideia é que a capacidade de atacar seja determinada principalmente por:
+
+> **Proficiência.**
+
+O personagem pode ter proficiência com:
+
+* facas;
+* machados;
+* armas de fogo;
+* armas específicas;
+* categorias de equipamento.
+
+O dano não deve variar excessivamente conforme o personagem.
+
+A arma possui características próprias.
+
+A proficiência determina principalmente:
+
+* chance de acertar;
+* qualidade do resultado;
+* capacidade de utilizar a arma;
+* eficiência em situações específicas.
+
+A questão exata de como funciona o uso de armas sem proficiência ainda está aberta.
+
+---
+
+# 17. Ameaça
+
+Ameaça é o valor básico de um inimigo.
+
+Ela representa de forma abstrata:
+
+* habilidade;
+* velocidade;
+* percepção;
+* experiência;
+* capacidade ofensiva;
+* capacidade defensiva.
+
+A rolagem do jogador é:
+
+> **3d6 + Proficiência − Ameaça**
+
+A Ameaça é subtraída diretamente da rolagem do jogador.
+
+Isso permite que o Mestre não precise realizar rolagens para os inimigos.
+
+---
+
+# 18. Fôlego
+
+O Fôlego é um dos principais recursos do sistema.
+
+Ele representa:
+
+* capacidade de esforço;
+* ar;
+* energia;
+* firmeza;
+* capacidade de reagir;
+* capacidade de continuar lutando.
+
+O Fôlego não é exatamente vida.
+
+Ele também existe fora do combate.
+
+Pode ser gasto para:
+
+* correr;
+* atacar de forma pesada;
+* esquivar;
+* escapar;
+* realizar esforços físicos;
+* ignorar temporariamente um Ferimento.
+
+O Fôlego deve funcionar como um recurso tático.
+
+A pergunta central durante o combate é:
+
+> **“Eu gasto minha energia agora ou preciso preservá-la para sobreviver ao próximo ataque?”**
+
+---
+
+# 19. Defesa
+
+Não existe Defesa passiva tradicional.
+
+Quando um personagem é atacado, o jogador decide:
+
+### Não se defender
+
+* não gasta Fôlego;
+* não faz rolagem;
+* sofre o resultado do ataque.
+
+### Defender-se
+
+* gasta Fôlego;
+* faz uma rolagem de Defesa;
+* pode evitar o ataque.
+
+O custo das defesas aumenta dentro da mesma rodada:
+
+| Defesa na rodada |    Custo |
+| ---------------- | -------: |
+| 1ª               | 1 Fôlego |
+| 2ª               | 2 Fôlego |
+| 3ª em diante     | 3 Fôlego |
+
+O contador reinicia no início do próprio turno.
+
+Isso faz com que:
+
+> **estar cercado seja uma situação matematicamente perigosa.**
+
+Controlar quantos inimigos conseguem alcançar o personagem se torna uma decisão tática fundamental.
+
+---
+
+# 20. Fôlego e estado Quebrado
+
+Quando o personagem chega a:
+
+> **0 Fôlego**
+
+ele fica:
+
+> **Quebrado.**
+
+Enquanto Quebrado:
+
+* não pode realizar Defesa;
+* não pode realizar ações que custem Fôlego;
+* pode andar;
+* pode realizar ataques simples;
+* pode tentar Retomar o Fôlego.
+
+Se for atacado enquanto Quebrado:
+
+> não consegue se defender normalmente.
+
+Isso torna o Fôlego uma barreira de sobrevivência.
+
+---
+
+# 21. Recuperação do Fôlego
+
+### Retomar o Fôlego
+
+É uma ação de turno inteiro.
+
+Requer:
+
+* não estar em contato direto com um inimigo;
+* não realizar outra ação ofensiva.
+
+Recupera:
+
+> **4 − Peso da Armadura**
+
+A criação de espaço é, portanto, fundamental.
+
+Ações como:
+
+* empurrar;
+* derrubar;
+* recuar;
+* fechar portas;
+* controlar passagens;
+* suprimir inimigos;
+
+podem ser tão importantes quanto causar dano.
+
+---
+
+# 22. Último Fôlego
+
+Existe um recurso de emergência, provisoriamente chamado:
+
+> **Último Fôlego**
+
+Ele pode ser usado:
+
+* uma vez por combate;
+* mesmo em contato com inimigos.
+
+Recupera:
+
+> **metade do Fôlego máximo.**
+
+O custo é:
+
+> **1 ponto de Exaustão.**
+
+Ele permite que um personagem:
+
+> aparentemente esgotado continue lutando em uma situação crítica.
+
+---
+
+# 23. Exaustão
+
+A Exaustão representa o custo de ultrapassar os limites do corpo.
+
+Cada ponto de Exaustão:
+
+> reduz temporariamente o Fôlego máximo.
+
+A versão atualmente mais recente discutida foi:
+
+> **−1 Fôlego máximo por ponto de Exaustão.**
+
+A Exaustão é removida gradualmente por:
+
+* abrigo;
+* comida;
+* água;
+* calor;
+* segurança;
+* descanso verdadeiro.
+
+A recuperação não é instantânea.
+
+O personagem precisa realmente sobreviver a um período de recuperação.
+
+O limite exato de Exaustão que provoca colapso ainda precisa ser fechado.
+
+---
+
+# 24. Forçar um Ferimento
+
+Um personagem pode tentar ignorar temporariamente um Ferimento.
+
+Por exemplo:
+
+> um personagem possui dois Ferimentos na mesma perna e deveria estar incapaz de utilizá-la.
+
+Ele pode fazer um esforço extremo e:
+
+> agir por uma rodada como se o Ferimento não estivesse impondo sua penalidade.
+
+Isso não cura o Ferimento.
+
+O custo deve representar ultrapassar o limite físico.
+
+A solução mais coerente é utilizar:
+
+> **Exaustão**
+
+em vez de simplesmente gastar Fôlego.
+
+O motivo é que o personagem não está apenas realizando uma ação difícil.
+
+Ele está:
+
+> **forçando um corpo lesionado além do que deveria ser possível.**
+
+O custo exato ainda deve ser testado.
+
+---
+
+# 25. Ferimentos
+
+Os Ferimentos são separados do Fôlego.
+
+O Fôlego representa:
+
+> **capacidade imediata de continuar reagindo.**
+
+Os Ferimentos representam:
+
+> **dano físico real.**
+
+Os Ferimentos possuem efeitos mecânicos concretos.
+
+Exemplos:
+
+* Ferimento na perna → movimento prejudicado;
+* Ferimento grave na perna → incapacidade de andar;
+* Ferimento no braço → dificuldade ou impossibilidade de usar determinados equipamentos;
+* Ferimento na mão → derruba o que está segurando;
+* Ferimento no tronco → redução da capacidade física;
+* Ferimento na cabeça → efeitos neurológicos ou incapacidade.
+
+Os Ferimentos não devem funcionar como uma barra de vida.
+
+A quantidade de Ferimentos suportados é determinada principalmente por:
+
+> **Resistência.**
+
+---
+
+# 26. Resistência
+
+Resistência determina:
+
+> **quantos Ferimentos um personagem ou inimigo consegue suportar antes de ficar incapacitado.**
+
+A Resistência não deve necessariamente reduzir a gravidade de cada Ferimento.
+
+Ela representa a capacidade geral do corpo de continuar funcionando apesar dos danos.
+
+Um personagem resistente pode:
+
+> sobreviver a uma luta com vários Ferimentos.
+
+Mas isso não significa que saia ileso.
+
+Por exemplo:
+
+> um personagem resistente pode terminar uma luta com uma perna e um braço incapacitados e ainda estar vivo.
+
+Isso é desejável para o tipo de narrativa pretendida.
+
+---
+
+# 27. Como os Ferimentos são determinados
+
+Nos personagens dos jogadores:
+
+> o Mestre rola um dado para determinar a localização do Ferimento.
+
+Nos ataques realizados pelos jogadores:
+
+> os jogadores podem escolher o local do Ferimento quando a mecânica permitir.
+
+As localizações básicas são:
+
+* cabeça;
+* tronco;
+* braço;
+* mão;
+* perna.
+
+Os Ferimentos possuem tipos diferentes, como:
+
+* perfuração;
+* corte;
+* contusão.
+
+Cada combinação de:
+
+> **membro + tipo de dano**
+
+possui um efeito próprio.
+
+A descrição narrativa do Ferimento grave pode ser livre.
+
+Mecanicamente:
+
+> **Ferimento Grave = incapacitação imediata.**
+
+---
+
+# 28. Ferimentos cumulativos
+
+Um mesmo membro pode sofrer múltiplos Ferimentos.
+
+Os efeitos devem se acumular de forma qualitativa.
+
+Por exemplo:
+
+### Perna
+
+Primeiro Ferimento:
+
+> movimento prejudicado.
+
+Segundo Ferimento:
+
+> movimento severamente limitado ou incapacidade de correr.
+
+Terceiro Ferimento:
+
+> perna incapacitada.
+
+O sistema não deve transformar isso em:
+
+> “−1, −2, −3”.
+
+A intenção é que o Ferimento altere diretamente o que o personagem consegue fazer.
+
+---
+
+# 29. Recuperação dos Ferimentos
+
+A recuperação é parte da dinâmica de sobrevivência.
+
+Um personagem não se recupera completamente apenas porque dormiu uma noite.
+
+O modelo preferido é:
+
+> **tratamento + descanso + tempo.**
+
+Um Ferimento pode passar por estágios.
+
+Exemplo:
+
+### Perna gravemente ferida
+
+**Estado 1 — Incapacitada**
+
+O personagem não consegue utilizá-la normalmente.
+
+Após tratamento e descanso:
+
+**Estado 2 — Prejudicada**
+
+O personagem pode utilizá-la, mas com limitações.
+
+Após novo período de tratamento e recuperação:
+
+**Estado 3 — Recuperada**
+
+O personagem volta ao funcionamento normal.
+
+A recuperação pode exigir:
+
+* itens;
+* medicamentos;
+* curativos;
+* imobilização;
+* conhecimento médico;
+* abrigo;
+* comida;
+* água;
+* tempo.
+
+A regra desejada é que:
+
+> **o corpo só consiga tratar um trauma significativo por vez.**
+
+Isso evita que um personagem com cinco itens de cura simplesmente se recupere instantaneamente de cinco Ferimentos.
+
+---
+
+# 30. Armaduras
+
+Armaduras não aumentam simplesmente a chance de o personagem ser atingido.
+
+Elas possuem:
+
+> **Aparo**
+
+O Aparo funciona como uma quantidade limitada de proteção.
+
+Cada ponto de Aparo pode:
+
+> evitar automaticamente um Ferimento.
+
+Quando o Aparo acaba:
+
+> a armadura está danificada e não oferece mais a mesma proteção.
+
+A armadura precisa ser:
+
+* reparada;
+* consertada;
+* reconstruída.
+
+O reparo exige:
+
+* tempo;
+* material;
+* conhecimento adequado.
+
+O Técnico é particularmente importante nesse processo.
+
+A armadura também possui:
+
+> **Peso**
+
+O Peso:
+
+* aumenta o custo de ações de Esforço;
+* reduz a recuperação de Fôlego.
+
+A tabela atual provisória é:
+
+| Armadura | Aparo | Peso |
+| -------- | ----: | ---: |
+| Nenhuma  |     0 |    0 |
+| Leve     |     1 |    0 |
+| Média    |     2 |    1 |
+| Pesada   |     3 |    2 |
+
+Os valores ainda precisam de playtest.
+
+---
+
+# 31. Armas
+
+As armas possuem características próprias.
+
+O atributo atualmente chamado de:
+
+> **Peso**
+
+representa sua capacidade de gerar impacto e drenar Fôlego.
+
+Tabela provisória:
+
+| Arma           | Peso |
+| -------------- | ---: |
+| Faca           |    0 |
+| Soco-inglês    |    0 |
+| Coronhada      |    0 |
+| Facão          |    1 |
+| Machadinha     |    1 |
+| Baioneta       |    1 |
+| Marreta        |    2 |
+| Picareta       |    2 |
+| Machado grande |    2 |
+
+As armas também podem possuir:
+
+* alcance;
+* propriedades especiais;
+* tipo de dano;
+* requisitos de proficiência.
+
+O nome definitivo para o atributo atualmente chamado de Peso ainda pode ser alterado.
+
+---
+
+# 32. Ataques corpo a corpo
+
+O combate corpo a corpo possui dois conceitos principais:
+
+### Ataque simples
+
+Não custa Fôlego.
+
+Serve para:
+
+* desgastar o inimigo;
+* causar perda de Fôlego;
+* manter pressão.
+
+### Ataque pesado
+
+Custa Fôlego.
+
+É mais capaz de produzir Ferimentos reais.
+
+A intenção atual é:
+
+> **Ataques simples desgastam o Fôlego. Ataques pesados produzem dano físico.**
+
+O equilíbrio exato entre essas duas formas de ataque ainda precisa ser testado.
+
+---
+
+# 33. Armas de fogo
+
+As armas de fogo existem, mas são:
+
+* raras;
+* caras;
+* difíceis de manter;
+* dependentes de munição.
+
+A munição é limitada.
+
+A escassez de armas de fogo não é necessariamente universal.
+
+Algumas regiões podem possuir:
+
+* armas abundantes;
+* produção industrial;
+* grande disponibilidade de munição.
+
+Outras podem possuir quase nenhuma.
+
+O mundo deve ser economicamente desigual.
+
+A principal limitação das armas de fogo é:
+
+> **o acesso a armas, munição e manutenção.**
+
+Não uma regra artificial que as torne fracas.
+
+Um tiro que atinge um alvo é muito perigoso.
+
+A intenção atual é:
+
+| Resultado        | Efeito               |
+| ---------------- | -------------------- |
+| ND alto          | Ferimento Grave      |
+| ND intermediário | Ferimento            |
+| Falha            | Erra e gasta munição |
+
+A Defesa contra tiros é diferente do combate corpo a corpo.
+
+O principal recurso defensivo é:
+
+> **cobertura.**
+
+---
+
+# 34. Estrutura dos inimigos
+
+A ficha mínima de um inimigo possui:
+
+### Ameaça
+
+Determina a dificuldade de enfrentá-lo.
+
+### Fôlego
+
+Determina quanto tempo ele consegue continuar combatendo.
+
+### Resistência
+
+Determina quantos Ferimentos consegue suportar.
+
+Além disso, podem existir:
+
+* armadura;
+* armas;
+* habilidades especiais;
+* vulnerabilidades;
+* imunidades.
+
+A estrutura mínima é:
+
+> **Ameaça + Fôlego + Resistência**
+
+---
+
+# 35. Tipos de inimigo
+
+### Ralé
+
+Possui:
+
+* Ameaça;
+* Fôlego;
+* arma.
+
+Quando chega a:
+
+> **0 Fôlego**
+
+fica fora de combate.
+
+Não possui contabilidade individual de Ferimentos.
+
+---
+
+### Nomeados
+
+Possuem:
+
+* Ameaça;
+* Fôlego;
+* Resistência;
+* Ferimentos;
+* eventualmente armadura;
+* habilidades.
+
+Quando chegam a 0 Fôlego:
+
+> ficam Quebrados.
+
+Ferimentos posteriores podem incapacitá-los.
+
+---
+
+### Coisas
+
+São criaturas especiais.
+
+Podem possuir:
+
+* Fôlego alto;
+* Ferimentos específicos;
+* vulnerabilidades;
+* imunidades;
+* restrições sobre quais ataques conseguem feri-las.
+
+---
+
+# 36. Classes inicialmente planejadas
+
+As quatro classes inicialmente consideradas são:
+
+## Ladrão
+
+Especialista em:
+
+* furtividade;
+* infiltração;
+* exploração;
+* armadilhas;
+* mobilidade;
+* ações discretas.
+
+## Combatente
+
+Especialista em:
+
+* combate;
+* armas;
+* resistência;
+* controle de espaço;
+* proteção do grupo.
+
+## Técnico
+
+Especialista em:
+
+* tecnologia;
+* máquinas;
+* reparos;
+* armas;
+* armaduras;
+* veículos;
+* sistemas industriais.
+
+## Estudioso
+
+Especialista em:
+
+* medicina;
+* botânica;
+* artefatos mágicos;
+* história;
+* conhecimento da civilização antiga.
+
+A filosofia é que cada classe tenha:
+
+> **poucas habilidades, mas habilidades extremamente valiosas.**
+
+---
+
+# 37. Progressão
+
+A progressão não deve funcionar como a progressão tradicional de D&D.
+
+O personagem não deve simplesmente ganhar:
+
+* mais pontos de vida;
+* bônus cada vez maiores;
+* números que tornam os inimigos antigos irrelevantes.
+
+A progressão deve ocorrer principalmente através de:
+
+* habilidades;
+* talentos;
+* novas proficiências;
+* acesso a equipamentos;
+* conhecimentos;
+* contatos;
+* melhorias específicas.
+
+Uma habilidade pode alterar significativamente a forma como um personagem joga.
+
+Exemplos de possíveis especializações:
+
+* aumentar o Fôlego;
+* utilizar melhor o Aparo;
+* reparar armaduras;
+* fabricar equipamentos;
+* tratar Ferimentos;
+* lutar com armas específicas;
+* criar oportunidades para recuperar Fôlego.
+
+---
+
+# 38. A experiência desejada
+
+O jogo deve ser:
+
+> **difícil, mas não frustrante.**
+
+A morte deve ser possível, mas não deve ocorrer constantemente.
+
+O sistema deve permitir que um jogador:
+
+> termine uma luta em estado terrível, mas ainda tenha uma chance de sobreviver.
+
+A experiência desejada inclui cenas como:
+
+* um personagem resistente coberto de Ferimentos;
+* um braço incapacitado;
+* uma perna quase inutilizada;
+* o personagem criando espaço para respirar;
+* um companheiro protegendo o ferido;
+* o grupo arrastando alguém até um abrigo;
+* uma semana de recuperação custando comida, dinheiro e segurança.
+
+A sobrevivência não termina quando o combate acaba.
+
+---
+
+# 39. O ciclo de sobrevivência
+
+O ciclo fundamental do jogo é:
+
+> **Explorar → Encontrar perigo → Lutar → Sofrer danos → Sobreviver → Encontrar abrigo → Tratar Ferimentos → Consumir recursos → Recuperar-se → Voltar a explorar.**
+
+O custo de permanecer parado é:
+
+* comida;
+* água;
+* dinheiro;
+* segurança;
+* tempo.
+
+Portanto, os jogadores constantemente precisam escolher entre:
+
+> **continuar feridos ou parar para se recuperar.**
+
+---
+
+# 40. Identidade visual e atmosférica
+
+A identidade visual é considerada um componente central do projeto.
+
+A estética desejada combina:
+
+* dieselpunk;
+* fantasia;
+* pós-apocalipse;
+* horror;
+* indústria;
+* ruínas.
+
+Materiais importantes:
+
+* aço;
+* ferro;
+* cobre;
+* latão;
+* madeira;
+* couro;
+* vidro;
+* cerâmica;
+* ferrugem;
+* fuligem.
+
+A tecnologia das diferentes culturas deve possuir identidades visuais próprias.
+
+### Anões
+
+Tecnologia:
+
+* pesada;
+* robusta;
+* industrial;
+* reparável;
+* modular.
+
+### Elfos
+
+Tecnologia:
+
+* elegante;
+* avançada;
+* orgânica;
+* incompreensível.
+
+### Humanos
+
+Tecnologia:
+
+* improvisada;
+* adaptada;
+* remendada;
+* pragmática.
+
+### Igreja
+
+Arquitetura:
+
+* austera;
+* monumental;
+* opressiva.
+
+### Corrupção
+
+Visual:
+
+* assimétrica;
+* orgânica;
+* impossível;
+* incompatível com a geometria normal.
+
+A arte deve mostrar não apenas o que existe no mundo, mas:
+
+> **como as pessoas vivem nele.**
+
+---
+
+# 41. Questões ainda em aberto
+
+Estas são as principais decisões que ainda não devem ser tratadas como canônicas.
+
+## Sistema
+
+* ND definitivos para 3d6;
+* escala máxima de Proficiência;
+* escala máxima de Ameaça;
+* funcionamento exato de críticos;
+* regras definitivas de ataque pesado;
+* regras para armas sem proficiência;
+* valor exato do Fôlego inicial;
+* valor exato da Resistência;
+* custo exato de ignorar Ferimentos;
+* limite de Exaustão;
+* recuperação exata de Exaustão.
+
+## Ferimentos
+
+* tabela definitiva de efeitos;
+* regras precisas de acumulação;
+* tempo exato de recuperação;
+* itens de tratamento;
+* estágios definitivos de cada Ferimento.
+
+## Armaduras
+
+* valores definitivos de Aparo;
+* forma exata de reparo;
+* durabilidade fora do combate;
+* relação entre tipos de dano e Aparo.
+
+## Armas
+
+* nome definitivo do atributo “Peso”;
+* alcance;
+* tipos de dano;
+* regras de armas de fogo;
+* disponibilidade regional;
+* recarga e manutenção.
+
+## Mundo
+
+* nome do cenário;
+* nome da corrupção;
+* natureza exata da dimensão ou entidade do outro lado do portal;
+* nome e natureza do deus da Igreja;
+* símbolo da Igreja;
+* nome da ordem secreta;
+* natureza do artefato usado para corromper comunidades;
+* origem exata dos Vampiros;
+* estrutura da cidade voadora;
+* nações principais;
+* cidades móveis;
+* mapa do mundo.
+
+---
+
+# Síntese em uma frase
+
+> **Este é um RPG de exploração e sobrevivência em um futuro distante, onde civilizações industriais lutam para sobreviver sobre as ruínas de um mundo destruído pela combinação de magia e tecnologia, enquanto exploradores enfrentam escassez, corrupção, monstros e os segredos de uma civilização antiga — usando um sistema de combate baseado em Fôlego, Ferimentos localizados e consequências físicas persistentes.**
+
+Essa é, no meu entendimento, a **versão canônica atual** do projeto. As partes que ainda estão marcadas como provisórias devem ser tratadas como material de design, não como decisões irrevogáveis.

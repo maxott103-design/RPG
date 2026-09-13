@@ -1,0 +1,406 @@
+==========================================================
+  GUIA DO JOGADOR  -  v2 (28/08/2026)
+  Tudo que voce precisa saber para jogar a primeira sessao
+==========================================================
+
+
+----------------------------------------------------------
+1. QUE JOGO E ESTE
+----------------------------------------------------------
+
+Passaram-se mil anos desde a guerra que quebrou o mundo. A
+civilizacao que existia antes juntava magia e tecnologia, e
+ninguem hoje entende direito o que ela era. O que sobrou sao
+cidades de tijolo e fumaca, ferrovias, minas, caravanas
+armadas atravessando terra de ninguem, e ruinas antigas que
+as vezes cospem coisas ruins.
+
+Voces nao sao herois escolhidos. Sao pessoas com um oficio,
+uma historia e uma razao para estar na estrada.
+
+Tres coisas para calibrar a expectativa:
+
+  - Combate e perigoso e curto.
+
+  - Ferido e ferido de verdade. Nao existe "ainda tenho 1
+    ponto de vida e sigo normal". Um braco ferido para de
+    funcionar. Uma perna ferida te tira da corrida.
+
+  - Fugir, empurrar, fechar uma porta ou ganhar espaco vale
+    tanto quanto bater. Frequentemente vale mais.
+
+O objetivo nao e vencer todo encontro. E chegar do outro
+lado ainda inteiro o bastante para continuar.
+
+O mundo la fora e perigoso por motivos comuns: bandido,
+fome, sede, frio, estrada ruim, gente desesperada. Monstro e
+raro. Quando aparece, e porque alguma coisa deu muito errado
+naquele lugar.
+
+
+----------------------------------------------------------
+2. COMO SE ROLA
+----------------------------------------------------------
+
+Sempre a mesma conta:
+
+        3d6  +  sua competencia  -  Ameaca
+
+
+  ate 9 ....... FALHA
+  10 a 14 ..... SUCESSO FRACO   (voce consegue, com custo)
+  15 ou mais .. SUCESSO DECISIVO (voce consegue limpo)
+
+  18 nos dados (natural) ... CRITICO
+  3 nos dados (natural) .... FALHA CRITICA
+
+Voce vai tirar sucesso fraco na maior parte das vezes. Isso
+e o normal do jogo, nao e voce jogando mal.
+
+SO OS JOGADORES ROLAM DADOS. O mestre nunca rola. Quando um
+inimigo te ataca, quem rola e voce, para se defender.
+
+
+----------------------------------------------------------
+3. SUA FICHA
+----------------------------------------------------------
+
+ATRIBUTOS (escala 1 a 4) - Vigor, Agilidade, Percepcao,
+Intelecto, Vontade.
+
+  IMPORTANTE: atributo NUNCA entra na rolagem. Ele define
+  outras coisas (quanto Folego voce tem, quantas
+  competencias voce tem) e serve de pre-requisito. Mas na
+  hora de rolar o dado, atributo nao soma.
+
+COMPETENCIAS - o que voce sabe fazer. Quatro niveis:
+
+  Aprendiz ....... +1
+  Pratico ........ +2
+  Profissional ... +3
+  Mestre ......... +4
+
+So a competencia soma na rolagem. Se voce nao tem a
+competencia, voce rola sem bonus nenhum - e nao pode fazer
+ataque pesado com uma arma que nao sabe usar.
+
+HABILIDADE - voce comeca com uma. Ela e uma coisa so, mas
+muda como voce joga uma cena inteira. Tem uma lista para
+escolher, e ela precisa combinar com a historia do seu
+personagem.
+
+
+----------------------------------------------------------
+4. FOLEGO - O CORACAO DO JOGO
+----------------------------------------------------------
+
+Folego nao e vida e nao e energia de acao. E ar, firmeza,
+capacidade de aguentar. E o que te mantem INTEIRO.
+
+        Seu Folego maximo = Vigor + 7
+
+BATER E DE GRACA. O que custa e nao ser atingido.
+
+  Andar no seu turno .................... 0
+  Ataque simples ........................ 0
+  Ataque pesado ......................... 1
+  Dar um tiro ........................... 1
+  Correr, levantar, usar item sob pressao 1
+  Defender-se (1a vez na rodada) ........ 1
+  Defender-se (2a vez na rodada) ........ 2
+  Defender-se (3a em diante) ............ 3
+
+O contador de defesas zera no comeco do seu turno.
+
+Repara no que isso significa: ESTAR CERCADO E MATEMATICAMENTE
+LETAL. Dois inimigos batendo em voce custam 3 de Folego por
+rodada so para voce nao ser ferido - e eles nao pagam nada
+para atacar. Controlar quantos te alcancam e a decisao
+tatica mais importante do jogo.
+
+RETOMAR O FOLEGO
+Acao de turno inteiro. Voce pode fazer isso mesmo com um
+inimigo na sua cara.
+
+        Recupera 4 - o Peso do que voce carrega
+        (armadura e escudo), no minimo 1.
+
+QUEBRADO (Folego zero)
+Voce nao se defende e nao age. So da para andar e tentar
+Retomar o Folego. Ataque simples custa zero, mas ainda exige
+ter folego - quem esta Quebrado nao ataca.
+
+E o momento mais perigoso do jogo. Se voce terminar um
+combate Quebrado, ganha 1 ponto de Exaustao.
+
+Fora de combate, 2 minutos de descanso devolvem seu Folego
+ao maximo.
+
+
+----------------------------------------------------------
+5. SEU TURNO
+----------------------------------------------------------
+
+Mover + uma acao + as defesas que voce precisar fazer quando
+nao for seu turno.
+
+Os jogadores agem primeiro, exceto se o grupo for pego de
+surpresa. Entre voces, a ordem e livre - combinem na hora.
+Isso e de proposito: coordenar quem segura quem e parte do
+jogo.
+
+DUAS FORMAS DE ATACAR CORPO A CORPO:
+
+  ATAQUE SIMPLES (0 Folego) - DESGASTA.
+    Fraco:    o alvo perde 1 + Peso da arma de Folego
+    Decisivo: o alvo perde 2 + Peso da arma
+
+  ATAQUE PESADO (1 Folego) - FERE.
+    So com arma de Peso 2, e so se voce tem a competencia.
+    Fraco:    Ferimento Leve
+    Decisivo: Ferimento GRAVE no local que voce escolher
+
+E COM ARMA LEVE, COMO SE FERE ALGUEM?
+Nao se fere alguem de pe e inteiro com uma faca. Voce
+desgasta primeiro. Contra alvo QUEBRADO, caido, imobilizado
+ou desprevenido, seu ataque simples causa Ferimento Leve em
+vez de tirar Folego.
+
+  A estrategia do jogo inteiro cabe numa linha:
+  DESGASTA PRIMEIRO, FERE DEPOIS.
+
+Peso das armas:
+  Peso 0 .. faca, soco-ingles, coronhada, porrete leve
+  Peso 1 .. facao, machadinha, baioneta, pa afiada, sabre
+  Peso 2 .. marreta, picareta, machado grande, macuahuitl,
+            lanca pesada de caca
+            (as unicas que fazem ataque pesado)
+
+
+----------------------------------------------------------
+6. QUANDO TE ATACAM
+----------------------------------------------------------
+
+Voce escolhe:
+
+  NAO SE DEFENDER - nao gasta nada, nao rola nada, e sofre
+  o que vier. As vezes e a escolha certa. Levar um Ferimento
+  Leve na perna para nao ficar Quebrado pode salvar sua vida.
+
+  DEFENDER-SE - paga o Folego (1, depois 2, depois 3) e rola:
+     APARAR   = 3d6 + a competencia da arma que voce empunha
+     ESQUIVAR = 3d6 + Acrobacia
+  Sucesso, o ataque nao te acerta. O Folego sai do mesmo
+  jeito se voce errar a defesa.
+
+Contra ARMA DE FOGO nao existe defesa. Nao se esquiva de
+bala. O que te protege e COBERTURA - um muro, uma pedra, um
+vagao. Se voce esta em cobertura, o tiro nao te pega.
+Pense em cobertura antes de o tiroteio comecar.
+
+
+----------------------------------------------------------
+7. FERIMENTOS
+----------------------------------------------------------
+
+Todo ferimento tem tres coisas: ONDE (cabeca, torso, braco,
+perna), QUAO RUIM (Leve ou Grave) e DE QUE TIPO (corte,
+perfuracao ou pancada). O tipo quase nao muda a conta - muda
+o que vem junto e como se trata.
+
+  BRACO   Leve:  acoes com esse braco custam +1 Folego
+          Grave: braco inutilizado, voce derruba o que
+                 estava segurando
+
+  PERNA   Leve:  nao corre, anda pela metade
+          Grave: so se move apoiado ou rastejando, e suas
+                 defesas custam +1
+
+  TORSO   Leve:  +1 Folego em TODA acao que custe Folego
+          Grave: Retomar o Folego so devolve 1
+
+  CABECA  Leve:  tonto - -2 em todas as suas rolagens
+          Grave: inconsciente
+
+Um lugar ferido duas vezes vira GRAVE. Golpe pesado
+decisivo, tiro decisivo e critico tambem entram como Grave
+direto.
+
+QUANTO VOCE AGUENTA
+Todo mundo aguenta o mesmo. Voce cai fora de combate com:
+    2 Graves | 3 Leves | 1 Grave + 2 Leves
+    ou na hora, com um Grave na cabeca.
+
+CAIR NAO E MORRER. Voce morre se levar outro Grave enquanto
+esta inconsciente, se sangrar ate o fim, ou se alguem te
+executar. Seus companheiros tem tempo de te arrastar para
+fora - se quiserem pagar o preco de fazer isso.
+
+SANGRAMENTO
+Corte e perfuracao grave sangram. Comeca em 6 e cai 1 por
+rodada. Chegou a zero, voce desmaia e morre em minutos sem
+socorro.
+
+  Enquanto voce sangra, seu corpo nao se recompoe: Retomar
+  Folego devolve so 1, e os 2 minutos de descanso depois da
+  luta nao funcionam. Estancar vem antes de qualquer coisa.
+
+  Estancar: um turno inteiro com pano ou curativo na mao.
+  No meio da luta ainda exige um teste de Medicina.
+
+
+----------------------------------------------------------
+8. EXAUSTAO
+----------------------------------------------------------
+
+E o desgaste da jornada, nao da luta. Cada ponto de Exaustao
+tira 2 do seu Folego MAXIMO. Ela nao passa dormindo uma noite
+qualquer.
+
+Voce ganha 1 ponto quando:
+  - termina um combate Quebrado
+  - passa um dia sem comida, sem agua ou sem dormir
+  - faz marcha forcada ou enfrenta frio ou calor extremo
+    sem abrigo
+  - usa certas habilidades que forcam o corpo
+  - falha feio ao encarar alguma coisa que nao devia existir
+
+Seu teto de Exaustao e Vontade + 1. Chegando no teto voce
+esta ESGOTADO: sem ataque pesado e sem habilidades que
+custem Exaustao. Passar do teto e desmaiar.
+
+Recupera 1 por dia de descanso de verdade - abrigo, comida,
+agua, noite inteira. Dormir bem numa cidade recupera 2.
+Dormir no relento com meia racao nao recupera nada.
+
+Consequencia pratica: parar para se recuperar custa comida,
+dinheiro, tempo e seguranca. Continuar ferido tambem custa.
+Essa escolha vai aparecer toda hora, e ela e o jogo.
+
+
+----------------------------------------------------------
+9. ARMADURA
+----------------------------------------------------------
+
+  Nenhuma ... Aparo 0 .. Peso 0
+  Leve ...... Aparo 1 .. Peso 0
+  Media ..... Aparo 2 .. Peso 1
+  Pesada .... Aparo 3 .. Peso 2
+  Escudo .... Aparo +1 .. Peso +1
+
+APARO e protecao que acaba. Quando voce ia sofrer um
+Ferimento, pode gastar:
+    1 ponto  -> anula um Ferimento Leve
+    1 ponto  -> transforma um Grave em Leve
+    2 pontos -> anulam um Grave
+
+Gastou, a peca danificou. Recupera com reparo: um teste de
+Mecanica e sucata no acampamento devolve 1 ponto por
+descanso; uma oficina de cidade conserta tudo, pagando.
+
+PESO cobra em dois lugares:
+  - atrapalha voce a recuperar Folego (4 menos o Peso)
+  - desconta das suas rolagens de Furtividade, Acrobacia e
+    Atletismo (Peso 1 = -1, Peso 2 = -2)
+
+Ou seja: quem usa armadura pesada APARA, nao esquiva, e nao
+e quem entra escondido. Usar armadura e uma especializacao
+de verdade, com preco de verdade - nao e so comprar a melhor.
+
+
+----------------------------------------------------------
+10. ARMAS DE FOGO
+----------------------------------------------------------
+
+Sao raras, caras e escassas de municao. CADA TIRO E RISCADO
+DA FICHA. Nao existe "gastar uns tiros para ver".
+
+  Falha .... erra e a municao foi embora do mesmo jeito
+  Fraco .... Ferimento Leve, local sorteado
+  Decisivo . Ferimento GRAVE no local que voce escolher
+
+Um tiro que acerta e assustador. Por isso a arma de fogo nao
+resolve tudo: ela demora a recarregar.
+
+  Revolver ..... ate 5 tiros, mas NAO recarrega durante o
+                 combate. Acabou, acabou.
+  Rifle ........ um tiro, recarga leva um turno
+  Rifle de rep.. 5 tiros no carregador, encher leva um turno
+  Espingarda ... um ou dois tiros, devastadora de perto
+
+BESTA e outra coisa. Nao emperra e o virote volta. Mas fere
+menos: sucesso fraco so tira 2 de Folego do alvo, e so o
+decisivo causa Ferimento Leve (Grave se for besta pesada ou
+a queima-roupa). Besta comum leva um turno para recarregar,
+besta ana recarrega de graca. Arco praticamente nao existe
+neste mundo - quem nao tem oficina nao tem arma de tiro.
+
+
+----------------------------------------------------------
+11. DEPOIS DA LUTA
+----------------------------------------------------------
+
+Folego volta sozinho em 2 minutos de sossego - se ninguem
+estiver sangrando.
+
+FERIMENTO NAO VOLTA SOZINHO. Precisa de tratamento -
+curativo para Leve, kit medico e alguem com Medicina para
+Grave. Depois de tratado, o corpo fecha UM ferimento por dia
+de descanso: um Grave vira Leve num dia, e some no dia
+seguinte.
+
+Ferimento Grave sem tratamento infecciona e passa a te dar 1
+de Exaustao por dia. Nao da para ignorar.
+
+Traduzindo: uma luta feia custa dias parados, comida,
+remedio e dinheiro. E a volta para casa pode ser mais
+perigosa que a luta - com meio grupo ferido, sem municao e
+alguem sendo carregado.
+
+
+----------------------------------------------------------
+RESUMO DE UMA PAGINA
+----------------------------------------------------------
+
+ROLAGEM     3d6 + competencia - Ameaca
+            ate 9 falha | 10-14 fraco | 15+ decisivo
+            18 natural critico | 3 natural falha critica
+            So jogador rola. Atributo nao soma.
+
+FOLEGO      Maximo = Vigor + 7
+            Ataque simples 0 | Pesado 1 | Tiro 1 | Correr 1
+            Defesa na rodada: 1a custa 1, 2a custa 2,
+            3a custa 3 (zera no seu turno)
+            Retomar Folego: turno inteiro, recupera
+            4 - Peso, pode fazer engajado
+            Folego 0 = QUEBRADO: nao defende, nao age
+
+ATAQUE      Simples (0): tira 1 + Peso de Folego do alvo
+            Pesado (1): causa Ferimento, so com arma Peso 2
+            Arma leve fere alvo Quebrado ou desprevenido
+            Estrategia: DESGASTA PRIMEIRO, FERE DEPOIS
+
+FERIMENTO   Leve e Grave, em cabeca/torso/braco/perna
+            Mesmo lugar 2x = vira Grave
+            Cai com 2 Graves, 3 Leves ou 1 Grave + 2 Leves
+            Sangramento: 6 rodadas, e trava sua recuperacao
+
+EXAUSTAO    -2 de Folego maximo por ponto
+            Teto = Vontade + 1. No teto: Esgotado
+
+ARMADURA    Aparo anula ferimento e acaba
+            Peso atrapalha Retomar Folego e desconta de
+            Furtividade, Acrobacia e Atletismo
+
+TIRO        Nao se esquiva de bala - use COBERTURA
+            Municao e riscada, uma a uma
+
+CURA        Folego: 2 minutos (se nao estiver sangrando)
+            Ferimento: tratamento + 1 dia por ferimento
+            Exaustao: 1 por dia de descanso real
+
+AS 4 COISAS QUE MAIS SALVAM VIDA NESTE JOGO:
+  1. Nao deixar dois inimigos te alcancarem ao mesmo tempo
+  2. Retomar Folego ANTES de chegar a zero
+  3. Aceitar um Ferimento Leve para nao ficar Quebrado
+  4. Cobertura, sempre, antes do primeiro tiro

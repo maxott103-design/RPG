@@ -29,6 +29,15 @@ Este repositório organiza o desenvolvimento do RPG e preserva os motivos das de
 
 Os documentos temáticos descrevem a versão atual; o registro de decisões preserva o histórico e os motivos. Uma proposta não passa a ser canônica automaticamente.
 
+## Versões paralelas a compatibilizar
+
+| Pasta | Origem | Estado |
+| --- | --- | --- |
+| Raiz (`regras/`, `worldbuilding/`, `lore/`, …) | Organização feita em outra IA a partir dos chats | Revisão, com pendências e divergências registradas |
+| [`versao-claude/`](versao-claude/README.md) | Cópia fiel da pasta local `Projeto RPG` desenvolvida nos chats do Claude (regras v2, 28/08/2026) | Fonte mais recente; ver [decisões dos chats](versao-claude/DECISOES-DOS-CHATS.md) |
+
+As duas ficam separadas até a comparação ponto a ponto. Nada da raiz foi alterado ao adicionar `versao-claude/`.
+
 ## Conteúdo organizado
 
 As pastas já contêm documentos temáticos sobre o mundo, a Igreja, as mecânicas recuperadas, os cinco personagens, NPCs, a aventura piloto e a direção visual.

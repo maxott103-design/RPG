@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ficha — Anão Combatente</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;900&family=Spectral:ital,wght@0,400;0,600;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --soot:#0B0907; --plate:#3B2F1E; --brass:#C99542; --brass-lo:#7A5A2A;
+  --bone:#E8DCC4; --ash:#A2947C; --rust:#A6522A; --hair:rgba(201,149,66,.22);
+  --lip:rgba(255,236,190,.17);   /* luz na aresta de cima */
+  --pit:rgba(0,0,0,.72);         /* sombra no rebaixo */
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  background:#0B0907;
+  background-image:
+    radial-gradient(120% 80% at 50% -8%, rgba(201,149,66,.09), transparent 55%),
+    radial-gradient(80% 60% at 50% 110%, rgba(166,82,42,.06), transparent 60%);
+  color:var(--bone);font-family:'Spectral',Georgia,serif;
+  padding:0 16px 70px;-webkit-font-smoothing:antialiased;
+}
+
+/* ---------- BARRA ---------- */
+.bar{max-width:980px;margin:0 auto;padding:18px 0 16px;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+.btn{background:rgba(0,0,0,.4);border:1px solid var(--hair);color:var(--ash);cursor:pointer;
+  font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.16em;
+  text-transform:uppercase;padding:7px 13px;transition:.12s}
+.btn:hover{border-color:var(--brass);color:var(--brass)}
+.btn:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+.btn.live{background:var(--brass);border-color:var(--brass);color:#160F04;font-weight:700}
+.bar .note{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.12em;
+  text-transform:uppercase;color:#6A5F4E;margin-left:auto}
+
+/* ---------- CHAPA ---------- */
+.shell{max-width:980px;margin:0 auto;filter:drop-shadow(0 34px 70px rgba(0,0,0,.85)) drop-shadow(0 2px 0 rgba(0,0,0,.9))}
+.plate{
+  position:relative;isolation:isolate;
+  /* chanfro nos quatro cantos — silhueta de plaqueta */
+  clip-path:polygon(26px 0,calc(100% - 26px) 0,100% 26px,100% calc(100% - 26px),
+                    calc(100% - 26px) 100%,26px 100%,0 calc(100% - 26px),0 26px);
+  background:
+    linear-gradient(103deg, rgba(255,236,190,.07) 0%, transparent 22%, transparent 74%, rgba(255,236,190,.05) 100%),
+    linear-gradient(174deg,#5E4B2E 0%,#48391F 8%,#3C2F1C 42%,#2A2012 76%,#3A2D18 100%);
+  padding:0 0 0 0;
+}
+/* camadas de superfície */
+.lay{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;display:block}
+.lay-brush{z-index:0;mix-blend-mode:soft-light;opacity:.9}
+.lay-pit{z-index:0;mix-blend-mode:overlay;opacity:.42}
+.lay-rust{z-index:0;opacity:.8}
+.lay-grime{z-index:1;mix-blend-mode:multiply;opacity:.75}
+.lay-polish{z-index:1;mix-blend-mode:soft-light;opacity:.85}
+.lay-gouge{z-index:7;pointer-events:none;opacity:.85}
+.content{position:relative;z-index:3}
+
+/* sulco fresado correndo por dentro da borda */
+.groove{position:absolute;z-index:2;inset:13px;pointer-events:none;
+  clip-path:polygon(18px 0,calc(100% - 18px) 0,100% 18px,100% calc(100% - 18px),
+                    calc(100% - 18px) 100%,18px 100%,0 calc(100% - 18px),0 18px);
+  box-shadow:
+    inset 0 0 0 1px rgba(0,0,0,.75),
+    inset 0 0 0 2px rgba(255,236,190,.10),
+    inset 0 0 22px rgba(0,0,0,.4);}
+
+/* arranhões finos por cima de tudo */
+.plate::after{
+  content:"";position:absolute;inset:0;z-index:8;pointer-events:none;
+  background:
+    repeating-linear-gradient(101deg, transparent 0 43px, rgba(255,240,205,.05) 43px 44px, transparent 44px 111px),
+    repeating-linear-gradient(-73deg, transparent 0 67px, rgba(0,0,0,.12) 67px 68px, transparent 68px 159px),
+    repeating-linear-gradient(87deg, transparent 0 197px, rgba(255,240,205,.035) 197px 199px, transparent 199px 430px);
+  mix-blend-mode:soft-light;}
+
+/* rebites de canto */
+.rivet{position:absolute;z-index:6;width:14px;height:14px;border-radius:50%;pointer-events:none;
+  background:radial-gradient(circle at 32% 26%, #FBE6AE 0%, #D2A44F 34%, #8A6526 66%, #2A1B05 100%);
+  box-shadow:0 2px 3px rgba(0,0,0,.9), inset 0 -2px 3px rgba(0,0,0,.55), inset 0 2px 2px rgba(255,244,210,.55);}
+.rivet::after{content:"";position:absolute;inset:-7px;border-radius:50%;
+  background:radial-gradient(circle, rgba(166,82,42,.5), transparent 70%);z-index:-1}
+
+/* parafusos dos painéis */
+.screw{position:absolute;width:9px;height:9px;border-radius:50%;pointer-events:none;
+  background:radial-gradient(circle at 34% 30%, #C8B58C, #7E6C45 55%, #2B2211 100%);
+  box-shadow:0 1px 1px rgba(0,0,0,.8), inset 0 1px 0 rgba(255,244,210,.4)}
+.screw::after{content:"";position:absolute;left:1px;right:1px;top:50%;height:1.5px;
+  background:rgba(0,0,0,.75);transform:translateY(-50%);box-shadow:0 1px 0 rgba(255,236,190,.25)}
+
+/* ---------- CABEÇA DA PLAQUETA ---------- */
+.taghead{position:relative;padding:18px 34px 16px;display:flex;align-items:center;gap:20px;
+  border-bottom:1px solid rgba(0,0,0,.55);box-shadow:0 1px 0 var(--lip)}
+.hole{position:relative;width:28px;height:28px;border-radius:50%;flex:none;
+  background:radial-gradient(circle at 50% 62%, #040302 52%, #1E1408 100%);
+  box-shadow:inset 0 4px 6px rgba(0,0,0,.95), inset 0 -1px 0 rgba(255,236,190,.14),
+    0 1px 0 rgba(255,236,190,.3), 0 0 0 5px rgba(126,90,42,.55), 0 0 0 6px rgba(0,0,0,.55);}
+/* desgaste de corrente puxando pra cima */
+.hole::before{content:"";position:absolute;left:6px;right:6px;top:-9px;height:14px;border-radius:50%;
+  background:radial-gradient(ellipse at 50% 100%, rgba(250,232,190,.4), transparent 72%)}
+.headline{flex:1;min-width:0}
+.serialstrip{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.18em;
+  text-transform:uppercase;color:#8E7B58;white-space:nowrap}
+.punch span{display:inline-block;color:#1E1408;
+  text-shadow:0 1px 0 rgba(250,232,190,.32), 0 -1px 1px rgba(0,0,0,.6)}
+
+/* ---------- EDIÇÃO ---------- */
+[data-edit]{outline:none;border-radius:2px}
+body.editing [data-edit]{box-shadow:inset 0 -1px 0 rgba(201,149,66,.45);cursor:text}
+body.editing [data-edit]:hover{background:rgba(201,149,66,.08)}
+[data-edit]:focus{background:rgba(201,149,66,.14)!important;box-shadow:inset 0 -1px 0 var(--brass)!important}
+[data-edit]:empty::before{content:attr(data-ph);color:#6A5F4E;font-style:italic}
+.only-edit{display:none}
+body.editing .only-edit{display:inline-flex}
+body.editing .only-edit.block{display:block}
+
+/* ---------- CABEÇALHO ---------- */
+header{padding:26px 34px 28px;display:grid;grid-template-columns:1fr auto;gap:26px;align-items:start}
+.eyebrow{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.26em;
+  text-transform:uppercase;color:#A87C36;margin-bottom:15px;text-shadow:0 1px 0 rgba(0,0,0,.85)}
+
+/* bronze engastado no rebaixo */
+.bronze{
+  background:linear-gradient(177deg,#F6DCA1 0%,#DCB160 22%,#9A7429 48%,#6E4F19 57%,#C99542 78%,#F2D693 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:
+    drop-shadow(-1px -1px 0 rgba(0,0,0,.95))
+    drop-shadow(-3px -2px 3px rgba(0,0,0,.6))
+    drop-shadow(1px 1px 0 rgba(255,242,205,.24))
+    drop-shadow(0 4px 6px rgba(0,0,0,.55));}
+h1{font-family:'Big Shoulders Display',Impact,sans-serif;font-weight:900;
+  font-size:clamp(44px,8.4vw,86px);line-height:.84;text-transform:uppercase}
+.epithet{font-style:italic;font-size:18px;color:#DDB367;margin-top:14px;
+  text-shadow:0 1px 0 rgba(0,0,0,.8)}
+
+/* carimbo de tinta */
+.stamp{text-align:right;padding-top:2px}
+.owned{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.16em;
+  color:#8E7B58;text-decoration:line-through;text-decoration-color:#9C4826;
+  text-decoration-thickness:2px;white-space:nowrap;text-shadow:0 1px 0 rgba(0,0,0,.85)}
+.free{display:inline-block;margin-top:12px;transform:rotate(-6.5deg);
+  font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:32px;
+  letter-spacing:.18em;color:#B4562C;border:3px solid #A34D28;border-radius:2px;
+  padding:3px 15px 1px;filter:url(#f-ink);opacity:.92;mix-blend-mode:hard-light}
+body.editing .free{filter:none}
+
+/* ---------- MÓDULOS PARAFUSADOS ---------- */
+.deck{padding:0 26px 26px;display:grid;gap:18px;
+  grid-template-columns:minmax(0,318px) minmax(0,1fr)}
+.mod{position:relative;padding:22px 24px 24px;border-radius:2px;
+  background:
+    linear-gradient(178deg, rgba(255,236,190,.05), transparent 30%),
+    linear-gradient(180deg,#463620 0%,#382C19 55%,#2C2213 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255,244,210,.20),
+    inset 0 -2px 2px rgba(0,0,0,.6),
+    inset 2px 0 4px rgba(0,0,0,.3),
+    inset -2px 0 4px rgba(0,0,0,.3),
+    0 3px 7px rgba(0,0,0,.65),
+    0 1px 0 rgba(255,236,190,.06);}
+.mod.tall{grid-row:span 2}
+.mod .screw:nth-of-type(1){left:8px;top:8px}
+.mod .screw:nth-of-type(2){right:8px;top:8px}
+.mod .screw:nth-of-type(3){left:8px;bottom:8px}
+.mod .screw:nth-of-type(4){right:8px;bottom:8px}
+.stack{display:grid;gap:18px;align-content:start}
+
+h2{font-family:'Space Mono',monospace;font-size:10px;font-weight:700;letter-spacing:.28em;
+  text-transform:uppercase;color:#C08B39;margin-bottom:18px;display:flex;align-items:center;gap:10px;
+  text-shadow:0 1px 0 rgba(0,0,0,.9)}
+h2::after{content:"";flex:1;height:2px;
+  background:linear-gradient(180deg, rgba(0,0,0,.6) 0 1px, rgba(255,236,190,.10) 1px 2px)}
+
+/* meta em tira estampada */
+.meta{display:flex;flex-wrap:wrap;margin:0 26px 20px;border-radius:2px;
+  background:linear-gradient(180deg,#241B0E,#2E2413);
+  box-shadow:inset 0 2px 5px rgba(0,0,0,.8), 0 1px 0 rgba(255,236,190,.12)}
+.meta div{flex:1 1 180px;padding:13px 20px;border-right:1px solid rgba(0,0,0,.5);
+  box-shadow:1px 0 0 rgba(255,236,190,.07)}
+.meta div:last-child{border-right:none;box-shadow:none}
+.meta dt{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.2em;
+  text-transform:uppercase;color:#A87C36;display:block;margin-bottom:5px}
+.meta dd{font-size:15px;text-shadow:0 1px 0 rgba(0,0,0,.7)}
+
+/* atributos */
+.attr{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.attr-name{font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:19px;
+  letter-spacing:.09em;text-transform:uppercase;width:94px;flex:none;
+  text-shadow:0 1px 0 rgba(0,0,0,.85)}
+.bars{display:flex;gap:4px;flex:1}
+.bars i{flex:1;height:15px;border-radius:1px;
+  background:linear-gradient(180deg,#0E0904,#221809);
+  box-shadow:inset 0 2px 4px rgba(0,0,0,.95), inset 0 -1px 0 rgba(255,236,190,.09), 0 1px 0 rgba(255,236,190,.10)}
+.bars i.on{background:linear-gradient(180deg,#FAE1A4 0%,#D2A44F 40%,#A97B2E 70%,#7A5A20 100%);
+  box-shadow:inset 0 1px 0 rgba(255,250,228,.85), inset 0 -2px 3px rgba(0,0,0,.5),
+    0 0 12px rgba(201,149,66,.38), 0 1px 0 rgba(0,0,0,.6)}
+body.editing .bars{cursor:pointer}
+.attr-val{font-family:'Space Mono',monospace;font-size:14px;font-weight:700;color:var(--brass);
+  width:26px;text-align:right;flex:none;text-shadow:0 1px 0 rgba(0,0,0,.9)}
+
+/* fôlego */
+.folego-top{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px}
+.folego-count{font-family:'Space Mono',monospace;font-size:22px;font-weight:700;
+  text-shadow:0 1px 0 rgba(0,0,0,.8)}
+.folego-count small{color:var(--ash);font-size:13px}
+.pips{display:flex;gap:8px;flex-wrap:wrap}
+.pip{width:32px;height:32px;border-radius:50%;flex:none;cursor:pointer;padding:0;border:none;
+  background:radial-gradient(circle at 33% 26%, #FFF0C8 0%, #E7BC72 28%, #B0822F 62%, #5E4110 100%);
+  box-shadow:inset 0 -3px 5px rgba(0,0,0,.55), inset 0 3px 3px rgba(255,250,228,.6),
+    0 2px 4px rgba(0,0,0,.75), 0 0 14px rgba(201,149,66,.32);
+  transition:background .12s, box-shadow .12s, transform .08s}
+.pip.spent{background:radial-gradient(circle at 50% 60%, #070502 42%, #1E1508 100%);
+  box-shadow:inset 0 4px 7px rgba(0,0,0,.98), inset 0 -1px 0 rgba(255,236,190,.12), 0 1px 0 rgba(255,236,190,.14)}
+.pip:active{transform:scale(.92)}
+.pip:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
+.hint{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.14em;
+  text-transform:uppercase;color:#6A5F4E;margin-top:14px}
+.broken{margin-top:15px;padding:9px 12px;border-left:3px solid var(--rust);
+  background:rgba(166,82,42,.18);color:#EBAE8B;font-family:'Space Mono',monospace;
+  font-size:10px;letter-spacing:.1em;text-transform:uppercase;display:none;
+  box-shadow:inset 0 1px 4px rgba(0,0,0,.6)}
+.broken.on{display:block}
+
+/* habilidades — chapinhas rebaixadas */
+.skill{position:relative;padding:18px 20px;margin-bottom:15px;border-radius:2px;
+  background:linear-gradient(180deg,#1E1609,#2A2011);
+  box-shadow:inset 0 3px 7px rgba(0,0,0,.8), inset 0 -1px 0 rgba(255,236,190,.10),
+    0 1px 0 rgba(255,236,190,.10)}
+.skill:last-of-type{margin-bottom:0}
+.tag{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.2em;text-transform:uppercase;
+  padding:2px 8px;border:1px solid currentColor;color:#A08F6E;border-radius:1px}
+.tag.act{color:#B4562C}
+.skill-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+.skill h3{font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:26px;
+  letter-spacing:.05em;text-transform:uppercase;flex:1;min-width:140px;color:#F0E4CB;
+  text-shadow:0 1px 0 rgba(0,0,0,.9), 0 -1px 0 rgba(255,236,190,.10)}
+.skill p{font-size:15px;line-height:1.62;color:#C6B99F}
+.used{display:inline-flex;align-items:center;gap:8px;margin-top:14px;cursor:pointer;
+  font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.15em;
+  text-transform:uppercase;color:#6A5F4E;user-select:none}
+.used input{appearance:none;width:15px;height:15px;border:none;background:#0E0904;cursor:pointer;
+  position:relative;box-shadow:inset 0 2px 4px rgba(0,0,0,.9), 0 1px 0 rgba(255,236,190,.14)}
+.used input:checked{background:#9C4826;box-shadow:inset 0 1px 3px rgba(0,0,0,.6)}
+.used input:checked::after{content:"×";position:absolute;inset:0;color:#F6E3C6;
+  font-size:14px;line-height:13px;text-align:center}
+.used input:checked ~ span{color:#C2603A}
+.del{background:none;border:1px solid rgba(166,82,42,.55);color:#B4562C;cursor:pointer;
+  font-family:'Space Mono',monospace;font-size:13px;line-height:1;width:22px;height:22px;
+  flex:none;align-items:center;justify-content:center;padding:0}
+.del:hover{background:#9C4826;color:#fff}
+.skill .del{position:absolute;top:14px;right:14px}
+.add{margin-top:15px}
+
+/* equipamento */
+.gear{list-style:none}
+.gear li.item{border-top:1px solid rgba(0,0,0,.55);box-shadow:0 -1px 0 rgba(255,236,190,.07)}
+.gear li.item:first-child{border-top:none;box-shadow:none}
+.gear .row{display:flex;align-items:center;gap:12px;padding:12px 2px;cursor:pointer}
+.gear .row:hover{background:rgba(201,149,66,.06)}
+.gear .row::before{content:"";width:8px;height:8px;flex:none;transform:rotate(45deg);
+  background:linear-gradient(135deg,#E7BC72,#7A5A20);
+  box-shadow:0 1px 1px rgba(0,0,0,.8), inset 0 1px 0 rgba(255,250,228,.5)}
+.gear .nm{font-size:15px;color:#D6CAB1;flex:1;min-width:60px;text-shadow:0 1px 0 rgba(0,0,0,.7)}
+.gear .lbl{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.1em;
+  color:#A87C36;text-align:right;white-space:nowrap}
+.chev{color:#6A5F4E;font-size:11px;flex:none;transition:transform .15s}
+.item.open .chev{transform:rotate(90deg)}
+.desc{display:none;padding:2px 4px 15px 26px;font-size:14px;line-height:1.66;color:#9E927B;
+  border-left:2px solid rgba(201,149,66,.32);margin-left:4px}
+.item.open .desc{display:block}
+.item.open .row{background:rgba(201,149,66,.07)}
+
+/* anexo + rodapé */
+.annex{margin:0 26px 20px;padding:24px 26px 26px;border-radius:2px;
+  background:linear-gradient(180deg,#1B1408,#241B0D);
+  box-shadow:inset 0 3px 8px rgba(0,0,0,.85), 0 1px 0 rgba(255,236,190,.10)}
+.annex h2{color:#8A7A5C}
+.annex .text{columns:2;column-gap:34px;font-size:13.5px;line-height:1.74;color:#9E927B}
+.annex .text p{margin-bottom:9px;break-inside:avoid}
+footer{padding:0 34px 30px;display:flex;gap:26px;align-items:flex-end;justify-content:space-between}
+.play{font-style:italic;font-size:14px;color:#9E927B;line-height:1.6;max-width:70ch}
+.play b{font-style:normal;font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.2em;
+  text-transform:uppercase;color:#A87C36;display:block;margin-bottom:7px}
+.maker{flex:none;text-align:right;opacity:.75}
+.maker svg{display:block;margin-left:auto}
+.maker .cap{font-family:'Space Mono',monospace;font-size:8px;letter-spacing:.22em;
+  text-transform:uppercase;color:#7A6B50;margin-top:7px}
+
+@media (max-width:820px){
+  body{padding:0 8px 44px}
+  .plate{clip-path:polygon(16px 0,calc(100% - 16px) 0,100% 16px,100% calc(100% - 16px),
+    calc(100% - 16px) 100%,16px 100%,0 calc(100% - 16px),0 16px)}
+  .groove{inset:9px}
+  header{grid-template-columns:1fr;padding:22px 20px 24px}
+  .stamp{text-align:left}
+  .taghead{padding:16px 20px 14px}
+  .deck{grid-template-columns:1fr;padding:0 14px 18px}
+  .mod.tall{grid-row:auto}
+  .meta{margin:0 14px 18px}
+  .annex{margin:0 14px 18px}
+  footer{flex-direction:column;align-items:flex-start;padding:0 20px 26px}
+  .maker{text-align:left}.maker svg{margin-left:0}
+  .annex .text{columns:1}
+  .rivet{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media print{
+  body{background:#fff;color:#000;padding:0}
+  .bar,.hint,.del,.add,.chev,.lay,.rivet,.screw,.groove{display:none!important}
+  .plate{background:#fff;clip-path:none}
+  .plate::after{display:none}
+  .bronze{-webkit-text-fill-color:#000;color:#000;filter:none}
+  .free{filter:none}
+  .mod,.skill,.annex,.meta{box-shadow:none;background:#fff;border:1px solid #bbb}
+  .desc{display:block!important}
+  *{print-color-adjust:exact;-webkit-print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <filter id="f-brush" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.82 0.011" numOctaves="4" seed="17" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope=".58"/></feComponentTransfer>
+  </filter>
+  <filter id="f-pit" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="5" seed="41" result="n"/>
+    <feDiffuseLighting in="n" lighting-color="#fff" surfaceScale="2.8" diffuseConstant="1.05">
+      <feDistantLight azimuth="228" elevation="50"/>
+    </feDiffuseLighting>
+  </filter>
+  <filter id="f-rust" x="-60%" y="-60%" width="220%" height="220%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.017" numOctaves="5" seed="7" result="warp"/>
+    <feDisplacementMap in="SourceGraphic" in2="warp" scale="95" result="blob"/>
+    <feTurbulence type="fractalNoise" baseFrequency="0.4" numOctaves="5" seed="23" result="grit"/>
+    <feColorMatrix in="grit" type="matrix" result="gritA"
+      values="0 0 0 0 0.40  0 0 0 0 0.16  0 0 0 0 0.05  0 0 0 1.15 -0.18"/>
+    <feComposite in="gritA" in2="blob" operator="in" result="gritIn"/>
+    <feMerge><feMergeNode in="blob"/><feMergeNode in="gritIn"/></feMerge>
+  </filter>
+  <filter id="f-grime" x="-40%" y="-40%" width="180%" height="180%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="4" seed="88" result="w"/>
+    <feDisplacementMap in="SourceGraphic" in2="w" scale="55"/>
+    <feGaussianBlur stdDeviation="9"/>
+  </filter>
+  <filter id="f-ink" x="-14%" y="-30%" width="128%" height="160%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.42" numOctaves="4" seed="31" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="4.5" xChannelSelector="R" yChannelSelector="G" result="d"/>
+    <feComponentTransfer in="d"><feFuncA type="discrete" tableValues="0 .35 .7 .9 1 1 .85 1"/></feComponentTransfer>
+  </filter>
+  <radialGradient id="g-rust"><stop offset="0%" stop-color="#BE6531"/><stop offset="52%" stop-color="#8C4520"/><stop offset="100%" stop-color="#432009" stop-opacity=".15"/></radialGradient>
+  <radialGradient id="g-grime"><stop offset="0%" stop-color="#120C05"/><stop offset="100%" stop-color="#120C05" stop-opacity="0"/></radialGradient>
+  <radialGradient id="g-polish"><stop offset="0%" stop-color="#FFF3D6" stop-opacity=".55"/><stop offset="100%" stop-color="#FFF3D6" stop-opacity="0"/></radialGradient>
+</defs></svg>
+
+<div class="bar">
+  <button class="btn" id="toggleEdit">Modo edição</button>
+  <button class="btn" id="save">Baixar cópia</button>
+  <button class="btn" id="print">Imprimir</button>
+  <span class="note" id="status">Pronta para jogar</span>
+</div>
+
+<div class="shell">
+<div class="plate" id="sheet">
+  <svg class="lay lay-brush" preserveAspectRatio="none" aria-hidden="true"><rect width="100%" height="100%" filter="url(#f-brush)"/></svg>
+  <svg class="lay lay-pit" preserveAspectRatio="none" aria-hidden="true"><rect width="100%" height="100%" filter="url(#f-pit)"/></svg>
+
+  <svg class="lay lay-rust" preserveAspectRatio="none" viewBox="0 0 980 1700" aria-hidden="true">
+    <g filter="url(#f-rust)" fill="url(#g-rust)">
+      <ellipse cx="22" cy="150" rx="30" ry="84" opacity=".85"/>
+      <ellipse cx="958" cy="520" rx="26" ry="66" opacity=".72"/>
+      <ellipse cx="18" cy="980" rx="28" ry="96" opacity=".78"/>
+      <ellipse cx="962" cy="1330" rx="24" ry="76" opacity=".66"/>
+      <ellipse cx="490" cy="14" rx="170" ry="14" opacity=".5"/>
+      <ellipse cx="700" cy="1688" rx="200" ry="16" opacity=".46"/>
+      <ellipse cx="26" cy="26" rx="30" ry="30" opacity=".7"/>
+      <ellipse cx="954" cy="1674" rx="28" ry="28" opacity=".6"/>
+      <ellipse cx="118" cy="66" rx="16" ry="16" opacity=".5"/>
+      <ellipse cx="845" cy="905" rx="13" ry="13" opacity=".45"/>
+    </g>
+  </svg>
+
+  <!-- sujeira acumulada nos cantos e nas juntas -->
+  <svg class="lay lay-grime" preserveAspectRatio="none" viewBox="0 0 980 1700" aria-hidden="true">
+    <g filter="url(#f-grime)" fill="url(#g-grime)">
+      <ellipse cx="10" cy="20" rx="150" ry="140" opacity=".8"/>
+      <ellipse cx="970" cy="24" rx="140" ry="130" opacity=".7"/>
+      <ellipse cx="14" cy="1680" rx="160" ry="150" opacity=".75"/>
+      <ellipse cx="966" cy="1676" rx="150" ry="140" opacity=".8"/>
+      <ellipse cx="490" cy="1698" rx="420" ry="70" opacity=".5"/>
+      <ellipse cx="490" cy="2" rx="380" ry="55" opacity=".45"/>
+    </g>
+  </svg>
+
+  <!-- polimento onde a mão pega -->
+  <svg class="lay lay-polish" preserveAspectRatio="none" viewBox="0 0 980 1700" aria-hidden="true">
+    <ellipse cx="880" cy="1600" rx="150" ry="90" fill="url(#g-polish)"/>
+    <ellipse cx="120" cy="60" rx="130" ry="60" fill="url(#g-polish)" opacity=".8"/>
+    <ellipse cx="490" cy="300" rx="330" ry="120" fill="url(#g-polish)" opacity=".35"/>
+  </svg>
+
+  <!-- amassado e sulco de golpe -->
+  <svg class="lay lay-gouge" preserveAspectRatio="none" viewBox="0 0 980 1700" aria-hidden="true">
+    <g stroke-linecap="round" fill="none">
+      <path d="M612 96 L742 176" stroke="rgba(0,0,0,.55)" stroke-width="3.5"/>
+      <path d="M613 93 L743 173" stroke="rgba(255,244,210,.30)" stroke-width="1.6"/>
+      <path d="M96 1268 L188 1236" stroke="rgba(0,0,0,.45)" stroke-width="2.6"/>
+      <path d="M97 1265 L189 1233" stroke="rgba(255,244,210,.22)" stroke-width="1.2"/>
+      <ellipse cx="806" cy="1102" rx="26" ry="17" fill="rgba(0,0,0,.28)"/>
+      <ellipse cx="806" cy="1096" rx="22" ry="12" fill="rgba(255,244,210,.14)"/>
+    </g>
+  </svg>
+
+  <div class="groove" aria-hidden="true"></div>
+  <div class="rivet" style="left:16px;top:34px"></div>
+  <div class="rivet" style="right:16px;top:34px"></div>
+  <div class="rivet" style="left:16px;bottom:34px"></div>
+  <div class="rivet" style="right:16px;bottom:34px"></div>
+
+  <div class="content">
+
+    <div class="taghead">
+      <div class="hole" aria-hidden="true"></div>
+      <div class="headline">
+        <div class="serialstrip punch" data-edit data-ph="registro">SOC. EXP. · LOTE VII · REG. 4471-B · FUNDIDO EM PEDRA NEGRA</div>
+      </div>
+    </div>
+
+    <header>
+      <div>
+        <div class="eyebrow" data-edit data-ph="organização">Sociedade Expedicionária · Registro de Pessoal</div>
+        <h1 class="bronze" data-edit data-ph="nome">Anão Combatente</h1>
+        <div class="epithet" data-edit data-ph="epíteto">O Escravo da Expedição</div>
+      </div>
+      <div class="stamp">
+        <div class="owned" data-edit data-ph="propriedade">Propriedade nº 4471-B</div>
+        <div class="free" data-edit data-ph="carimbo">Livre</div>
+      </div>
+    </header>
+
+    <dl class="meta">
+      <div><dt data-edit>Raça</dt><dd data-edit data-ph="—">Anão</dd></div>
+      <div><dt data-edit>Arquétipo</dt><dd data-edit data-ph="—">Combatente</dd></div>
+      <div><dt data-edit>Experiência</dt><dd data-edit data-ph="—">Expedições · Combate · Sobrevivência</dd></div>
+    </dl>
+
+    <div class="deck">
+      <div class="stack">
+        <div class="mod">
+          <i class="screw"></i><i class="screw"></i><i class="screw"></i><i class="screw"></i>
+          <h2>Atributos</h2>
+          <div id="attrs">
+            <div class="attr"><span class="attr-name" data-edit>Vigor</span><span class="bars" data-v="2"></span><span class="attr-val"></span></div>
+            <div class="attr"><span class="attr-name" data-edit>Agilidade</span><span class="bars" data-v="1"></span><span class="attr-val"></span></div>
+            <div class="attr"><span class="attr-name" data-edit>Intelecto</span><span class="bars" data-v="1"></span><span class="attr-val"></span></div>
+            <div class="attr"><span class="attr-name" data-edit>Percepção</span><span class="bars" data-v="1"></span><span class="attr-val"></span></div>
+            <div class="attr"><span class="attr-name" data-edit>Vontade</span><span class="bars" data-v="2"></span><span class="attr-val"></span></div>
+          </div>
+          <div class="hint only-edit block">Clique nas barras para ajustar</div>
+        </div>
+
+        <div class="mod">
+          <i class="screw"></i><i class="screw"></i><i class="screw"></i><i class="screw"></i>
+          <div class="folego-top">
+            <h2 style="margin:0">Fôlego</h2>
+            <span class="folego-count"><span id="cur">8</span><small> / <span id="max" data-edit data-ph="8">8</span></small></span>
+          </div>
+          <div class="pips" id="pips"></div>
+          <div class="broken" id="broken">Quebrado — sem Defesa, sem ações de Fôlego</div>
+          <div class="hint">Toque nos pontos para gastar</div>
+          <button class="btn" id="reset" style="margin-top:12px">Restaurar fôlego</button>
+        </div>
+      </div>
+
+      <div class="stack">
+        <div class="mod">
+          <i class="screw"></i><i class="screw"></i><i class="screw"></i><i class="screw"></i>
+          <h2>Habilidades</h2>
+          <div id="skills">
+            <article class="skill">
+              <div class="skill-head">
+                <span class="tag" data-edit data-ph="tipo">Passiva</span>
+                <h3 data-edit data-ph="nome da habilidade">Veterano de Expedição</h3>
+              </div>
+              <p data-edit data-ph="o que ela faz">Experiência prática em viagens, acampamentos e exploração de ruínas. Recebe benefício ao avaliar riscos de uma expedição, preparar acampamento ou lidar com equipamentos de exploração.</p>
+              <button class="del only-edit" title="Remover">×</button>
+            </article>
+            <article class="skill">
+              <div class="skill-head">
+                <span class="tag act" data-edit data-ph="tipo">Utilizável · 1× por combate</span>
+                <h3 data-edit data-ph="nome da habilidade">Aguentar o Tranco</h3>
+              </div>
+              <p data-edit data-ph="o que ela faz">Ao receber um Ferimento, pode Forçar o Ferimento sem pagar a Exaustão normalmente exigida.</p>
+              <label class="used"><input type="checkbox"><span>Usado neste combate</span></label>
+              <button class="del only-edit" title="Remover">×</button>
+            </article>
+          </div>
+          <button class="btn add only-edit" id="addSkill">+ Habilidade</button>
+        </div>
+
+        <div class="mod">
+          <i class="screw"></i><i class="screw"></i><i class="screw"></i><i class="screw"></i>
+          <h2>Equipamento</h2>
+          <ul class="gear" id="gear">
+            <li class="item"><div class="row"><span class="nm" data-edit data-ph="item">Machado de uma mão</span><span class="lbl" data-edit data-ph="etiqueta">Peso 1 · corte</span><span class="chev">▸</span><button class="del only-edit" title="Remover">×</button></div><div class="desc" data-edit data-ph="dano, alcance, observações…">Machado de trabalho reaproveitado. Uma mão, permite escudo ou tocha na outra.</div></li>
+            <li class="item"><div class="row"><span class="nm" data-edit data-ph="item">Armadura de expedição pesada</span><span class="lbl" data-edit data-ph="etiqueta">Aparo 3 · Peso 2</span><span class="chev">▸</span><button class="del only-edit" title="Remover">×</button></div><div class="desc" data-edit data-ph="dano, alcance, observações…">Placas sobre couro grosso. Reduz a recuperação de Fôlego em 2. Precisa de reparo depois de gastar o Aparo.</div></li>
+            <li class="item"><div class="row"><span class="nm" data-edit data-ph="item">Mochila de expedição</span><span class="lbl" data-edit data-ph="etiqueta"></span><span class="chev">▸</span><button class="del only-edit" title="Remover">×</button></div><div class="desc" data-edit data-ph="dano, alcance, observações…"></div></li>
+            <li class="item"><div class="row"><span class="nm" data-edit data-ph="item">Corda</span><span class="lbl" data-edit data-ph="etiqueta">15 m</span><span class="chev">▸</span><button class="del only-edit" title="Remover">×</button></div><div class="desc" data-edit data-ph="dano, alcance, observações…"></div></li>
+            <li class="item"><div class="row"><span class="nm" data-edit data-ph="item">Cantil</span><span class="lbl" data-edit data-ph="etiqueta"></span><span class="chev">▸</span><button class="del only-edit" title="Remover">×</button></div><div class="desc" data-edit data-ph="dano, alcance, observações…"></div></li>
+            <li class="item"><div class="row"><span class="nm" data-edit data-ph="item">Lanterna</span><span class="lbl" data-edit data-ph="etiqueta">a óleo</span><span class="chev">▸</span><button class="del only-edit" title="Remover">×</button></div><div class="desc" data-edit data-ph="dano, alcance, observações…"></div></li>
+            <li class="item"><div class="row"><span class="nm" data-edit data-ph="item">Pederneira</span><span class="lbl" data-edit data-ph="etiqueta"></span><span class="chev">▸</span><button class="del only-edit" title="Remover">×</button></div><div class="desc" data-edit data-ph="dano, alcance, observações…"></div></li>
+            <li class="item"><div class="row"><span class="nm" data-edit data-ph="item">Ferramentas básicas</span><span class="lbl" data-edit data-ph="etiqueta"></span><span class="chev">▸</span><button class="del only-edit" title="Remover">×</button></div><div class="desc" data-edit data-ph="dano, alcance, observações…"></div></li>
+            <li class="item"><div class="row"><span class="nm" data-edit data-ph="item">Kit de manutenção</span><span class="lbl" data-edit data-ph="etiqueta"></span><span class="chev">▸</span><button class="del only-edit" title="Remover">×</button></div><div class="desc" data-edit data-ph="dano, alcance, observações…">Usado para reparar armaduras e armas fora de combate.</div></li>
+          </ul>
+          <button class="btn add only-edit" id="addGear">+ Equipamento</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="annex">
+      <h2>Registro — anexo</h2>
+      <div class="text" data-edit data-ph="história do personagem">
+        <p>Vendido pelos próprios pais ainda criança. A família era miserável e acreditava que, dentro de uma casa nobre, ele teria ao menos comida e abrigo.</p>
+        <p>Cresceu como criado de uma família aristocrática, mas teve acesso a uma educação incomum para alguém em sua condição. O patriarca era membro da Sociedade Expedicionária e, quando o anão cresceu, passou a levá-lo como auxiliar.</p>
+        <p>Aprendeu a manejar armas, cuidar de equipamentos, sobreviver fora das cidades e lidar com ruínas antigas. Continuava sendo escravo.</p>
+        <p>Anos depois, uma expedição mal planejada matou toda a equipe. Ele sobreviveu e, em vez de retornar, fugiu. Agora é livre — e pretende continuar assim.</p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="play">
+        <b>Estilo de jogo</b>
+        <span data-edit data-ph="como o personagem joga">Combatente resistente e experiente, capaz de proteger o grupo e conduzir a exploração. Vale mais em expedições longas do que em brigas curtas, e não se intimida com as dificuldades físicas de uma jornada.</span>
+      </div>
+      <div class="maker">
+        <svg width="46" height="40" viewBox="0 0 46 40" aria-hidden="true">
+          <g fill="none" stroke="#8A6526" stroke-width="2.2" stroke-linejoin="round">
+            <path d="M6 30 h34 l-5 7 H11 Z"/>
+            <path d="M12 30 v-8 h6 l4-6 h10 l3 6 h5 v8"/>
+            <path d="M22 16 v-8"/>
+          </g>
+        </svg>
+        <div class="cap">Pedra Negra</div>
+      </div>
+    </footer>
+  </div>
+</div>
+</div>
+
+<script>
+(function(){
+  var editing=false, cur=8;
+  var $=function(s){return document.querySelector(s)};
+  var status=$('#status');
+  function rng(seed){var s=seed;return function(){s=(s*1103515245+12345)&0x7fffffff;return s/0x7fffffff}}
+
+  /* ---- letras batidas a punção: cada caractere sai um pouco torto ---- */
+  function punch(el,seed){
+    var raw = el.dataset.raw !== undefined ? el.dataset.raw : el.textContent;
+    el.dataset.raw = raw;
+    var r=rng(seed), out='';
+    for(var i=0;i<raw.length;i++){
+      var c=raw[i];
+      if(c===' '){out+=' ';continue}
+      var rot=(r()*3.4-1.7).toFixed(2), dy=(r()*2.2-1.1).toFixed(2), op=(.78+r()*.22).toFixed(2);
+      out+='<span style="transform:rotate('+rot+'deg) translateY('+dy+'px);opacity:'+op+'">'
+         + c.replace(/&/g,'&amp;').replace(/</g,'&lt;') + '</span>';
+    }
+    el.innerHTML=out;
+  }
+  function unpunch(el){ if(el.dataset.raw!==undefined) el.textContent=el.dataset.raw }
+
+  var punched=[{el:$('.serialstrip'),seed:73}];
+  function repunch(){ punched.forEach(function(p){ if(!editing) punch(p.el,p.seed) }) }
+
+  /* ---- parafusos com fenda em ângulos diferentes ---- */
+  (function(){
+    var r=rng(4211);
+    document.querySelectorAll('.screw').forEach(function(s){
+      s.style.setProperty('transform','rotate('+(r()*180).toFixed(1)+'deg)');
+    });
+  })();
+
+  /* ---- modo edição ---- */
+  function setEdit(on){
+    editing=on;
+    document.body.classList.toggle('editing',on);
+    $('#toggleEdit').classList.toggle('live',on);
+    document.querySelectorAll('[data-edit]').forEach(function(el){el.contentEditable=on?'true':'false'});
+    punched.forEach(function(p){ on ? unpunch(p.el) : punch(p.el,p.seed) });
+    status.textContent = on ? 'Editando — clique em qualquer texto' : 'Pronta para jogar';
+  }
+  $('#toggleEdit').addEventListener('click',function(){setEdit(!editing)});
+  punched.forEach(function(p){
+    p.el.addEventListener('blur',function(){ delete p.el.dataset.raw; if(!editing) punch(p.el,p.seed) });
+  });
+
+  /* ---- atributos ---- */
+  function paintAttrs(){
+    document.querySelectorAll('.bars').forEach(function(b){
+      var v=Math.max(0,Math.min(4,parseInt(b.dataset.v,10)||0));
+      b.innerHTML='';
+      for(var i=0;i<4;i++){var s=document.createElement('i');if(i<v)s.className='on';b.appendChild(s)}
+      b.parentNode.querySelector('.attr-val').textContent='+'+v;
+    });
+  }
+  $('#attrs').addEventListener('click',function(e){
+    if(!editing) return;
+    var bars=e.target.closest('.bars'); if(!bars) return;
+    var segs=[].slice.call(bars.children), i=segs.indexOf(e.target); if(i<0) return;
+    var v=parseInt(bars.dataset.v,10)||0;
+    bars.dataset.v=(v===i+1)?i:i+1;
+    paintAttrs();
+  });
+
+  /* ---- fôlego ---- */
+  var pips=$('#pips'), maxEl=$('#max');
+  function maxV(){return Math.max(1,Math.min(30,parseInt(maxEl.textContent,10)||1))}
+  function build(){
+    pips.innerHTML='';
+    var m=maxV(); if(cur>m) cur=m;
+    for(var i=0;i<m;i++){
+      var b=document.createElement('button');
+      b.type='button'; b.className='pip'+(i>=cur?' spent':'');
+      b.dataset.i=i; b.setAttribute('aria-label','Fôlego '+(i+1));
+      pips.appendChild(b);
+    }
+    $('#cur').textContent=cur;
+    $('#broken').classList.toggle('on',cur===0);
+  }
+  pips.addEventListener('click',function(e){
+    var p=e.target.closest('.pip'); if(!p) return;
+    var i=+p.dataset.i; cur=(i>=cur)?i+1:i; build();
+  });
+  maxEl.addEventListener('input',function(){cur=maxV();build()});
+  maxEl.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();this.blur()}});
+  $('#reset').addEventListener('click',function(){cur=maxV();build()});
+
+  /* ---- equipamento ---- */
+  var gear=$('#gear');
+  gear.addEventListener('click',function(e){
+    if(e.target.closest('.del')){e.target.closest('.item').remove();return}
+    if(e.target.closest('[data-edit]') && editing) return;
+    var row=e.target.closest('.row'); if(!row) return;
+    row.parentNode.classList.toggle('open');
+  });
+  $('#addGear').addEventListener('click',function(){
+    var li=document.createElement('li'); li.className='item open';
+    li.innerHTML='<div class="row"><span class="nm" data-edit data-ph="item"></span>'+
+      '<span class="lbl" data-edit data-ph="etiqueta"></span><span class="chev">▸</span>'+
+      '<button class="del only-edit" title="Remover">×</button></div>'+
+      '<div class="desc" data-edit data-ph="dano, alcance, observações…"></div>';
+    gear.appendChild(li);
+    li.querySelectorAll('[data-edit]').forEach(function(el){el.contentEditable='true'});
+    li.querySelector('.nm').focus();
+  });
+
+  /* ---- habilidades ---- */
+  var skills=$('#skills');
+  skills.addEventListener('click',function(e){
+    if(e.target.closest('.del')) e.target.closest('.skill').remove();
+  });
+  $('#addSkill').addEventListener('click',function(){
+    var a=document.createElement('article'); a.className='skill';
+    a.innerHTML='<div class="skill-head"><span class="tag" data-edit data-ph="tipo">Passiva</span>'+
+      '<h3 data-edit data-ph="nome da habilidade"></h3></div>'+
+      '<p data-edit data-ph="o que ela faz"></p>'+
+      '<button class="del only-edit" title="Remover">×</button>';
+    skills.appendChild(a);
+    a.querySelectorAll('[data-edit]').forEach(function(el){el.contentEditable='true'});
+    a.querySelector('h3').focus();
+  });
+
+  document.addEventListener('paste',function(e){
+    if(!e.target.closest || !e.target.closest('[data-edit]')) return;
+    e.preventDefault();
+    document.execCommand('insertText',false,(e.clipboardData||window.clipboardData).getData('text/plain'));
+  });
+
+  /* ---- baixar cópia ---- */
+  $('#save').addEventListener('click',function(){
+    var was=editing; setEdit(false);
+    document.querySelectorAll('.item.open').forEach(function(i){i.classList.remove('open')});
+    punched.forEach(function(p){ unpunch(p.el) });
+    var html='<!DOCTYPE html>\n'+document.documentElement.outerHTML;
+    repunch();
+    var nome=($('h1').textContent||'ficha').trim().toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+    var a=document.createElement('a');
+    a.href=URL.createObjectURL(new Blob([html],{type:'text/html'}));
+    a.download=(nome||'ficha')+'.html'; a.click();
+    setTimeout(function(){URL.revokeObjectURL(a.href)},1000);
+    if(was) setEdit(true);
+    status.textContent='Cópia baixada';
+    setTimeout(function(){status.textContent=editing?'Editando — clique em qualquer texto':'Pronta para jogar'},2500);
+  });
+  $('#print').addEventListener('click',function(){window.print()});
+
+  paintAttrs(); build(); setEdit(false);
+})();
+</script>
+</body>
+</html>

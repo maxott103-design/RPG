@@ -1,0 +1,748 @@
+[NOTA 28/08/2026 — este arquivo e transcricao bruta de chat, de julho/2026.
+Esta SUPERADO em tudo que envolva combate, Folego, Ferimentos, Exaustao e
+competencias. Fonte de verdade atual:
+  Regras/regras-partida-piloto.md  (regras, lado do mestre)
+  Regras/GUIA DO JOGADOR.txt       (versao para os jogadores)
+  Regras/competencias.md, Regras/habilidades.md
+Mantido so como registro de onde as ideias sairam.]
+
+domingo 15:30
+Regras gerais, aqui vamos discutir e desenvolver as regras gerais do jogo, como sistema de level UP, proficiências , classes raças etc
+
+Perfeito. Este chat fica dedicado às regras gerais e à estrutura mecânica central do sistema, enquanto o outro fica focado especificamente no combate.
+
+Podemos desenvolver aqui, por exemplo:
+
+Sistema de progressão: níveis, XP, marcos, avanço por experiência.
+Atributos e características: força, agilidade, intelecto etc.
+Perícias e proficiências: o que o personagem sabe fazer e como isso evolui.
+Classes, arquétipos ou profissões: se existirão classes rígidas ou uma construção mais livre.
+Raças/povos/linhagens: diferenças biológicas, culturais e mecânicas.
+Antecedentes e origens: profissão anterior, comunidade, passado.
+Talentos, vantagens e desvantagens.
+Equipamentos e recursos gerais.
+Saúde, ferimentos, morte e recuperação, quando não forem especificamente regras de combate.
+Testes e resolução de ações fora de combate.
+Exploração, viagens, descanso e sobrevivência.
+Economia e progressão material.
+Magia, tecnologia perdida, corrupção e outros sistemas especiais.
+
+A minha sugestão é mantermos uma separação conceitual clara:
+
+Regras gerais = o que define o personagem e resolve a maioria das situações do jogo.
+Regras de combate = o subsistema especializado para conflitos físicos e táticos.
+
+Também podemos usar este chat para consolidar decisões na forma de uma espécie de documento de regras canônicas, evitando que o sistema se torne um conjunto de ideias desconectadas.
+
+Como ponto de partida, eu recomendaria definir primeiro o esqueleto do personagem:
+
+Personagem → Atributos → Proficiências → Origem → Especialização/Classe → Equipamento → Progressão
+
+A partir disso, podemos decidir uma questão fundamental do sistema: o personagem será construído principalmente por classes, por uma combinação de classe e perícias, ou por um sistema totalmente modular sem classes?
+
+domingo 17:35
+Eu estava pensando entre fazer classes definidas ou um sistema de habilidades especiais que os players escolhem, tlvz cm uma árvore de progressão ,  na minha opinião o sistema de classes ajuda a direcionar os jogadores tanto no replay como no desenvolvimento do personagem, ajuda a não ter aquela sensação de ter tomado decisões erradas nos primeiros níveis, mas como desenvolvedor do jogo acho que é mais fácil fazer habilidades que os jogadores mesmo escolhem
+
+Eu acho que você identificou corretamente o principal conflito de design. Não é exatamente:
+
+Classes vs. habilidades escolhidas livremente
+
+Mas sim:
+
+Direcionamento e identidade do personagem vs. liberdade de construção e facilidade de desenvolvimento.
+
+Para o seu RPG, eu tenderia a recomendar um sistema híbrido.
+
+Minha sugestão: arquétipos + árvores de especialização
+
+O personagem teria três camadas:
+
+1. Base comum
+
+Todos os personagens possuem:
+
+Atributos;
+Perícias;
+Proficiências;
+Origem/antecedente;
+Equipamentos;
+Talvez alguma característica cultural ou de povo.
+
+Isso define quem o personagem é.
+
+2. Arquétipo ou vocação
+
+Em vez de uma classe extremamente rígida, o jogador escolhe uma direção ampla:
+
+Combatente
+Explorador
+Especialista
+Erudito
+Sobrevivente
+Místico, se fizer sentido para o cenário
+
+Isso dá ao jogador uma orientação inicial. Um jogador novo não precisa olhar para 200 habilidades e pensar:
+
+“Qual dessas escolhas é matematicamente melhor?”
+
+O arquétipo pode fornecer:
+
+Algumas proficiências iniciais;
+Uma habilidade inicial;
+Acesso preferencial a determinadas árvores;
+Uma recomendação de progressão.
+
+Mas não precisa impedir completamente outras escolhas.
+
+3. Árvores de especialização
+
+Dentro do arquétipo, o jogador escolhe uma direção.
+
+Por exemplo, um personagem focado em combate poderia seguir:
+
+COMBATENTE
+│
+├── Duelista
+│   ├── Precisão
+│   ├── Contra-ataque
+│   └── Mobilidade
+│
+├── Brutamontes
+│   ├── Força
+│   ├── Resistência
+│   └── Intimidação
+│
+└── Atirador
+    ├── Precisão
+    ├── Camuflagem
+    └── Preparação
+
+Mas o jogador poderia, por exemplo, começar como Combatente e depois adquirir algumas habilidades de Explorador.
+
+A vantagem dessa estrutura
+
+Você consegue os dois benefícios.
+
+Para o jogador
+
+Ele recebe uma direção clara:
+
+“Quero jogar de Atirador.”
+
+Isso já comunica uma fantasia de personagem.
+
+Mas ele ainda pode personalizar:
+
+“Quero um Atirador que também seja bom em sobrevivência e reconhecimento.”
+
+Assim, o jogador não sente que escolheu errado no nível 1.
+
+Para você como desenvolvedor
+
+Você não precisa criar e balancear dezenas de classes completas.
+
+Em vez de criar:
+
+Guerreiro;
+Bárbaro;
+Paladino;
+Ranger;
+Ladino;
+Caçador;
+Batedor;
+Mercenário;
+Duelista;
+
+Você pode criar:
+
+Uma base de habilidades de combate;
+Uma árvore de furtividade;
+Uma árvore de sobrevivência;
+Uma árvore de armas de fogo;
+Uma árvore de armas pesadas;
+Uma árvore de medicina;
+Uma árvore de tecnologia;
+Uma árvore de conhecimento.
+
+E os arquétipos apenas direcionam o acesso inicial a essas opções.
+
+Um cuidado importante: árvores de progressão podem virar classes disfarçadas
+
+Se o jogador precisa seguir obrigatoriamente:
+
+Habilidade A
+    ↓
+Habilidade B
+    ↓
+Habilidade C
+
+e só pode escolher entre três caminhos, então você basicamente criou uma classe com outro nome.
+
+Isso não é necessariamente ruim. Classes são, em essência, pacotes de progressão pré-organizados.
+
+A questão é quanto controle o jogador possui.
+
+Eu separaria as habilidades em três categorias:
+
+Habilidades gerais
+
+Qualquer personagem pode adquirir.
+
+Exemplo:
+
+Primeiros socorros;
+Escalada;
+Intuição;
+Negociação;
+Uso de ferramentas.
+Habilidades de especialização
+
+Exigem uma determinada proficiência ou pré-requisito.
+
+Exemplo:
+
+Tiro de Precisão
+Requer: Proficiência em armas de fogo.
+
+Tiro de Precisão Avançado
+Requer: Tiro de Precisão + determinado nível de proficiência.
+
+Habilidades exclusivas
+
+Criam identidade e são mais restritas.
+
+Exemplo:
+
+Mestre da Emboscada
+Apenas personagens que investiram na especialização de Batedor.
+
+É aí que você pode preservar a sensação de classe sem necessariamente ter classes rígidas.
+
+Um sistema que eu acho particularmente adequado ao seu RPG
+
+Eu faria algo assim:
+
+Origem
+
+Quem você era antes da aventura.
+
+Ferreiro, camponês, soldado, técnico, médico, contrabandista, sacerdote, acadêmico etc.
+
+Fornece:
+
+Proficiências;
+Conhecimentos;
+Equipamentos iniciais;
+Talvez uma habilidade.
+Vocação
+
+O que você se tornou.
+
+Combatente, Explorador, Especialista, Erudito etc.
+
+Fornece:
+
+Um conjunto de habilidades iniciais;
+Acesso a determinadas especializações.
+Especialização
+
+Como você atua dentro da vocação.
+
+Duelista, Atirador, Médico de Campo, Batedor, Engenheiro, Caçador etc.
+
+Fornece a árvore de habilidades.
+
+Isso permite combinações como:
+
+Origem: Ferreiro
+Vocação: Combatente
+Especialização: Atirador
+
+Ou:
+
+Origem: Técnico de uma cidade industrial
+Vocação: Explorador
+Especialização: Engenheiro de Campo
+
+Ou:
+
+Origem: Camponês
+Vocação: Sobrevivente
+Especialização: Caçador
+
+Esses personagens podem cumprir funções semelhantes, mas terão histórias e capacidades diferentes.
+
+A minha opinião é que classes definidas são melhores para criar identidade e direcionamento, enquanto árvores de habilidades são melhores para permitir variedade e reduzir o custo de desenvolvimento.
+
+Portanto, para o seu projeto, eu não escolheria um dos dois. Eu faria:
+
+classes/arquetipos leves que fornecem direção + habilidades escolhidas pelo jogador que fornecem personalização.
+
+Isso parece particularmente adequado ao seu cenário, porque um mundo pós-colapso não precisa necessariamente ter profissões perfeitamente organizadas como em um RPG de fantasia tradicional. Um personagem pode começar como camponês, tornar-se soldado, aprender a operar uma arma de fogo antiga e eventualmente virar um caçador de ruínas. A progressão pode refletir essa transformação.
+
+A próxima decisão importante, na minha opinião, é definir o que exatamente representa um “nível” no seu sistema. Isso vai determinar se as árvores de habilidades serão pequenas e significativas ou se o personagem estará constantemente comprando pequenas melhorias.
+
+Acho que agora consigo enxergar a identidade do sistema muito melhor. E, curiosamente, quanto mais você explica, menos ele me lembra D&D e mais ele me lembra algo entre Battle Brothers, Kenshi, Mount & Blade e um pouco de Project Zomboid, mas com combate de mesa. E isso é ótimo, porque dá uma identidade própria.
+
+Vou fazer uma sugestão que, sinceramente, acho que pode se tornar a característica mais marcante do seu RPG.
+
+Esqueça "árvores de classe".
+
+Pense em Escolas, Disciplinas ou Caminhos.
+
+Por exemplo, ninguém aprende "Ataque Furtivo".
+
+Ele aprende a lutar como um emboscador.
+
+Da mesma forma, ninguém aprende "Multiataque".
+
+Ele aprende a combater de forma agressiva e contínua.
+
+Exemplo
+Disciplina: Combate Brutal
+
+Representa pessoas acostumadas a brigas, guerra e violência.
+
+Briga de Rua
+        │
+        ├── Golpe Pesado
+        │         │
+        │         ├── Quebra-Guarda
+        │         │
+        │         └── Executor
+        │
+        └── Avanço Violento
+                  │
+                  └── Carniceiro
+
+Perceba que isso não pertence a uma classe.
+
+Pode ser aprendido por:
+
+um mineiro;
+um mercenário;
+um guarda;
+um açougueiro;
+um lenhador.
+
+Todos aprenderam a lutar de maneira semelhante.
+
+Outra disciplina
+Sobrevivente
+Vida Difícil
+       │
+       ├── Pulmões de Ferro
+       │
+       ├── Casca Grossa
+       │
+       ├── Estômago de Ferro
+       │
+       └── Último Esforço
+
+Tudo faz sentido narrativamente.
+
+Não é uma árvore de tanque.
+
+É uma árvore de alguém que viveu uma vida extremamente dura.
+
+Agora entra uma ideia que gostei muito quando você mencionou:
+
+Os pré-requisitos também precisam ser narrativos.
+
+Isso é fantástico.
+
+Ao invés de:
+
+Requer Agilidade 2.
+
+Você pode ter:
+
+Executor
+
+Requer:
+
+Golpe Pesado
+Ter causado um Ferimento Fatal em combate.
+Proficiência Profissional em armas pesadas.
+
+Ou:
+
+Engenheiro dos Antigos
+
+Requer:
+
+Engenharia +3
+Ter explorado uma Instalação Antiga.
+Possuir um artefato funcional.
+
+Ou:
+
+Caçador de Aberrações
+
+Requer:
+
+Sobrevivência +2
+Já ter derrotado uma criatura corrompida.
+
+Isso é MUITO mais interessante.
+
+Isso faz o mundo aparecer na ficha.
+
+Ao olhar um personagem, você vê:
+
+Veterano das Confederações
+Sobreviveu às Minas
+Engenheiro dos Antigos
+Caçador de Aberrações
+
+Você praticamente lê a biografia dele.
+
+Outra coisa.
+
+Eu abandonaria completamente nomes genéricos.
+
+Ao invés de
+
+Ataque Poderoso
+
+Use
+
+Golpe de Lenhador
+
+Ao invés de
+
+Ataque Furtivo
+
+Use
+
+Facada nas Costelas
+
+Ao invés de
+
+Cleave
+
+Use
+
+Abrir Caminho
+
+Ao invés de
+
+Defesa Total
+
+Use
+
+Guarda Alta
+
+Tudo soa mais físico.
+
+Mais "sujo".
+
+As árvores deveriam representar formas de sobreviver.
+
+Por exemplo.
+
+Disciplina do Lenhador
+
+Não significa que ele corta árvores.
+
+Significa que luta como alguém acostumado a manejar um machado pesado.
+
+Braços Fortes
+
+↓
+
+Golpe de Lenhador
+
+↓
+
+Rachar Escudos
+
+↓
+
+Madeira Verde
+
+↓
+
+Carrasco
+Disciplina do Caçador
+Paciência
+
+↓
+
+Rastreador
+
+↓
+
+Primeiro Disparo
+
+↓
+
+Golpe de Misericórdia
+
+↓
+
+Predador
+Disciplina do Brigão
+Nariz Quebrado
+
+↓
+
+Soco Baixo
+
+↓
+
+Joelhada
+
+↓
+
+Cabeçada
+
+↓
+
+Briga Suja
+
+Percebe?
+
+Nenhuma dessas é "classe".
+
+São formas de lutar.
+
+E eu iria além.
+
+As árvores não precisam ser só de combate.
+
+Medicina
+Primeiros Socorros
+
+↓
+
+Cirurgião de Campanha
+
+↓
+
+Anatomista
+
+↓
+
+Médico Militar
+
+↓
+
+Milagreiro
+Engenharia
+Mecânico
+
+↓
+
+Armeiro
+
+↓
+
+Engenheiro de Campo
+
+↓
+
+Especialista em Relíquias
+
+↓
+
+Arquiteto dos Antigos
+Acho que encontramos outra característica do sistema.
+
+As habilidades devem nascer de três fontes:
+
+Experiência de vida (antecedentes).
+Treinamento (competências).
+Experiências durante a campanha (pré-requisitos narrativos).
+
+Isso cria uma progressão muito orgânica. Um personagem não aprende "Caçador de Aberrações" porque subiu para o nível 7; ele aprende porque já enfrentou aberrações, sobreviveu e desenvolveu técnicas específicas para combatê-las.
+
+Minha proposta mais importante
+
+Eu deixaria de chamar essas árvores de árvores de habilidades.
+
+Chamaria de Disciplinas.
+
+Porque "árvore" descreve a estrutura, mas não existe dentro do mundo. Já "Disciplina" é algo que um personagem poderia reconhecer:
+
+"Ele segue a Disciplina do Caçador."
+
+"Ela domina a Disciplina do Engenheiro de Campo."
+
+"Aquele velho mercenário é praticante da Disciplina do Combate Brutal."
+
+Isso reforça a identidade do cenário e abre espaço para que algumas disciplinas tenham origem em culturas, organizações ou tradições específicas. Imagine encontrar um mestre que ensine apenas uma disciplina rara, ou descobrir uma técnica esquecida em uma instalação dos Antigos. A progressão deixa de ser apenas uma mecânica de nível e passa a fazer parte do mundo.
+
+hoje 13:01
+O nome disciplina não me agrada , mas esses arquétipos tbm não me agradam MT, vistos assim, o cara é disciplina do combate brutal parece uma coisa de Kung Fu misturado com esses cara que gosta de metal e criam micro gêneros não sei.
+Porém parte do conceito e interessante, um ferreiro que veio de uma cidade específica com uma guilda de ferreiros pode saber coisas que os outros não sabem, porém não quero enquadrar todas as habilidades em coisas assim
+
+Eu concordo com a sua crítica. Na verdade, enquanto eu escrevia, também fiquei com essa sensação. "Disciplina do Combate Brutal" soa muito como um RPG de fantasia oriental ou um ARPG, e não combina com o clima mais pé no chão que você está construindo.
+
+Acho que o erro está em tentar agrupar tudo em "árvores temáticas". Talvez o agrupamento nem deva existir dentro do mundo.
+
+Eu faria uma distinção entre duas coisas:
+1. Organização da ficha (para o jogador)
+
+O jogo pode agrupar habilidades em categorias apenas por organização:
+
+Combate
+Exploração
+Técnica
+Social
+Sobrevivência
+
+Isso é para facilitar a consulta.
+
+2. Origem da habilidade (no mundo)
+
+A habilidade pode ter uma origem narrativa, ou não.
+
+Por exemplo:
+
+Habilidade
+
+Facada nas Costelas
+
+Requisitos:
+
+Agilidade +2
+Facas +2
+
+Não precisa pertencer a nenhuma escola. É simplesmente uma técnica que qualquer pessoa experiente com facas pode desenvolver.
+
+Outra:
+
+Pulmões de Ferro
+
+Requisitos:
+
+Vigor +2
+
+Também não precisa de uma origem específica. É consequência de anos de esforço físico.
+
+Mas agora veja esta:
+
+Aço de Pedra Negra
+
+Requisitos:
+
+Ofícios Técnicos +3
+Ter pertencido à Guilda dos Ferreiros de Pedra Negra.
+
+Essa, sim, possui uma origem narrativa única.
+
+Então eu faria três tipos de requisitos.
+
+Requisitos mecânicos
+Competência
+Atributo
+Outra habilidade
+
+Exemplo:
+
+Medicina +2
+
+Requisitos narrativos
+Serviu nas Guerras das Confederações.
+Foi membro da Guilda dos Ferreiros.
+Explorou uma instalação antiga.
+Derrotou uma criatura corrompida.
+Possui uma relíquia dos Antigos.
+Requisitos de equipamento
+Escudo.
+Machado.
+Ferramentas de ferreiro.
+Armadura pesada.
+Arma de fogo.
+
+Isso abre muito espaço para design.
+
+Outra coisa que eu mudaria
+
+Eu não faria árvores rígidas.
+
+Faria uma rede de habilidades.
+
+Imagine algo assim:
+
+               Pulmões de Ferro
+                     │
+      ┌──────────────┴──────────────┐
+      │                             │
+ Casca Grossa                Corredor Incansável
+      │                             │
+      └──────────────┬──────────────┘
+                     │
+              Último Esforço
+
+Mas, ao mesmo tempo:
+
+Pulmões de Ferro
+        │
+        └────────── Mineiro Veterano
+
+Enquanto:
+
+Casca Grossa
+        │
+        └────────── Veterano das Confederações
+
+A mesma habilidade serve de base para caminhos completamente diferentes.
+
+Eu acho que encontrei uma filosofia que combina muito com seu cenário.
+
+As habilidades não pertencem a árvores.
+
+Elas pertencem ao personagem.
+
+O personagem vai formando naturalmente sua própria "árvore".
+
+Imagine dois personagens.
+
+Ferreiro
+Pulmões de Ferro
+Mãos Firmes
+Armeiro
+Aço de Pedra Negra
+Reparo de Campo
+Mercenário
+Pulmões de Ferro
+Casca Grossa
+Guarda Alta
+Avanço Violento
+Veterano
+
+Ambos começaram com "Pulmões de Ferro", mas a evolução foi completamente diferente.
+
+Acho que o seu sistema pode abandonar completamente o conceito de classe e de árvore.
+
+O que ele teria seria um grafo de habilidades.
+
+Cada habilidade liga para várias outras.
+
+Você não escolhe uma árvore.
+
+Você escolhe uma habilidade.
+
+Ela desbloqueia cinco possibilidades.
+
+Cada uma desbloqueia outras cinco.
+
+A ficha de cada personagem vira praticamente uma impressão digital.
+
+E eu teria apenas uma regra para criar habilidades:
+
+Toda habilidade deve responder a uma destas perguntas:
+
+O personagem aprendeu isso?
+O personagem sobreviveu a isso?
+O personagem nasceu assim?
+O personagem treinou isso?
+O personagem descobriu isso?
+
+Se a resposta for "não", provavelmente a habilidade não pertence ao seu RPG.
+
+Essa abordagem me parece muito mais alinhada com o tom do cenário: as habilidades deixam de representar "estilos de luta" abstratos e passam a representar experiências, treinamento, adaptações e conhecimentos. O personagem não escolhe uma escola; ele constrói um repertório ao longo da vida, e esse repertório é o que define sua identidade. Acho que isso diferencia o sistema de D&D de uma forma muito mais profunda do que simplesmente remover as classes.
+
+Ok, preciso que vc faça um resumo do que definimos já aqui, mesmo as ideias que ainda estão um pouco em aberto, temos os atributos e as competências, temos o sistema de criaçao de personagem conceitualmente estabelecido e os talentos/habilidades em desenvolvimento, deixe claro nossas premissas para o desenvolvimento de cada sistema mesmo os que ainda estão em abertof, não de exemplos, não vejo necessidade
