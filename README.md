@@ -29,6 +29,10 @@ Este repositório organiza o desenvolvimento do RPG e preserva os motivos das de
 
 Os documentos temáticos descrevem a versão atual; o registro de decisões preserva o histórico e os motivos. Uma proposta não passa a ser canônica automaticamente.
 
+## Ponto de partida
+
+[Notas recuperadas das conversas](ideias/notas-iniciais.md) reúne referências do contexto disponível. É um inventário inicial a revisar, não uma transcrição completa nem uma nova aprovação das regras.
+
 ## Compartilhamento
 
 Lore e aventuras podem conter segredos do mestre. As pastas não têm permissões separadas: quem acessa o repositório pode ler tudo. Para jogadores, prepare cópias específicas dos materiais que deseja compartilhar.
