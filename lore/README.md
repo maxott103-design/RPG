@@ -2,6 +2,7 @@
 
 - [Arcano, antiarcano e colapso](cosmologia-e-colapso.md)
 - [Igreja e ordem secreta](igreja.md)
+- [Arcano vital e resina da araucária](arcano-vital-e-resina.md)
 
 ## Como interpretar
 
