@@ -20,6 +20,14 @@ As duas formulações foram mantidas: a autoria élfica aparece no contexto post
 
 Uma cidade voadora élfica permanece como vestígio do mundo antigo. A síntese de julho a associa à preservação de conhecimento e descreve os elfos como quase extintos. Não foram recuperados números populacionais, localização, governo ou condições de acesso.
 
+## Ciclo vital e recuperação do arcano
+
+Todo ser vivo nasce com uma componente arcana, ligada à dimensão vital ou espiritual. A disponibilidade de arcano no mundo foi drasticamente reduzida por uma magia de escala excepcional, mas nunca desapareceu por completo.
+
+Ao longo dos milênios, morte e decomposição continuaram devolvendo gradualmente essa componente ao ambiente, permitindo que bolsões arcanos voltassem a se formar, embora sem recuperar os níveis das antigas eras.
+
+A relação detalhada entre vida, decomposição, gemas e retenção arcana está em [Arcano vital e resina da araucária](arcano-vital-e-resina.md).
+
 ## Limites
 
 Não atribuir uma data ao colapso, identificar o mundo anterior como uma Terra histórica específica ou explicar definitivamente a gema negra sem nova fonte. A casa suburbana e os objetos reconhecíveis sugerem familiaridade visual, mas não resolvem essas questões.
