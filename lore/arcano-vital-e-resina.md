@@ -22,17 +22,35 @@ Assim:
 - parte da capacidade mágica dos elfos podia ser sustentada pela própria vitalidade;
 - essa elevada exigência arcana também contribuía para sua baixa taxa de nascimento: formar um novo indivíduo exigia acumular uma reserva arcana incomum.
 
-## Ciclo natural e bolsões arcanos
+## As duas grandes reservas de arcano
 
-A morte e decomposição da vida possuem duas consequências paralelas.
+O ciclo do arcano pode ser entendido, em bastidor, como a relação entre duas grandes reservas.
 
-A matéria física retorna ao ambiente e, em condições específicas e escalas geológicas, pode participar da formação de recursos como carvão e petróleo.
+### Arcano terrestre
 
-A componente arcana também retorna gradualmente ao ambiente e pode se concentrar em **bolsões arcanos**.
+É o arcano ainda ligado ao mundo material, à vida, à matéria orgânica e aos resíduos de seres mortos.
+
+Durante a decomposição, parte dessa componente pode permanecer temporariamente associada à matéria e formar concentrações ou bolsões terrestres.
+
+### Arcano celeste
+
+É a grande reserva de arcano desprendida da matéria.
+
+Ela se concentra além da atmosfera e funciona como fonte para a componente arcana incorporada por novos seres durante o nascimento.
+
+Nas eras antigas, quando essa reserva era muito mais abundante, os deuses podiam materializar-se a partir dela.
+
+De forma simplificada, o ciclo natural pode ser representado como:
+
+**arcano celeste → nascimento → vida → morte/decomposição → arcano terrestre → ascensão → arcano celeste**
+
+## Depleção do arcano
 
 Uma magia de escala extraordinária realizada no passado depletou grande parte das reservas arcanas disponíveis no mundo.
 
-A vida, porém, nunca deixou de nascer com sua componente arcana. Ao longo dos milênios, morte e decomposição voltaram lentamente a alimentar os bolsões.
+A vida, porém, nunca deixou de nascer com sua componente arcana.
+
+Ao longo dos milênios, morte e decomposição continuaram devolvendo lentamente arcano ao ciclo, permitindo que bolsões terrestres e a reserva celeste voltassem a se alimentar.
 
 Os níveis nunca retornaram aos valores das eras dos heróis e deuses.
 
@@ -40,13 +58,25 @@ Ao mesmo tempo, os povos que dominavam conscientemente esse fenômeno desaparece
 
 ## Materiais capazes de reter arcano
 
-A energia arcana normalmente retorna ao ambiente, mas determinados materiais ou estruturas podem capturá-la e preservá-la.
+A energia arcana normalmente tende a completar o ciclo e retornar à reserva celeste, mas determinados materiais ou estruturas conseguem retê-la.
 
-As gemas são capazes desse tipo de retenção.
+As gemas são capazes desse tipo de captura.
 
-A resina da araucária colossal representa outro caso, surgido em circunstâncias excepcionalmente raras.
+A Resina de Queda da araucária colossal representa outro caso, surgido em circunstâncias excepcionalmente raras.
 
-## Morte da araucária colossal
+## As araucárias colossais
+
+Existiram 128 araucárias colossais ao longo da história conhecida.
+
+A maioria germinou no extremo sul. Algumas foram germinadas pelos antigos elfos em regiões distantes, por razões hoje perdidas.
+
+Apenas três caíram em toda a história.
+
+A civilização atual não consegue derrubar um indivíduo vivo.
+
+Nas Confederações existem duas: a Caída, morta desde a Grande Guerra, e a Altiva, ainda viva e atualmente utilizada pela Ordem dos Aeronautas como quartel-general.
+
+## Morte da Caída
 
 A araucária explorada na fronteira sul-oeste não morreu naturalmente.
 
@@ -71,12 +101,22 @@ Nesse período, decomposição física, resinas naturais, água, fungos, minerai
 
 Ao mesmo tempo, a componente arcana capturada permaneceu parcialmente concentrada e estabilizada no material resinoso.
 
-O produto atualmente extraído é, portanto, simultaneamente:
+O produto atualmente chamado de **Resina de Queda** é, portanto, simultaneamente:
 
 - uma substância material resultante de processos naturais de decomposição e transformação;
 - um reservatório residual de energia vital da árvore.
 
 A ciência atual consegue analisar o primeiro componente, mas não dispõe de conceitos ou instrumentos adequados para identificar o segundo.
+
+## Por que a seiva viva não funciona
+
+A **Seiva Viva** da Altiva e de outras araucárias colossais não apresenta as mesmas propriedades.
+
+Enquanto a árvore está viva, sua componente arcana permanece integrada ao organismo e ao próprio ciclo vital. A seiva faz parte desse sistema e não contém a mesma concentração de arcano aprisionado que surgiu após a morte abrupta e o milênio de transformação da Caída.
+
+Os Aeronautas testaram industrialmente a seiva da Altiva e confirmaram empiricamente que ela não produz Aerina funcional.
+
+Eles conhecem o fato, mas não a causa.
 
 ## Por que a ciência pré-Guerra não estudou o fenômeno
 
@@ -84,15 +124,13 @@ A civilização anterior possuía conhecimento suficiente do arcano para compree
 
 Porém, a substância específica não existia como recurso conhecido.
 
-Araucárias colossais vivas não eram derrubadas. A única queda conhecida ocorreu como consequência destrutiva da própria Grande Guerra.
-
-A formação posterior da resina exigiu ainda séculos de permanência e transformação do corpo morto.
+Araucárias colossais vivas não eram derrubadas, e a Resina de Queda exigiu tanto a morte excepcional da árvore quanto séculos de transformação posterior.
 
 Assim, uma sociedade capaz de compreender o fenômeno nunca teve oportunidade de estudá-lo, enquanto a sociedade que finalmente encontrou a substância perdeu o vocabulário e a ciência necessários para explicar sua componente arcana.
 
 ## Efeitos como manifestações de um mesmo princípio
 
-Os diferentes usos da resina não constituem magias independentes.
+Os diferentes usos da Resina de Queda não constituem magias independentes.
 
 Todos derivam da mesma característica fundamental: **retenção e expressão residual do princípio vital da árvore**.
 
@@ -111,33 +149,57 @@ A resina não cria matéria livremente. Ela favorece a organização e continuid
 
 ### Medicina
 
-Em tecido vivo, preparações adequadas permitem que a reserva arcana da resina seja temporariamente incorporada ao processo de reparação do organismo.
+A **Essência de Cerne** concentra a fração mais útil da resina para preparados médicos e alquímicos.
 
-O corpo fornece a estrutura e a direção biológica; a resina fornece uma reserva excepcional de princípio vital.
+Em tecido vivo, preparações adequadas permitem que a reserva arcana do composto seja temporariamente incorporada ao processo de reparação do organismo.
+
+O corpo fornece a estrutura e a direção biológica; a essência fornece uma reserva excepcional de princípio vital.
 
 Isso permite justificar preparados raríssimos capazes de reverter rapidamente Ferimentos graves sem transformar a medicina comum em magia ostensiva.
 
-### Gás de sustentação
+### Aerina e ascensão ao arcano celeste
 
-Durante determinado processo industrial de ebulição e separação, uma fração volátil transporta parte da componente arcana retida.
+O **Cerneol** é uma fração refinada da Resina de Queda na qual a componente arcana permanece estável enquanto o composto está condensado.
 
-O resultado é um gás cuja interação com a gravidade não corresponde integralmente ao esperado a partir de sua composição material.
+Quando o cerneol é aquecido e vaporizado, a molécula orgânica entra em um estado no qual a ligação entre matéria e arcano se torna muito mais fraca.
 
-Para observadores atuais, ele simplesmente apresenta sustentação efetiva anormalmente elevada.
+A componente arcana então tende a completar seu ciclo natural e **ascender em direção à reserva de arcano celeste**, localizada além da atmosfera.
 
-Esse efeito permite que os dirigíveis utilizem geometrias e cargas que seriam inviáveis com hidrogênio comum.
+Porém, ela não consegue se desprender completamente da molécula orgânica.
+
+O resultado é um equilíbrio instável: o arcano é puxado para cima enquanto continua ligado à matéria.
+
+Essa tensão transmite uma força ascensional à molécula inteira.
+
+A fase gasosa recebe o nome de **Aerina**.
+
+Sua capacidade de sustentação não decorre simplesmente de baixa densidade molecular. Ela surge da tentativa incompleta da componente arcana de retornar ao reservatório celeste.
+
+### Condensação e perda de sustentação
+
+Quando a Aerina é resfriada rapidamente, ela se condensa novamente em cerneol.
+
+Na fase condensada, a ligação entre arcano e molécula orgânica volta a um estado estável.
+
+A tendência de ascensão cessa quase completamente e o arcano retorna a uma condição de dormência material.
+
+Isso permite aos dirigíveis controlar sua sustentação através de um ciclo térmico:
+
+**cerneol → aquecimento → Aerina ascensional → resfriamento → cerneol**
+
+A tripulação acredita estar explorando uma propriedade físico-química incomum. Na realidade, está controlando uma mudança no estado de ligação entre matéria e arcano.
 
 ## Conhecimento no mundo atual
 
-Os habitantes não sabem que a substância contém arcano.
+Os habitantes não sabem que esses compostos contêm arcano.
 
 Médicos observam eficácia clínica.
 
 Químicos observam propriedades que não conseguem reduzir completamente à composição.
 
-Engenheiros possuem tabelas de rendimento e sustentação.
+Engenheiros possuem tabelas de rendimento, temperatura, pressão e sustentação.
 
-Aeronautas sabem quanto gás é necessário para elevar determinada massa.
+Aeronautas sabem quanto cerneol deve ser vaporizado ou condensado para alterar a sustentação de uma aeronave.
 
 Nenhum desses grupos precisa formular a explicação correta.
 
