@@ -22,11 +22,23 @@ Ferrovia e caravanas conectam os núcleos habitados. Carroças são puxadas por 
 
 ## Cadeia da resina colossal
 
-A cidade da fronteira sul-oeste explora uma resina rara encontrada no interior de uma araucária colossal tombada. A substância possui aplicações médicas, alquímicas, industriais e aeronáuticas.
+A cidade da fronteira sul-oeste explora a **Resina de Queda**, encontrada no interior de uma das únicas três araucárias colossais que caíram na história do mundo.
 
-A Ordem dos Aeronautas depende do gás de sustentação obtido do refino dessa resina, enquanto a cidade controla a fonte material. Essa relação cria uma nova interdependência estratégica dentro da região.
+Do refino dessa matéria-prima surgem vários produtos estratégicos:
 
-Ver [Araucárias colossais e resina](araucarias-colossais-e-resina.md).
+- **Araucina** — produto purificado de base;
+- **Cerneol** — fração líquida usada na cadeia aeronáutica;
+- **Aerina** — fase gasosa de sustentação dos dirigíveis;
+- **Goma de Cerne** — derivado industrial;
+- **Essência de Cerne** — derivado medicinal e alquímico.
+
+A Ordem dos Aeronautas depende dessa cadeia para operar seus grandes dirigíveis. Em contrapartida, concentra conhecimento técnico, infraestrutura de refino e aplicação aeronáutica.
+
+A Ordem mantém seu quartel-general na copa da **Altiva**, a segunda araucária colossal conhecida nas Confederações. A base é inacessível do chão por meios convencionais.
+
+A cidade da Caída controla a fonte material; os Aeronautas controlam parte decisiva da transformação e do uso. Essa relação cria uma interdependência econômica e geopolítica de alto valor estratégico.
+
+Ver [Araucárias colossais e derivados](araucarias-colossais-e-resina.md).
 
 ## Em aberto
 
