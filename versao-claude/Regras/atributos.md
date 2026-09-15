@@ -16,7 +16,7 @@ Atributo serve para três coisas, e só:
 ## 2. Escala e criação
 
 - Escala **1 a 4**. Na criação, **mínimo 1 e máximo 3** — o 4 só se alcança em jogo.
-- **Orçamento de criação: 10 pontos** distribuídos entre os cinco atributos.
+- **Orçamento-base de criação: 10 pontos** distribuídos entre os cinco atributos. **Humanos recebem +1 ponto adicional**, conforme `povos-jogaveis.md`, além do bônus racial de +1 Intelecto.
 - Distribuições típicas: `3-3-2-1-1` (especialista), `3-2-2-2-1` (competente), `2-2-2-2-2` (equilibrado).
 
 Não existe atributo 0. Um personagem com 1 é ruim naquilo — não é incapaz.
@@ -68,4 +68,4 @@ Teste de sanidade do chassi — nenhum atributo pode ser pedágio universal nem 
 ## 6. Em aberto
 
 - Atributo 4 em jogo: por qual moeda de progressão? (roadmap 5.2)
-- Se raças/povos modificam atributo ou só dão permissão ficcional. Hoje as fichas do piloto tratam raça como ficção, não como número — e isso está funcionando.
+- Revisar em playtest o peso das diferenças raciais registradas em `povos-jogaveis.md`, especialmente o humano (+1 ponto de atributo, +1 Intelecto e +1 habilidade).
