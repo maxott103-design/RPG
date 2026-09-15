@@ -24,6 +24,12 @@ A sede da SEDP tem caráter decadente. Seu escritório exibe troféus tecnológi
 
 As ruínas da missão incluem estruturas brutalistas e duas redomas de concreto. A descrição e os segredos estão em [ruína das redomas](../aventuras/ruina-das-redomas.md).
 
+## Fronteira sul-oeste e araucária colossal
+
+A Confederação possui uma cidade fronteiriça ao sul-oeste, ainda sem nome definitivo, pouco integrada ao núcleo ferroviário e ligada à exploração das florestas e ao transporte fluvial.
+
+O assentamento cresceu em torno de uma araucária colossal derrubada durante a Grande Guerra e explorada apenas em período recente. Parte da cidade se desenvolve ao redor e no interior do tronco. Ver [Araucárias colossais e resina](araucarias-colossais-e-resina.md).
+
 ## Pendências
 
 Plantas, nomes do entreposto, bairros, população, localização precisa das minas e traçado ferroviário não foram recuperados.
