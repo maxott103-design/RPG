@@ -4,6 +4,8 @@
 - [Pedra Negra, entreposto e sede da SEDP](localidades.md)
 - [Economia, transporte e facções](economia-e-faccoes.md)
 - [Ameaças das áreas abertas](ameacas.md)
+- [Confederação dos Vales](confederacao-dos-vales.md)
+- [Araucárias colossais e resina](araucarias-colossais-e-resina.md)
 
 ## Como interpretar
 
