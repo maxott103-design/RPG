@@ -74,7 +74,7 @@ Apenas três caíram em toda a história.
 
 A civilização atual não consegue derrubar um indivíduo vivo.
 
-Nas Confederações existem duas: a Caída, morta desde a Grande Guerra, e a Altiva, ainda viva e atualmente utilizada pela Ordem dos Aeronautas como quartel-general.
+Nas Confederações existem duas: a Caída, morta desde a Grande Guerra, e a Altiva, ainda viva e atualmente utilizada pela Ordem dos Aeronautas como sua principal fortaleza e base operacional. A capital histórica da Ordem é [Meteora](../worldbuilding/meteora.md).
 
 ## Morte da Caída
 

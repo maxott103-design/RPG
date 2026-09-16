@@ -6,6 +6,7 @@
 - [Ameaças das áreas abertas](ameacas.md)
 - [Confederação dos Vales](confederacao-dos-vales.md)
 - [Araucárias colossais e resina](araucarias-colossais-e-resina.md)
+- [Meteora, capital dos Aeronautas](meteora.md)
 
 ## Como interpretar
 

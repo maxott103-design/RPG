@@ -56,7 +56,7 @@ A carga segue principalmente por rio em direção ao sul e a outros centros come
 
 Por possuir acesso local a madeira, caça, água, transporte fluvial e recursos próprios, essa cidade é uma das mais autônomas da Confederação e depende menos da malha ferroviária.
 
-O assentamento cresceu em torno de uma das três araucárias colossais que caíram em toda a história, derrubada durante a Grande Guerra. Nas Confederações existe ainda uma segunda araucária colossal viva, a **Altiva**, cuja copa abriga o quartel-general da Ordem dos Aeronautas. Ver [Araucárias colossais e derivados](araucarias-colossais-e-resina.md).
+O assentamento cresceu em torno de uma das três araucárias colossais que caíram em toda a história, derrubada durante a Grande Guerra. Nas Confederações existe ainda uma segunda araucária colossal viva, a **Altiva**, cuja copa abriga a principal fortaleza e base operacional da Ordem dos Aeronautas. A capital histórica da Ordem é [Meteora](meteora.md). Ver também [Araucárias colossais e derivados](araucarias-colossais-e-resina.md).
 
 ## Em aberto
 

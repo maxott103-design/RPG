@@ -40,7 +40,7 @@ Apenas em período relativamente recente a árvore começou a ser explorada sist
 
 A segunda araucária colossal conhecida nas Confederações permanece viva e é conhecida como **a Altiva**.
 
-A Ordem dos Aeronautas construiu seu quartel-general na copa da árvore. A base é inacessível do chão por meios convencionais e depende de acesso aéreo controlado, principalmente por dirigíveis e pelas montarias voadoras da Ordem.
+A Ordem dos Aeronautas construiu na copa da árvore sua principal fortaleza e base operacional. A instalação é inacessível do chão por meios convencionais e depende de acesso aéreo controlado, principalmente por dirigíveis e pelas montarias voadoras da Ordem. A capital histórica, política e populacional dos Aeronautas permanece sendo [Meteora](meteora.md).
 
 A copa funciona como território fortificado e plataforma aeronáutica, comportando instalações como:
 

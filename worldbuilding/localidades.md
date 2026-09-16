@@ -30,6 +30,14 @@ A Confederação possui uma cidade fronteiriça ao sul-oeste, ainda sem nome def
 
 O assentamento cresceu em torno de uma araucária colossal derrubada durante a Grande Guerra e explorada apenas em período recente. Parte da cidade se desenvolve ao redor e no interior do tronco. Ver [Araucárias colossais e resina](araucarias-colossais-e-resina.md).
 
+## Meteora
+
+Meteora é a capital histórica, política e populacional dos Aeronautas. A cidade ocupa uma base militar pré-Guerra situada em um vale alto, frio e seco, junto à borda de um penhasco.
+
+Descoberta por Dorian durante um voo nas costas de um pterossauro, a instalação tornou-se primeiro o refúgio de seu povo e, séculos depois, uma cidade apinhada entre pistas rachadas, hangares, concreto brutalista e estruturas metálicas antigas.
+
+Os pterossauros do vale vivem livremente, mas descendem de uma espécie domesticada antes da Grande Guerra. Parte dos filhotes é capturada e criada pelos Aeronautas como montaria. Ver [Meteora](meteora.md).
+
 ## Pendências
 
 Plantas, nomes do entreposto, bairros, população, localização precisa das minas e traçado ferroviário não foram recuperados.

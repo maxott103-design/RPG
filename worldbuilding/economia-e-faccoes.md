@@ -34,11 +34,11 @@ Do refino dessa matéria-prima surgem vários produtos estratégicos:
 
 A Ordem dos Aeronautas depende dessa cadeia para operar seus grandes dirigíveis. Em contrapartida, concentra conhecimento técnico, infraestrutura de refino e aplicação aeronáutica.
 
-A Ordem mantém seu quartel-general na copa da **Altiva**, a segunda araucária colossal conhecida nas Confederações. A base é inacessível do chão por meios convencionais.
+A capital histórica, política e populacional da Ordem é **Meteora**, cidade construída sobre uma base militar pré-Guerra em um vale alto. A Ordem mantém na copa da **Altiva**, a segunda araucária colossal conhecida nas Confederações, sua principal fortaleza e base operacional. A instalação é inacessível do chão por meios convencionais.
 
 A cidade da Caída controla a fonte material; os Aeronautas controlam parte decisiva da transformação e do uso. Essa relação cria uma interdependência econômica e geopolítica de alto valor estratégico.
 
-Ver [Araucárias colossais e derivados](araucarias-colossais-e-resina.md).
+Ver [Araucárias colossais e derivados](araucarias-colossais-e-resina.md) e [Meteora](meteora.md).
 
 ## Em aberto
 
