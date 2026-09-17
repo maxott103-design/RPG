@@ -30,4 +30,14 @@ A relação detalhada entre vida, decomposição, gemas e retenção arcana est�
 
 ## Limites
 
-Não atribuir uma data ao colapso, identificar o mundo anterior como uma Terra histórica específica ou explicar definitivamente a gema negra sem nova fonte. A casa suburbana e os objetos reconhecíveis sugerem familiaridade visual, mas não resolvem essas questões.
+A referência geral herdada é cerca de mil anos desde a Grande Guerra, sem data exata. Não identificar o mundo anterior como uma Terra histórica específica nem explicar definitivamente a gema negra sem nova fonte. A casa suburbana e os objetos reconhecíveis sugerem familiaridade visual, mas não resolvem essas questões.
+
+## Distinções incorporadas
+
+- Arcano natural: energia vital deste mundo, drasticamente reduzida, não extinta.
+- Arcano alienígena: energia proveniente do outro mundo pelo Portal.
+- Antiarcano: arcano alienígena consumido e distorcido por uma inteligência do outro lado, com caráter assimilador. “Arcano corrompido” é o termo antigo.
+- A corrupção distorce a pessoa e sua relação com o ofício: trabalhador, soldado, técnico e médico podem conservar vestígios reconhecíveis em transformações distintas.
+- Reversibilidade, tempo de transformação e persistência da consciência permanecem em aberto.
+
+As instalações concebidas como prisões/contenções são proposta, não explicação definitiva para toda ruína. A situação atual do Portal e o destino da entidade mencionada nas fontes antigas permanecem sem definição.

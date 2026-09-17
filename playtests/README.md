@@ -1,13 +1,17 @@
 # Playtests
 
-A síntese de julho foi apresentada como protótipo v0.1 aguardando playtest. Não foi recuperado um relato de sessão efetivamente realizada; por isso não há resultados, participantes ou métricas inventados.
+A base anterior contém simulações, mas **não há validação aqui da regra assimétrica de 17/09/2026**. O simulador e seus resultados antigos foram preservados em [Histórico](../historico/README.md).
 
-## Situações já planejadas
+## Próximos testes
 
-A briga de bar da [aventura piloto](../aventuras/piloto.md) foi pensada como introdução às regras. As expedições, viagens perigosas e ferimentos fazem parte do material a experimentar, mas não demonstram validação do balanceamento.
+- Ataque inimigo sempre ameaçando Ferimento: letalidade e custo de defender 1/2/3 vezes.
+- Ataque simples do jogador com dreno 1 e recuo no decisivo: duração e efeito de encurralar.
+- Armas leves sem Aparo; Esquiva contra parede; troca de arma/mochila consumindo movimento.
+- Desvantagem em espaços confinados e Vantagem defensiva contra inimigos nessa condição.
+- Armadura, mochila e Retomar Fôlego; Corpo Compacto dos anões.
+- Queda por Ferimentos, cabeça Leve −2, Sangramento 6 e recuperação.
+- Habilidades, reação em cadeia e diferenças raciais.
 
-## Antes de registrar resultados
+Fechar parâmetros pendentes antes de atualizar o simulador. Não reaproveitar os resultados antigos de “facões apenas drenam” nem suas recomendações de proporção de armas pesadas.
 
-Identifique a versão de Fôlego/Exaustão usada, pois há [divergências entre as fontes](../ideias/divergencias.md). Registre observações com o [modelo de playtest](../modelos/playtest.md), separando acontecimentos da sessão e ajustes propostos.
-
-Fonte: [R01, C03 e M01](../fontes/README.md).
+Registre observações usando o [modelo de playtest](../modelos/playtest.md).

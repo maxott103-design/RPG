@@ -1,14 +1,17 @@
-# Premissas e criação de personagens
+# Premissas e criação
 
-Estado: **Conceito registrado; implementação parcial**.
-Fontes: C01 e M01, conforme [procedência](../fontes/README.md).
+Estado: base consolidada; opções de origem e progressão ainda em desenvolvimento.
 
-O desenvolvimento descrito nos chats trabalha sem classes rígidas. O arquétipo emerge das habilidades e da história, sem precisar corresponder a uma função fechada de combate.
+Personagens são pessoas com ofícios, histórias e necessidades, sem classes rígidas. Só os jogadores rolam; Ferimentos mudam o que conseguem fazer. O ciclo central é explorar, sofrer consequências, recuperar-se e voltar a explorar.
 
-O usuário rejeitou “disciplina” como nome dessa organização e não gostou de nomes como “disciplina do combate brutal”. A preferência é por identidades práticas, relacionadas à trajetória do personagem.
+## Criação
 
-Atributos e competências fazem parte da estrutura conceitual; talentos/habilidades estavam em desenvolvimento no material disponível. O planejamento dos cinco pré-gerados menciona **duas habilidades: uma passiva e uma ativa**, e **duas armas**, com possibilidade de combatentes receberem **uma arma e uma armadura**.
+1. Defina história, ofício/origem e povo.
+2. Distribua 10 pontos nos cinco atributos, mínimo 1 e máximo inicial 3; veja [Atributos](atributos.md).
+3. Aplique as regras do povo em [Povos jogáveis](povos-jogaveis.md). Humanos recebem +1 ponto livre, +1 Intelecto e uma habilidade adicional. Falta explicitar a relação do bônus racial fixo com o teto inicial.
+4. Escolha 3 + Intelecto competências: 1 Profissional, 2 Práticos e as restantes Aprendiz. Limites e âncoras em [Competências](competencias.md).
+5. Base de habilidades: 1 Passiva + 1 Ativável, sustentadas pela origem; acrescente a habilidade humana quando aplicável. O [catálogo](habilidades.md) indica efeitos em revisão.
+6. Selecione equipamento coerente com a história; classificação de armas ainda em revisão.
+7. Calcule Fôlego = Vigor + 7 e teto de Exaustão = Vontade + 1.
 
-Não foram recuperadas nos trechos dos chats as regras completas de distribuição de atributos, compra de competências, progressão ou benefícios raciais. O anexo da ficha foi separado desta publicação.
-
-A síntese antiga menciona “classes”; esse termo não substitui automaticamente a orientação posterior sem classes rígidas.
+Origens não são classes. Ainda falta escrever suas opções, definir equipamento inicial e fechar a progressão. Meio-elfos existem, mas suas habilidades raciais estão pendentes. Não criar categorias jogáveis separadas de elfo ou “orc puro”.

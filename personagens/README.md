@@ -1,14 +1,14 @@
 # Personagens
 
+Fichas completas incorporadas à documentação atual:
+
 - [Anão combatente](anao-combatente.md)
 - [Anão minerador](anao-minerador.md)
+- [Humano industrial / operário](humano-industrial.md)
 - [Humano combatente](humano-combatente.md)
-- [Humano industrial](humano-industrial.md)
 - [Meio-orc caçador](meio-orc-cacador.md)
 - [NPCs](npcs.md)
 
-## Como interpretar
+Traços raciais aplicáveis estão em [Povos jogáveis](../regras/povos-jogaveis.md). As fichas humanas preservam seus atributos-base e indicam as escolhas pendentes para aplicar os benefícios humanos, sem distribuição arbitrária.
 
-O conteúdo foi organizado a partir das [fontes disponíveis](../fontes/README.md). Cada documento distingue informações recuperadas, decisões explícitas e lacunas. As divergências não foram resolvidas por suposição.
-
-Para novas entradas, use os [modelos](../modelos/README.md).
+Os layouts HTML anteriores são referências visuais no histórico, não fichas atualizadas.

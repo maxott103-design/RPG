@@ -1,23 +1,101 @@
-# Meio-orc caçador
+# MEIO-ORC CAÇADOR
+### O Homem do Norte
 
-Estado: **História corrigida nos chats; ficha não recuperada**. Organização: 13/09/2026.
+Estado: ficha reunida em 17/09/2026. Armas usam classificação provisória; regras gerais atualizadas prevalecem sobre descrições de estilo.
 
-Fontes: C03, C04 e M01. Consulte [procedência e limites](../fontes/README.md).
+**Raça:** Meio-Orc  
+**Arquétipo:** Caçador / Explorador  
+**Experiência:** Caça / rastreamento / sobrevivência
 
-## História preservada
+### História
 
-O personagem vem de uma tribo do norte. O contexto menciona captura por tribos escravistas, venda, transporte ferroviário e fuga. A alteração explícita mais recente estabelece que passou anos trabalhando como escravo nos campos de mineração, aprendendo a resistir a esforços que poucos suportariam, até conseguir escapar sorrateiramente.
+Nasceu em uma tribo de caçadores nas infinitas florestas do Norte.
 
-Depois da fuga, caça e comércio de peles integram sua subsistência. É determinado e sem instrução formal no resumo disponível.
+Aprendeu desde criança a caçar, rastrear, encontrar abrigo, preparar carne e sobreviver longe das cidades.
 
-A referência anterior a saltar de um trem não foi fundida com a fuga furtiva como se a sequência estivesse definida. A cronologia precisa ser reconciliada com a outra fonte.
+Os orcs do Norte não caçam de longe. Caçam como se caçava antes de existir qualquer coisa parecida com uma cidade: em grupo, cercando, chegando perto e encarando o animal em contato, com lança pesada. Um bicho grande é derrubado por gente que aceita levar o coice.
 
-## Direção visual
+Na adolescência, sua tribo foi atacada por um grupo que capturava membros de outras tribos para vendê-los como escravos.
 
-Braços à mostra, calça simples, regata branca, suspensórios e acessórios tribais. O pedido posterior acrescenta casaco ou capa para reforçar o caráter tribal. Uma versão final pedida inclui barba negra.
+Foi capturado e vendido.
 
-Não usa arco no retrato solicitado. A adaga de caça fica no cinto, tem lâmina mais longa e robusta, cabo de osso com formato natural, sem acabamento refinado.
+Passou anos como escravo nos campos de mineração, aprendendo a resistir a esforços extremos, até conseguir escapar sorrateiramente. A fuga por salto do trem foi substituída pela correção posterior do autor.
 
-## Mecânica
+Sobreviveu sozinho.
 
-A resistência excepcional faz parte da história e do conceito. Não foram atribuídos valores, imunidades ou habilidades sem a ficha. Ver [registro da alteração](../decisoes/0003-passado-do-meio-orc.md).
+Depois de chegar às regiões civilizadas, descobriu que havia valor naquilo que sabia fazer. Carne de caça e peles podiam ser vendidas. Um guerreiro competente sempre encontrava trabalho.
+
+Passou a viver como caçador e mercenário.
+
+É extremamente determinado.
+
+Mas quase não possui instrução formal.
+
+### Atributos
+
+*Orçamento de criação: 10 pontos, mínimo 1, máximo 3. Ver [Atributos](../regras/atributos.md).*
+
+| Atributo | Valor |
+|---|---:|
+| Vigor | 3 |
+| Agilidade | 2 |
+| Percepção | 3 |
+| Intelecto | 1 |
+| Vontade | 1 |
+
+### Números derivados
+
+| | |
+|---|---|
+| **Fôlego máximo** | **10** (Vigor 3 + 7) |
+| **Competências** | 4 (3 + Intelecto 1) — até 1 em Profissional/Mestre (Vontade) |
+| **Teto de Exaustão** | **2** (Vontade 1 + 1). Cada ponto tira **2** do Fôlego máximo. No teto: Esgotado. Acima: Colapso |
+| **Resistência a Ferimentos** | igual para todos: cai com **2 Graves**, **3 Leves** ou **1 Grave + 2 Leves**. Grave na cabeça derruba na hora |
+
+### Competências
+
+| Competência | Rank | Bônus | Âncora | Vem de |
+|---|---|---:|---|---|
+| **Armas Pesadas** | Profissional | +3 | Vigor | lança de caça; orc mata megafauna em contato, não de longe |
+| **Rastrear** | Prático | +2 | Percepção | tribo de caçadores do Norte |
+| **Sobrevivência** | Prático | +2 | Percepção | sobreviveu sozinho após a fuga dos campos de mineração |
+| **Furtividade** | Aprendiz | +1 | Agilidade | caçar é chegar perto o bastante para usar a lança |
+
+*Rolagem = 3d6 + bônus da competência − Ameaça. Sem a competência, rola sem bônus nenhum.*
+
+### Habilidades
+
+*1 Passiva + 1 Ativável, o padrão de criação. Catálogo v4 em [Habilidades](../regras/habilidades.md).*
+
+**PASSIVA — Cheiro de Sangue**  
+Rastro, sangue, fogueira, trilha: **sem rolagem, você sabe quantos são, há quanto tempo passaram, para onde foram e quais estão feridos.** E quando você alcança uma trilha até o fim, **você escolhe o terreno do encontro**: de onde o grupo chega, quem vê quem primeiro, e se vocês começam escondidos.
+
+**ATIVÁVEL — Trespassar**  
+**1 PF, somado ao ataque pesado.** Seu ataque pesado alcança **dois alvos adjacentes entre si** — uma rolagem só, os dois sofrem o resultado. Orc do Norte não caça de longe: caça em grupo, cercando, com a lança pesada varrendo o que estiver na frente.
+
+### Equipamento
+
+- **Lança pesada de caça — Peso 2** (permite ataque pesado; é a arma de quem encara um bicho grande de perto)
+- Faca de caça — Peso 0
+- **Peles e couro — Aparo 1, Peso 0** → Retomar Fôlego rende 4
+- Armadilhas simples
+- Corda
+- Cantil
+- Kit de caça
+- Mochila
+
+### Estilo de jogo
+
+É o melhor personagem do grupo para lidar com a Wasteland: percepção, rastreamento e leitura de terreno. Em combate ele não atira — fecha a distância e usa a lança, que permite ataque pesado. É pouco instruído, mas possui conhecimentos práticos que nenhum personagem civilizado possui.
+
+### Nota de mesa
+
+Vontade 1 e Intelecto 1: teto de Exaustão 2 e ficha estreita. Ele é insuperável na Wasteland e inútil numa negociação — que é exatamente o personagem descrito.
+
+**Mudança de 28/08:** tirei o arco. Como os orcs caçam em contato, movi Agilidade 3 → Vigor 3 (Fôlego 9 → 10) e troquei Arcos e Bestas por Armas Pesadas. Se preferir o perfil ágil de volta, é uma linha: Vigor 2 / Agilidade 3, e Armas Pesadas continua podendo chegar a Profissional (âncora Vigor 2 → máximo rank 3).
+
+Bestas existem no mundo, mas ninguém do grupo tem uma. A regra ficou escrita em [Armas de fogo e bestas](../regras/armas-de-fogo-e-bestas.md) para quando aparecer na mão de um inimigo ou numa loja.
+
+## Traços raciais e direção visual
+
+Aplicar [Difícil de Derrubar e Atacante Selvagem](../regras/povos-jogaveis.md), além das habilidades escolhidas. Braços à mostra, regata, suspensórios, casaco/capa tribal e barba negra. Adaga robusta e longa no cinto, cabo de osso natural; sem arco.

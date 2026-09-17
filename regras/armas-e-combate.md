@@ -1,45 +1,75 @@
-# Armas e combate
+# Armas e estrutura do combate
 
-Estado: **Decisões explícitas registradas; detalhes operacionais ainda em desenvolvimento**.
+Estado: consolidado em 17/09/2026; classificação das armas em revisão.
 
-## Armas leves e defesa
+## Assimetria
 
-- Armas leves não podem ser usadas para **Aparar**.
-- Quem estiver usando uma arma leve deve se defender exclusivamente por **Esquiva**, salvo quando uma habilidade específica permitir o aparo com aquela arma.
+Só os jogadores rolam. O inimigo não faz teste de Esquiva. Os resultados dos ataques dos jogadores e dos inimigos têm procedimentos diferentes.
 
-### Resultado da Esquiva
+## Rodada e turno
 
-- **Sucesso decisivo:** o personagem evita o golpe e permanece no lugar.
-- **Sucesso mediano:** o personagem evita o golpe, mas precisa se afastar imediatamente **1 quadrado**.
-- Se não houver um espaço livre e válido para realizar esse deslocamento, o personagem sofre o Ferimento.
+- Jogadores agem primeiro, salvo emboscada. Percepção/Alerta decide surpresa; se surpreendidos, inimigos agem primeiro e a primeira defesa custa 2 PF.
+- Dentro do grupo, a ordem é livre.
+- Turno: mover + 1 ação + reações de defesa.
+- **Trocar arma ou largar a mochila consome o deslocamento da rodada, sem gastar Fôlego.**
+- **O recuo da Esquiva não provoca ataque de oportunidade.**
+- Quantidade de quadrados de movimento, alcance e demais detalhes de posicionamento ainda não estão definidos.
 
-O custo em Fôlego da Esquiva e os efeitos exatos de falha ou desastre ainda devem ser consolidados com as demais regras de Defesa.
+## Ataques do jogador
 
-## Carga e Esquiva
+### Ataque simples — 0 PF
 
-O peso carregado prejudica a Esquiva. Foram definidos como fontes de penalidade:
+Exige Fôlego acima de 0.
 
-- mochila nas costas: **−1**;
-- Peso da armadura;
-- arma pesada empunhada.
+| Resultado | Efeito no inimigo |
+| --- | --- |
+| Falha | Não aplica o efeito de sucesso; 3 natural acrescenta a complicação de falha crítica |
+| Sucesso moderado (10–14) | Perde **1 Fôlego** |
+| Sucesso decisivo (15+) | Pode ser **forçado a recuar**; se não puder recuar, recebe **Ferimento Leve** |
+| Crítico natural | Ferimento Grave no local escolhido, conforme Resolução |
 
-A forma exata de aplicar o Peso da armadura e a penalidade da arma pesada ainda precisa ser consolidada em uma tabela definitiva.
+**Em aberto:** se o decisivo também drena Fôlego; distância do recuo imposto ao inimigo; se ele pode aceitar um Ferimento em vez de recuar quando há espaço. Não reutilizar os antigos valores “1 + Peso” e “2 + Peso”.
+
+Mantida da base anterior: contra alvo Quebrado, caído, imobilizado ou desprevenido, um ataque simples pode causar Ferimento Leve, com local rolado, em vez de drenar. Confirmar a interação exata dessa exceção com o decisivo e o recuo.
+
+### Ataque pesado — 1 PF
+
+- Exige arma Peso 2 e competência correspondente, até a revisão da classificação.
+- Sucesso moderado: Ferimento Leve, com local rolado.
+- Sucesso decisivo: Ferimento Grave no local escolhido.
+- Golpe cortante decisivo pode trocar escolha do local por Sangramento.
+- Sem competência: rola sem bônus e não pode realizar ataque pesado.
+
+## Ataques dos inimigos
+
+- O inimigo não faz rolagem de ataque.
+- O jogador decide se defende e realiza a rolagem correspondente.
+- **Não defender ou falhar na defesa expõe o jogador a um Ferimento, inclusive contra ataque leve. Não drena Fôlego diretamente.**
+- A gravidade segue o ataque e as exceções aplicáveis. Falta explicitar uma tabela geral de gravidade dos ataques corpo a corpo inimigos, sem inventar resultado decisivo para o mestre.
+- Custos de ações dos inimigos permanecem descritos em [Inimigos](inimigos.md).
 
 ## Espaços confinados
 
-Ataques com **armas pesadas** ou **lanças** são feitos com **Desvantagem** em espaços confinados.
+- Jogador atacando com arma pesada ou lança em espaço confinado: **Desvantagem no ataque**.
+- Inimigo atacando com arma pesada ou lança nessa situação: **Vantagem na defesa do jogador**.
+- Falta delimitar espaço confinado e decidir eventual exceção para lança em corredor reto.
 
-O critério exato para classificar um local como espaço confinado ainda será definido. Também permanece em aberto se uma lança apontada para a frente em um corredor reto será uma exceção.
+## Classificação provisória herdada do piloto
 
-## Braço desabilitado
+Esta tabela registra os Pesos já usados pelas fichas; **não resolve a classificação final nem determina, por si só, quais armas podem aparar**.
 
-Um Ferimento que desabilite um braço pode impedir o uso adequado da arma principal e obrigar o personagem a sacar uma arma secundária. Os efeitos exatos dependem das regras futuras sobre empunhadura e Ferimentos nos braços.
+| Peso | Exemplos existentes | Ataque pesado |
+| --- | --- | --- |
+| 0 | Faca, soco-inglês, coronhada, porrete leve | Não |
+| 1 | Facão, machadinha, baioneta, pá afiada, sabre, azagaia | Não |
+| 2 | Marreta, picareta, machado grande, macuahuitl, lança pesada de caça | Sim |
 
-## Função da arma secundária
+Organizar categorias, empunhadura, alcance, permissões de Aparo e relação entre Peso e “arma leve/pesada” é uma pendência explícita do autor. Os exemplos não autorizam inventar a empunhadura de cada arma.
 
-A arma secundária possui uma função tática concreta:
+## Arma secundária e braço ferido
 
-1. substituir armas pesadas ou lanças quando o ambiente restringe seu uso;
-2. permitir que o personagem continue combatendo quando um braço desabilitado inviabiliza sua arma principal.
+Um braço com Ferimento Grave fica inutilizado, deixa cair o que segurava e impede o uso de armas de duas mãos. A arma secundária permite continuar lutando com o braço disponível, ou trocar de equipamento quando o espaço prejudica a arma principal.
 
-Assim, armas curtas e leves não precisam competir diretamente com o poder da arma principal. Sua vantagem é permanecerem utilizáveis em situações nas quais a arma principal deixa de ser adequada.
+Ver [Ferimentos](ferimentos-e-dano.md), [Defesa](folego-exaustao-e-defesa.md), [Armas de fogo e bestas](armas-de-fogo-e-bestas.md) e [Armadura](armaduras.md).
+
+Escudos permanecem **fora da regra ativa**, com inclusão ainda indecisa.

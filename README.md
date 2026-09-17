@@ -1,56 +1,32 @@
-# RPG — Documentação de desenvolvimento
+# Pedra Negra RPG
 
-Repositório: **RPG**. O título final do jogo permanece em aberto.
+Documentação unificada do projeto. **Não há mais uma versão da raiz e outra do Claude para consultar em paralelo.** As definições atuais estão organizadas por assunto.
 
-Este repositório organiza o desenvolvimento do RPG e preserva os motivos das decisões.
+## Comece aqui
 
-## Navegação
-
-| Espaço | Conteúdo |
+| Área | Conteúdo |
 | --- | --- |
-| [Worldbuilding](worldbuilding/README.md) | Geografia, povos, sociedade, economia e funcionamento do mundo |
-| [Lore](lore/README.md) | História, cosmologia, acontecimentos e segredos |
-| [Regras](regras/README.md) | Mecânicas, criação de personagens e testes |
-| [Personagens](personagens/README.md) | Personagens de jogadores e NPCs |
-| [Aventuras](aventuras/README.md) | Cenários, encontros e registros de sessões |
-| [Estética](estetica/README.md) | Direção visual, armas, armaduras e referências |
-| [Decisões](decisoes/README.md) | O que foi decidido e por quê |
-| [Ideias](ideias/README.md) | Propostas e dúvidas ainda abertas |
-| [Playtests](playtests/README.md) | Observações de mesa e ajustes a avaliar |
-| [Modelos](modelos/README.md) | Formulários para novos registros |
+| [Regras](regras/README.md) | Criação, resolução, combate, inimigos, Ferimentos e habilidades |
+| [Personagens](personagens/README.md) | Cinco fichas do piloto e NPCs |
+| [Worldbuilding](worldbuilding/README.md) | Mundo, Confederações, economia, araucárias e Meteora |
+| [Lore](lore/README.md) | Cosmologia, Igreja e segredos |
+| [Estética](estetica/README.md) | Tecnologia, armas, armaduras e direção visual |
+| [Aventuras](aventuras/README.md) | Entreposto, Pedra Negra, SEDP e redomas |
+| [Pendências](ideias/pendencias.md) | Apenas decisões e revisões ainda abertas |
+| [Playtests](playtests/README.md) | O que precisa ser validado na mesa |
+| [Decisões](decisoes/README.md) | Motivos e mudanças aprovadas |
+| [Modelos](modelos/README.md) | Modelos de documento, ficha, NPC, sessão e playtest |
+| [Histórico](historico/README.md) | Cópia integral anterior à unificação e rastreabilidade |
 
-## Como usar
+## Como interpretar
 
-1. Abra o arquivo da área desejada e use o lápis do GitHub para editar.
-2. Para uma nova entrada, copie um modelo para a pasta correspondente, usando um nome como `nome-do-assunto.md`.
-3. Indique o estado: **Proposto**, **Em teste**, **Consolidado**, **Descartado** ou **Substituído**.
-4. Quando tomar uma decisão importante, registre-a em `decisoes/` e atualize o documento temático correspondente.
-5. Ao mudar uma decisão, preserve o registro anterior e indique qual decisão a substituiu.
+- As decisões explícitas mais recentes do autor prevalecem.
+- Documentos ativos descrevem a regra vigente ou marcam a lacuna no próprio ponto.
+- Rascunhos continuam propostas; importar material não equivale a aprová-lo.
+- O histórico preserva transcrições, backups, layouts e simulações sem competir com as regras atuais.
+- As fichas humanas ainda requerem escolhas para aplicar os bônus raciais; isso está indicado nelas.
+- As simulações antigas não validam o combate assimétrico atual.
 
-Os documentos temáticos descrevem a versão atual; o registro de decisões preserva o histórico e os motivos. Uma proposta não passa a ser canônica automaticamente.
+Consolidação: **17/09/2026**. [O que foi reunido e corrigido](decisoes/0004-unificacao-do-repositorio.md).
 
-## Versões paralelas a compatibilizar
-
-| Pasta | Origem | Estado |
-| --- | --- | --- |
-| Raiz (`regras/`, `worldbuilding/`, `lore/`, …) | Organização feita em outra IA a partir dos chats | Revisão, com pendências e divergências registradas |
-| [`versao-claude/`](versao-claude/README.md) | Cópia fiel da pasta local `Projeto RPG` desenvolvida nos chats do Claude (regras v2, 28/08/2026) | Fonte mais recente; ver [decisões dos chats](versao-claude/DECISOES-DOS-CHATS.md) |
-
-As duas ficam separadas até a comparação ponto a ponto. Nada da raiz foi alterado ao adicionar `versao-claude/`.
-
-## Conteúdo organizado
-
-As pastas já contêm documentos temáticos sobre o mundo, a Igreja, as mecânicas recuperadas, os cinco personagens, NPCs, a aventura piloto e a direção visual.
-
-- [Fontes e cobertura da revisão](fontes/README.md)
-- [Divergências entre versões](ideias/divergencias.md)
-- [Pendências e material da outra IA](ideias/pendencias.md)
-- [Anão combatente](personagens/anao-combatente.md)
-
-**Atenção à versão das regras:** o resumo antigo foi preservado com seu estado de versão. Foi identificada divergência com um anexo de ficha recuperado separadamente, cuja importação ficou pendente. O conteúdo da outra IA ainda não foi incorporado.
-
-Esta é uma revisão do material disponível, não uma transcrição integral de todos os chats. As [notas iniciais](ideias/notas-iniciais.md) foram preservadas como registro histórico.
-
-## Compartilhamento
-
-Lore e aventuras podem conter segredos do mestre. As pastas não têm permissões separadas: quem acessa o repositório pode ler tudo. Para jogadores, prepare cópias específicas dos materiais que deseja compartilhar.
+O nome final do jogo permanece em aberto. Lore e aventuras contêm segredos do mestre; o repositório não separa permissões por pasta.

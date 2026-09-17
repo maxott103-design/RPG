@@ -1,11 +1,7 @@
-# Ideias e pendências
+# Ideias e desenvolvimento
 
-- [Pendências de recuperação](pendencias.md)
-- [Divergências entre versões](divergencias.md)
-- [Inventário anterior — referência histórica](notas-iniciais.md)
+- [Pendências atuais](pendencias.md)
+- [Divergências reconciliadas](divergencias.md)
+- [Habilidades em revisão — v5](habilidades-em-revisao.md)
 
-## Como interpretar
-
-O conteúdo foi organizado a partir das [fontes disponíveis](../fontes/README.md). Cada documento distingue informações recuperadas, decisões explícitas e lacunas. As divergências não foram resolvidas por suposição.
-
-Para novas entradas, use os [modelos](../modelos/README.md).
+Rascunhos não são automaticamente regras aprovadas. Registros antigos ficam no [Histórico](../historico/README.md).

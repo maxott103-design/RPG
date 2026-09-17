@@ -1,23 +1,23 @@
-# Divergências e versões anteriores
+# Divergências reconciliadas e limites
 
-Estado: **A reconciliar com as fontes do autor**. Organização: 13/09/2026.
-Fontes: [M01, R01 e trechos dos chats](../fontes/README.md).
+Atualizado em 17/09/2026. Não existem mais duas pastas concorrentes de regras ativas.
 
-## Regras
+| Assunto | Referência adotada |
+| --- | --- |
+| Fôlego | Vigor + 7, base completa do piloto |
+| Exaustão | −2 PF máximo por ponto; teto Vontade + 1 |
+| Resultado de teste | ≤9 falha; 10–14 moderado; 15+ decisivo; extremos naturais 3/18 |
+| Ataque simples do jogador | Moderado drena 1 PF; decisivo pode impor recuo e fere se não houver espaço |
+| Ataque do inimigo | Não defendido causa Ferimento, inclusive leve; não drena PF |
+| Defesa | 1/2/3 PF; Esquiva moderada exige recuo; arma leve não apara sem habilidade |
+| Peso, mochila e troca | Armadura penaliza Esquiva; mochila −1; trocar arma/largar mochila consome deslocamento e não PF |
+| Escudos | Fora da regra ativa, inclusão indecisa |
+| Raças/povos | Traços de setembro incorporados; sem elfos e orcs puros como categorias jogáveis |
+| Classes | Sem classes rígidas; competências, origem e habilidades |
+| Habilidades | v4 como catálogo de trabalho, conflitos locais sinalizados; v5 continua proposta |
+| Fuga do meio-orc | Anos de escravidão em mineração e fuga furtiva; salto do trem substituído |
+| Tecnologia | Carvão, vapor e mecanismos; diesel não é corrente; dirigíveis confirmados pelos Aeronautas |
+| Corrompidos | Eventos raros, sem população cotidiana de estrada |
+| Aventura | Entreposto → Pedra Negra/SEDP → redomas; não substituir pela escolta antiga |
 
-Fôlego e Exaustão do resumo antigo divergem de um anexo recuperado separadamente. Os valores do anexo não integram esta publicação dos chats. As regras publicadas preservam o resumo antigo, sem afirmar que sejam a versão geral vigente.
-
-A síntese de julho menciona classes, enquanto trechos posteriores defendem personagens sem classes rígidas. A orientação posterior foi preservada; não foram recuperadas as regras completas de progressão.
-
-## Mundo e aventura
-
-| Tema | Registros | Tratamento |
-| --- | --- | --- |
-| Corrompidos em áreas abertas | Versões antigas destacam corrupção; contexto posterior retira os corrompidos dessas áreas | Manter mudança com escopo delimitado; não apagar horror das ruínas |
-| Fuga do meio-orc | Resumo inclui salto de trem; alteração explícita descreve anos de mineração e fuga furtiva | Preservar correção; cronologia do trem não resolvida |
-| Piloto | Julho: escolta a vila e corrupção/Vampiros; depois: entreposto, Pedra Negra, SEDP e redomas | Documentar versão posterior como estrutura recuperada; antiga como referência |
-| Tecnologia | Julho: dieselpunk, cidades móveis e dirigíveis; contexto posterior: carvão e vapor | Não excluir nem consolidar elementos antigos sem conferência |
-| Portal | Resumo posterior atribui abertura aos elfos; síntese antiga fala em mundo antigo e fechamento conjunto | Preservar formulações e lacuna sobre participantes |
-| Miniaturas | Usuário cogitou 5 cm e depois aceitou outra sugestão | Valor final não recuperado; 5 cm não aprovado |
-
-A data da organização no GitHub não estabelece precedência sobre material consolidado na outra IA.
+As [pendências](pendencias.md) identificam o que não pôde ser resolvido sem inventar decisões. Fontes históricas continuam disponíveis em [Histórico](../historico/README.md), mas não são regras alternativas em vigor.

@@ -1,8 +1,8 @@
-# Procedência, cobertura e limites
+# Procedência e precedência
 
-Organização documental: **13/09/2026**. Esta revisão organiza o conteúdo acessível, não declara ter recuperado integralmente todos os chats.
+Unificação: 17/09/2026. Conteúdo dos documentos completos de `versao-claude` incorporado às pastas temáticas, preservando atualizações posteriores da raiz e decisões explícitas desta conversa.
 
-## Fontes utilizadas
+## Fontes da organização inicial
 
 | Código | Origem | Acesso nesta revisão |
 | --- | --- | --- |
@@ -18,24 +18,17 @@ Organização documental: **13/09/2026**. Esta revisão organiza o conteúdo ace
 
 As datas de chats identificam sua origem, não necessariamente o instante em que cada decisão foi tomada. Não foram fabricados links para conversas não disponíveis.
 
-## Estados usados
 
-- **Decisão registrada:** escolha ou alteração explícita recuperada nos trechos ou identificada como tal no contexto.
-- **Registrado no contexto:** informação preservada no resumo; sem garantia de que seja a última versão.
-- **Divergência:** fontes têm valores ou formulações diferentes.
-- **Não recuperado:** não foi encontrado material suficiente; isso não significa que o autor ainda não tenha decidido.
-- **Proposto:** possibilidade discutida sem aceite recuperado.
+## Fontes incorporadas
 
-“Consolidado aqui” não implica prevalecer sobre material posterior da outra IA. Esta organização não aprova regras novas.
+- Documentos completos do piloto, atributos, competências, habilidades v4 e fichas: base de agosto, com atualizações encontradas no repositório.
+- Povos jogáveis e Vantagem/Desvantagem: setembro, incorporados como definições registradas.
+- Habilidades v5: setembro, mantidas como propostas.
+- Mundo e estética consolidados: incorporados, preservando Meteora, Confederações e resina já detalhados na raiz.
+- Decisões desta conversa: combate assimétrico, recuo, arma secundária, custos de troca/mochila e escudos indecisos.
 
-## Limites concretos
+## Critério
 
-A busca de conversas retornou somente parte do histórico. O restante do conteúdo foi organizado a partir dos trechos visíveis e de M01. Não foram recuperados integralmente todos os chats ou o documento canônico v0.1.
+Decisão explícita mais recente prevalece. Data de importação não transforma texto antigo em decisão nova. Rascunho não vira regra por ser recente. O material bruto, superado e os backups foram arquivados integralmente; não usados para sobrescrever documentos consolidados.
 
-Um anexo de ficha foi localizado e lido, mas sua transcrição e os detalhes extraídos exclusivamente dele foram separados desta publicação. Resultados de outros projetos foram excluídos.
-
-As imagens finais e a ficha HTML não foram importadas. O material desenvolvido na outra IA não está acessível nesta revisão.
-
-## Como integrar o material externo
-
-Importar os textos fornecidos pelo autor com identificação de origem/versão, comparar com [divergências](../ideias/divergencias.md), atualizar os documentos temáticos afetados e registrar substituições no histórico de decisões. Não usar a data desta organização como prova de que o conteúdo é mais novo.
+A lista de arquivos preservados e seus hashes está em [Manifesto](../historico/manifesto.md). Não foram recuperadas novas imagens nem conversas externas nesta unificação.

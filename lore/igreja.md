@@ -27,3 +27,9 @@ Há um padre assimilado ligado ao contexto da aventura. Sua direção visual inc
 ## Pendências
 
 Nome da Igreja e da ordem, desenho definitivo do emblema, dogmas, ritos, organização interna e relação exata com o reino teocrático a nordeste.
+
+## Relação com o desastre — definição incorporada
+
+A alegação de que o arcano destruiu o mundo é parcialmente verdadeira. A Igreja pode saber mais do que prega sobre corrupção, instalações contaminadas, símbolos antigos e contenção. Pode atuar como perseguidora, fonte de informação e instituição com experiência prévia do fenômeno.
+
+A possibilidade de membros entenderem que eliminar o arcano não resolve tudo é uma direção de ambiguidade; não implica conhecimento uniforme entre os fiéis. Complementa a ordem secreta já documentada, sem substituí-la.
