@@ -1,13 +1,16 @@
 # Competências
 
-Status: v1 — lista fechada. Base do piloto preservada; classificação de armas e restrições de Aparo atualizadas em [Armas e combate](armas-e-combate.md).
+Status: v1 — lista fechada. Estrutura preparada para a primeira ficha.
 
 Regras estruturais:
-- Cada competência é ancorada em um atributo. Rank máximo = atributo âncora + 1. Mestre exige atributo 3+.
-- A quantidade de competências conhecidas é definida por **Intelecto** em progressão não linear: INT 1 = 10; INT 2 = 12; INT 3 = 15; INT 4 = 19.
-- Altura (nº de Profissional/Mestre) = Vontade.
-- Ranks: Aprendiz +1 | Prático +2 | Profissional +3 | Mestre +4.
-- Proficiências de combate ocupam slots da mesma pirâmide.
+- Cada competência é ancorada em um atributo.
+- Rank máximo = atributo âncora + 1. Mestre exige atributo 3+.
+- Ranks: **Aprendiz +1 | Prático +2 | Profissional +3 | Mestre +4**.
+- Toda competência conhecida começa ao menos em **Aprendiz (+1)**.
+- **Intelecto determina a quantidade de competências conhecidas:** INT 1 = 10; INT 2 = 12; INT 3 = 15; INT 4 = 19.
+- **Vontade determina a profundidade:** fornece o orçamento usado para elevar competências acima de +1 na criação e também influencia os pontos de melhoria recebidos na progressão.
+- Os valores exatos desses dois orçamentos de Vontade ainda estão pendentes.
+- Proficiências de combate ocupam a mesma estrutura de competências.
 - A quantidade total de competências disponíveis nesta versão é **31**.
 
 ---
@@ -20,8 +23,6 @@ Regras estruturais:
 - **Resistência** — sustentar esforço físico ao longo do tempo: corrida prolongada, marcha, natação, manter peso levantado e continuar sob fadiga
 - **Intimidação** — ameaçar pela presença física, coagir, impor-se
 
-> **Labuta foi removida.** As situações de trabalho braçal prolongado passam a ser resolvidas principalmente por Resistência ou Força Bruta, conforme o método empregado.
-
 ## Agilidade
 
 - **Armas Leves** — facas, facões, baionetas, machadinhas e armas de uma mão *(combate)*
@@ -31,7 +32,7 @@ Regras estruturais:
 - **Acrobacia** — equilíbrio, quedas, contorcionismo, saltos técnicos e passagem por espaços difíceis
 - **Arrombamento** — fechaduras, mecanismos finos, desarmar armadilhas mecânicas
 - **Condução** — montarias, veículos leves, carroças; veículos pesados exigem também conhecimento apropriado
-- **Reflexos** — reagir rapidamente a acontecimentos súbitos: agarrar algo caindo, reagir a uma armadilha, perceber e responder a mudanças instantâneas
+- **Reflexos** — reagir rapidamente a acontecimentos súbitos
 - **Esquiva** — defesa corporal ativa em combate; sair da trajetória de golpes e projéteis
 
 ## Percepção
@@ -49,7 +50,7 @@ Regras estruturais:
 - **Mecânica** — máquinas, reparos, armeiro, manutenção de armas e armaduras, engenhocas
 - **Química** — pólvora, explosivos, combustíveis, destilação, venenos, remédios brutos
 - **Saberes Antigos** — a civilização antiga, relíquias, magia, línguas mortas, ruínas
-- **Naturalismo** — flora, fauna, criaturas, corrupção (biologia do mundo atual)
+- **Naturalismo** — flora, fauna, criaturas, corrupção
 - **Operar Mecanismos** — operar máquinas, painéis, dispositivos, equipamentos antigos e mecanismos complexos sem necessariamente saber construí-los ou repará-los
 
 ## Vontade
@@ -57,17 +58,17 @@ Regras estruturais:
 - **Persuasão** — convencer, argumentar, apelar, negociar posições
 - **Enganação** — mentir, disfarçar-se, blefar, manipular
 - **Barganha** — comércio, pechincha, avaliar acordos, redes de contato mercantil
-- **Lidar com Animais** — aproximar-se, acalmar, conduzir, montar, treinar e compreender o comportamento de animais
-- **Vontade** — manter-se funcional sob medo, estresse e horror; resistir a pânico, coerção psicológica e à influência mental da corrupção
+- **Lidar com Animais** — aproximar-se, acalmar, conduzir, montar, treinar e compreender animais
+- **Vontade** — manter-se funcional sob medo, estresse e horror; resistir a pânico, coerção psicológica e influência mental da corrupção
 
 ---
 
 ## Questões em aberto
 
-1. **Defesa:** aparar usa a competência da arma; esquivar usa **Esquiva**. Armas leves não permitem aparar sem habilidade específica. Armadura e carga penalizam Esquiva. Ver [Defesa](folego-exaustao-e-defesa.md).
-2. **Reflexos × Esquiva:** Reflexos cobre reação instantânea a acontecimentos; Esquiva é a defesa deliberada contra ataques. Validar em playtest para evitar sobreposição.
-3. **Intimidação em Vigor vs Vontade:** mantida em Vigor (coerção física). Coerção social/psicológica cai em Persuasão ou Enganação. Validar em jogo.
-4. **Sobreposições a vigiar:** Busca × Rastrear; Química × Medicina (remédios); Mecânica × Arrombamento/Operar Mecanismos. Regra prática: usa-se a competência do **método empregado**; um obstáculo, um teste.
-5. **Erudição do mundo atual** (política, história recente, religião, leis): sem slot próprio. Coberta parcialmente por Saberes Antigos + Barganha + origem. Se fizer falta no playtest, criar "Erudição" (Intelecto).
-6. **Vontade (competência):** sem barra mental. Horror é elemento pontual, não gênero definidor — testes ocorrem em gatilhos específicos, não continuamente. Falha pode gerar Exaustão e/ou estado discreto temporário.
-7. **Ranks e habilidades:** rank de competência funciona como PRÉ-REQUISITO de habilidades do grafo (ex.: "Golpe Duplo" exige Armas Leves Mestre). Ranks NÃO concedem habilidades automáticas — evita recriar classes. Sensação de "destravar" ao subir rank será tratada na economia de progressão (ver [Pendências](../ideias/pendencias.md)).
+1. **Especialização inicial:** definir quantos pontos de aumento de rank cada valor de Vontade fornece.
+2. **Progressão:** definir quantos pontos de melhoria de competências cada valor de Vontade fornece por avanço.
+3. **Defesa:** aparar usa a competência da arma; esquivar usa **Esquiva**.
+4. **Reflexos × Esquiva:** Reflexos cobre reação instantânea; Esquiva cobre defesa deliberada contra ataques.
+5. **Sobreposições a vigiar:** Busca × Rastrear; Química × Medicina; Mecânica × Arrombamento × Operar Mecanismos.
+6. **Erudição do mundo atual:** sem competência própria por enquanto.
+7. **Ranks e habilidades:** ranks podem funcionar como pré-requisitos de habilidades; ranks não concedem habilidades automaticamente.
