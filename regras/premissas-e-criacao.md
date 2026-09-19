@@ -9,7 +9,16 @@ Personagens são pessoas com ofícios, histórias e necessidades, sem classes r�
 1. Defina história, ofício/origem e povo.
 2. Distribua 10 pontos nos cinco atributos, mínimo 1 e máximo inicial 3; veja [Atributos](atributos.md).
 3. Aplique as regras do povo em [Povos jogáveis](povos-jogaveis.md). Humanos recebem +1 ponto livre, +1 Intelecto e uma habilidade adicional. Falta explicitar a relação do bônus racial fixo com o teto inicial.
-4. Escolha 3 + Intelecto competências: 1 Profissional, 2 Práticos e as restantes Aprendiz. Limites e âncoras em [Competências](competencias.md).
+4. Escolha a quantidade de competências determinada pelo Intelecto e distribua os ranks conforme a regra de criação vigente. Limites e âncoras em [Competências](competencias.md).
+
+   | Intelecto | Competências conhecidas |
+   |---:|---:|
+   | **1** | **10** |
+   | **2** | **12** |
+   | **3** | **15** |
+   | **4** | **19** |
+
+   A distribuição inicial de ranks ainda está em revisão.
 5. Base de habilidades: 1 Passiva + 1 Ativável, sustentadas pela origem; acrescente a habilidade humana quando aplicável. O [catálogo](habilidades.md) indica efeitos em revisão.
 6. Selecione equipamento coerente com a história; classificação de armas ainda em revisão.
 7. Calcule Fôlego = Vigor + 7 e teto de Exaustão = Vontade + 1.
