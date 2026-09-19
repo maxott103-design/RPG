@@ -30,8 +30,21 @@ Não existe atributo 0. Um personagem com 1 é ruim naquilo — não é incapaz.
 | **Vigor** | força, robustez e capacidade de esforço físico | **Fôlego máximo = Vigor + 7** |
 | **Agilidade** | velocidade, coordenação, precisão corporal e destreza | **valor-base somado aos testes de Iniciativa** |
 | **Percepção** | sentidos, atenção, leitura de ambiente | **Alerta** (passivo, decide surpresa e emboscada) |
-| **Intelecto** | educação, raciocínio técnico, conhecimento | **Largura da pirâmide = 3 + Intelecto** (regra de quantidade em revisão) |
+| **Intelecto** | educação, raciocínio técnico, conhecimento | **Quantidade de competências conhecida**, em progressão não linear |
 | **Vontade** | disciplina, determinação, autocontrole e presença | **Altura da pirâmide = Vontade** (quantas podem chegar a Profissional/Mestre)<br>**Teto de Exaustão = Vontade + 1** |
+
+### Competências por Intelecto
+
+Intelecto representa a **versatilidade** do personagem. Quanto maior o atributo, maior o repertório de competências disponíveis.
+
+| Intelecto | Competências conhecidas |
+|---:|---:|
+| **1** | **10** |
+| **2** | **12** |
+| **3** | **15** |
+| **4** | **19** |
+
+O ganho é propositalmente não linear: investir fortemente em Intelecto aumenta cada vez mais a amplitude do personagem.
 
 ### Competências ancoradas em cada atributo
 
@@ -50,7 +63,7 @@ Detalhe de cada uma em `competencias.md`.
 | **Fôlego máximo** | Vigor + 7 |
 | **Iniciativa** | Agilidade é o valor-base somado ao teste |
 | **Alerta** | derivado de Percepção |
-| **Nº de competências** | **em revisão**; a fórmula anterior `3 + Intelecto` ainda não foi substituída por uma nova decisão |
+| **Nº de competências** | Intelecto 1 = 10; Intelecto 2 = 12; Intelecto 3 = 15; Intelecto 4 = 19 |
 | **Nº delas em Profissional/Mestre** | Vontade (na criação, regra ainda sujeita à revisão da progressão) |
 | **Teto de Exaustão** | Vontade + 1 — no teto está *Esgotado*; acima dele, *Colapso*. Cada ponto tira **2** do Fôlego máximo |
 | **Resistência a Ferimentos** | **igual para todos**: cai com 2 Graves, 3 Leves, ou 1 Grave + 2 Leves. Grave na cabeça derruba na hora. Só habilidade muda isso |
@@ -62,12 +75,11 @@ Detalhe de cada uma em `competencias.md`.
 - **Vigor** — corpo: força, Fôlego, resistência física e acesso às competências físicas.
 - **Agilidade** — controle corporal: precisão, movimento, reação e **Iniciativa**.
 - **Percepção** — leitura do ambiente: Alerta, emboscadas, armas de fogo, rastreamento e sobrevivência.
-- **Intelecto** — conhecimento e amplitude técnica. A relação exata com a quantidade de competências está em revisão.
+- **Intelecto** — conhecimento e amplitude técnica; quanto maior, mais competências o personagem domina, com ganho crescente nos níveis altos.
 - **Vontade** — disciplina, profundidade de especialização, Exaustão e resistência mental.
 
 ## 6. Em aberto
 
-- Quantidade-base de competências e relação definitiva com Intelecto.
 - Distribuição inicial de ranks e relação definitiva entre Vontade e quantidade de competências em Profissional/Mestre.
 - Atributo 4 em jogo: por qual moeda de progressão? (ver [Pendências](../ideias/pendencias.md)).
 - Revisar em playtest o peso das diferenças raciais registradas em `povos-jogaveis.md`, especialmente o humano (+1 ponto de atributo, +1 Intelecto e +1 habilidade).
