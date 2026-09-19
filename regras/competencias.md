@@ -7,28 +7,32 @@ Regras estruturais:
 - Largura da pirâmide = 3 + Intelecto. Altura (nº de Profissional/Mestre) = Vontade.
 - Ranks: Aprendiz +1 | Prático +2 | Profissional +3 | Mestre +4.
 - Proficiências de combate ocupam slots da mesma pirâmide.
+- A quantidade total de competências disponíveis nesta versão é **31**.
+- A fórmula de quantidade de competências por personagem continua **em revisão**; nenhuma nova fórmula foi adotada nesta atualização.
 
 ---
 
 ## Vigor
 
-- **Pugilismo** — socos, agarrões, imobilizações, luta sem armas ou com soco-inglês *(combate)*
+- **Combate Corpo a Corpo** — socos, chutes, agarrões, imobilizações e luta desarmada ou com armas próprias para esse tipo de combate *(combate)*
 - **Armas Pesadas** — machados grandes, marretas, picaretas, lanças pesadas, armas de duas mãos *(combate)*. Permite **ataque pesado** com as armas elegíveis da classificação provisória
-- **Atletismo** — correr, saltar, escalar, nadar
-- **Labuta** — carregar, cavar, remar, empurrar, trabalho braçal contínuo
-- **Resiliência** — resistir a veneno, doença, frio, fome, dor, esforço prolongado
-- **Força Bruta** — arrombar portas, dobrar barras, quebrar, conter estruturas
+- **Força Bruta** — aplicar força máxima ou explosiva: arrombar portas, dobrar barras, quebrar estruturas, levantar ou mover algo pesado
+- **Resistência** — sustentar esforço físico ao longo do tempo: corrida prolongada, marcha, natação, manter peso levantado e continuar sob fadiga
 - **Intimidação** — ameaçar pela presença física, coagir, impor-se
+
+> **Labuta foi removida.** As situações de trabalho braçal prolongado passam a ser resolvidas principalmente por Resistência ou Força Bruta, conforme o método empregado.
 
 ## Agilidade
 
-- **Armas Leves** — facas, facões, baionetas, machadinhas, armas de uma mão *(combate)*
-- **Arcos e Bestas** — bestas e armas de projétil tensionado *(combate)*. Na prática do cenário é **besta**: arco quase não existe, porque quem não tem oficina não tem arma de tiro
+- **Armas Leves** — facas, facões, baionetas, machadinhas e armas de uma mão *(combate)*
+- **Bestas** — operação e disparo de bestas *(combate)*. Arcos não fazem parte da lista de armas do cenário
 - **Furtividade** — mover-se sem ser visto/ouvido, seguir alguém, esconder-se
 - **Mãos Leves** — punga, esconder objetos no corpo, truques de mão
-- **Acrobacia** — equilíbrio, quedas, contorcionismo, passar por espaços; é a competência de **esquivar** em combate
+- **Acrobacia** — equilíbrio, quedas, contorcionismo, saltos técnicos e passagem por espaços difíceis
 - **Arrombamento** — fechaduras, mecanismos finos, desarmar armadilhas mecânicas
-- **Condução** — montarias, veículos leves, carroças; veículos pesados exigem também Mecânica
+- **Condução** — montarias, veículos leves, carroças; veículos pesados exigem também conhecimento apropriado
+- **Reflexos** — reagir rapidamente a acontecimentos súbitos: agarrar algo caindo, reagir a uma armadilha, perceber e responder a mudanças instantâneas
+- **Esquiva** — defesa corporal ativa em combate; sair da trajetória de golpes e projéteis
 
 ## Percepção
 
@@ -46,23 +50,24 @@ Regras estruturais:
 - **Química** — pólvora, explosivos, combustíveis, destilação, venenos, remédios brutos
 - **Saberes Antigos** — a civilização antiga, relíquias, magia, línguas mortas, ruínas
 - **Naturalismo** — flora, fauna, criaturas, corrupção (biologia do mundo atual)
+- **Operar Mecanismos** — operar máquinas, painéis, dispositivos, equipamentos antigos e mecanismos complexos sem necessariamente saber construí-los ou repará-los
 
 ## Vontade
 
 - **Persuasão** — convencer, argumentar, apelar, negociar posições
 - **Enganação** — mentir, disfarçar-se, blefar, manipular
 - **Barganha** — comércio, pechincha, avaliar acordos, redes de contato mercantil
-- **Comando** — liderar sob pressão, inspirar, manter ordem, coordenar grupos
-- **Adestramento** — acalmar, treinar e controlar animais
-- **Sangue Frio** — manter-se funcional sob medo, estresse, horror; resistir a pânico e à influência mental da corrupção
+- **Lidar com Animais** — aproximar-se, acalmar, conduzir, montar, treinar e compreender o comportamento de animais
+- **Vontade** — manter-se funcional sob medo, estresse e horror; resistir a pânico, coerção psicológica e à influência mental da corrupção
 
 ---
 
 ## Questões em aberto
 
-1. **Defesa:** aparar usa a competência da arma; esquivar usa Acrobacia. Armas leves não permitem aparar sem habilidade específica. Armadura e carga penalizam Esquiva. Ver [Defesa](folego-exaustao-e-defesa.md).
-2. **Intimidação em Vigor vs Vontade**: mantida em Vigor (coerção física). Coerção social/psicológica cai em Persuasão ou Enganação. Validar em jogo.
-3. **Sobreposições a vigiar**: Busca × Rastrear; Química × Medicina (remédios); Mecânica × Arrombamento (fechaduras complexas). Regra prática: usa-se a competência do MÉTODO empregado; um obstáculo, um teste.
-4. **Erudição do mundo atual** (política, história recente, religião, leis): sem slot próprio. Coberta parcialmente por Saberes Antigos + Barganha + origem. Se fizer falta no playtest, criar "Erudição" (Intelecto).
-5. **Sangue Frio**: sem barra mental (decidido). Horror é elemento pontual, não gênero definidor — testes ocorrem em gatilhos específicos, não continuamente. Falha gera Exaustão e/ou estado discreto temporário. Isso reduz a pressão de todo personagem pegar a competência.
-6. **Ranks e habilidades**: rank de competência funciona como PRÉ-REQUISITO de habilidades do grafo (ex.: "Golpe Duplo" exige Armas Leves Mestre). Ranks NÃO concedem habilidades automáticas — evita recriar classes. Sensação de "destravar" ao subir rank será tratada na economia de progressão (ver [Pendências](../ideias/pendencias.md)).
+1. **Defesa:** aparar usa a competência da arma; esquivar usa **Esquiva**. Armas leves não permitem aparar sem habilidade específica. Armadura e carga penalizam Esquiva. Ver [Defesa](folego-exaustao-e-defesa.md).
+2. **Reflexos × Esquiva:** Reflexos cobre reação instantânea a acontecimentos; Esquiva é a defesa deliberada contra ataques. Validar em playtest para evitar sobreposição.
+3. **Intimidação em Vigor vs Vontade:** mantida em Vigor (coerção física). Coerção social/psicológica cai em Persuasão ou Enganação. Validar em jogo.
+4. **Sobreposições a vigiar:** Busca × Rastrear; Química × Medicina (remédios); Mecânica × Arrombamento/Operar Mecanismos. Regra prática: usa-se a competência do **método empregado**; um obstáculo, um teste.
+5. **Erudição do mundo atual** (política, história recente, religião, leis): sem slot próprio. Coberta parcialmente por Saberes Antigos + Barganha + origem. Se fizer falta no playtest, criar "Erudição" (Intelecto).
+6. **Vontade (competência):** sem barra mental. Horror é elemento pontual, não gênero definidor — testes ocorrem em gatilhos específicos, não continuamente. Falha pode gerar Exaustão e/ou estado discreto temporário.
+7. **Ranks e habilidades:** rank de competência funciona como PRÉ-REQUISITO de habilidades do grafo (ex.: "Golpe Duplo" exige Armas Leves Mestre). Ranks NÃO concedem habilidades automáticas — evita recriar classes. Sensação de "destravar" ao subir rank será tratada na economia de progressão (ver [Pendências](../ideias/pendencias.md)).
