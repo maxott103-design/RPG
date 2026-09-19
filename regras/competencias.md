@@ -4,11 +4,11 @@ Status: v1 — lista fechada. Base do piloto preservada; classificação de arma
 
 Regras estruturais:
 - Cada competência é ancorada em um atributo. Rank máximo = atributo âncora + 1. Mestre exige atributo 3+.
-- Largura da pirâmide = 3 + Intelecto. Altura (nº de Profissional/Mestre) = Vontade.
+- A quantidade de competências conhecidas é definida por **Intelecto** em progressão não linear: INT 1 = 10; INT 2 = 12; INT 3 = 15; INT 4 = 19.
+- Altura (nº de Profissional/Mestre) = Vontade.
 - Ranks: Aprendiz +1 | Prático +2 | Profissional +3 | Mestre +4.
 - Proficiências de combate ocupam slots da mesma pirâmide.
 - A quantidade total de competências disponíveis nesta versão é **31**.
-- A fórmula de quantidade de competências por personagem continua **em revisão**; nenhuma nova fórmula foi adotada nesta atualização.
 
 ---
 
