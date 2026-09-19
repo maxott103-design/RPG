@@ -1,41 +1,38 @@
 # Atributos — referência objetiva
 
-Estado: referência unificada de atributos, com os bônus humanos de setembro.
+Estado: referência consolidada para a primeira ficha; detalhes de Alerta e economia de especialização ainda serão fechados em playtest.
 
 ---
 
-## 1. A regra de ouro
+## 1. Princípio geral
 
 **Atributos não somam nas rolagens comuns de competência.** A rolagem-base de ação continua sendo `3d6 + competência − Ameaça`.
 
-**Exceção definida:** Agilidade fornece o valor-base somado aos **testes de Iniciativa**.
-
-Atributos servem para:
-1. **Derivar números da ficha** (Fôlego, Iniciativa, Alerta, quantidade de competências, teto de Exaustão).
-2. **Limitar o quanto uma competência pode subir** (rank máximo = atributo âncora + 1; Mestre exige atributo 3+).
-3. **Ser pré-requisito de habilidades.**
+Os atributos estruturam o personagem e também alimentam subsistemas específicos. Nem todo atributo precisa aumentar ataque ou dano.
 
 ## 2. Escala e criação
 
-- Escala **1 a 4**. Na criação, **mínimo 1 e máximo 3** — o 4 só se alcança em jogo.
-- **Orçamento-base de criação: 10 pontos** distribuídos entre os cinco atributos. **Humanos recebem +1 ponto adicional**, conforme `povos-jogaveis.md`, além do bônus racial de +1 Intelecto.
-- Distribuições típicas: `3-3-2-1-1` (especialista), `3-2-2-2-1` (competente), `2-2-2-2-2` (equilibrado).
+- Escala **1 a 4**.
+- Na criação, **mínimo 1 e máximo 3** — o 4 só se alcança em jogo.
+- **Orçamento-base de criação: 10 pontos** distribuídos entre os cinco atributos.
+- **Humanos recebem +1 ponto adicional**, conforme `povos-jogaveis.md`, além do bônus racial de +1 Intelecto.
+- Distribuições típicas: `3-3-2-1-1`, `3-2-2-2-1` e `2-2-2-2-2`.
 
-Não existe atributo 0. Um personagem com 1 é ruim naquilo — não é incapaz.
+Não existe atributo 0 na criação normal.
 
 ## 3. Os cinco atributos
 
-| Atributo | Do que trata | O que deriva |
+| Atributo | Representa | Função mecânica consolidada |
 |---|---|---|
-| **Vigor** | força, robustez e capacidade de esforço físico | **Fôlego máximo = Vigor + 7** |
+| **Vigor** | força, robustez e capacidade física | **Fôlego máximo = Vigor + 7** |
 | **Agilidade** | velocidade, coordenação, precisão corporal e destreza | **valor-base somado aos testes de Iniciativa** |
-| **Percepção** | sentidos, atenção, leitura de ambiente | **Alerta** (passivo, decide surpresa e emboscada) |
-| **Intelecto** | educação, raciocínio técnico, conhecimento | **Quantidade de competências conhecida**, em progressão não linear |
-| **Vontade** | disciplina, determinação, autocontrole e presença | **Altura da pirâmide = Vontade** (quantas podem chegar a Profissional/Mestre)<br>**Teto de Exaustão = Vontade + 1** |
+| **Percepção** | sentidos, atenção e leitura do ambiente | **Alerta / percepção passiva**; método exato ainda será fechado |
+| **Intelecto** | educação, raciocínio técnico, conhecimento e versatilidade | **determina quantas competências o personagem conhece** |
+| **Vontade** | disciplina, determinação, autocontrole e persistência | **Retomar Fôlego**, **Teto de Exaustão** e **profundidade/progressão das competências** |
 
-### Competências por Intelecto
+### Intelecto — quantidade de competências
 
-Intelecto representa a **versatilidade** do personagem. Quanto maior o atributo, maior o repertório de competências disponíveis.
+Intelecto tem, por enquanto, **uma única função sistêmica própria**: determinar a quantidade de competências conhecidas. Não concede bônus adicional de combate, análise tática ou aquisição de habilidades nesta versão.
 
 | Intelecto | Competências conhecidas |
 |---:|---:|
@@ -44,7 +41,19 @@ Intelecto representa a **versatilidade** do personagem. Quanto maior o atributo,
 | **3** | **15** |
 | **4** | **19** |
 
-O ganho é propositalmente não linear: investir fortemente em Intelecto aumenta cada vez mais a amplitude do personagem.
+O ganho é propositalmente não linear: Intelecto alto representa amplitude e versatilidade crescentes.
+
+### Vontade — profundidade e persistência
+
+Vontade atua em três frentes:
+
+1. **Retomar Fôlego:** a recuperação em combate depende diretamente de Vontade.
+2. **Exaustão:** `Teto de Exaustão = Vontade + 1`.
+3. **Competências:** Intelecto determina quantas competências existem na ficha; Vontade determina quanto o personagem consegue **aprofundá-las** na criação e ao progredir.
+
+Toda competência conhecida começa ao menos em **Aprendiz (+1)**. Vontade fornecerá os pontos usados para elevar competências acima de +1. O valor exato desse orçamento inicial ainda será fechado.
+
+Na progressão, Vontade também determinará a quantidade de pontos recebidos para melhorar competências. A intenção é manter esse ganho baixo; a escala exata ainda está pendente.
 
 ### Competências ancoradas em cada atributo
 
@@ -58,28 +67,30 @@ Detalhe de cada uma em `competencias.md`.
 
 ## 4. Bloco derivado da ficha
 
-| Número | Fórmula / regra |
+| Número | Regra |
 |---|---|
 | **Fôlego máximo** | Vigor + 7 |
 | **Iniciativa** | Agilidade é o valor-base somado ao teste |
-| **Alerta** | derivado de Percepção |
-| **Nº de competências** | Intelecto 1 = 10; Intelecto 2 = 12; Intelecto 3 = 15; Intelecto 4 = 19 |
-| **Nº delas em Profissional/Mestre** | Vontade (na criação, regra ainda sujeita à revisão da progressão) |
-| **Teto de Exaustão** | Vontade + 1 — no teto está *Esgotado*; acima dele, *Colapso*. Cada ponto tira **2** do Fôlego máximo |
-| **Resistência a Ferimentos** | **igual para todos**: cai com 2 Graves, 3 Leves, ou 1 Grave + 2 Leves. Grave na cabeça derruba na hora. Só habilidade muda isso |
+| **Alerta** | deriva de Percepção; regra exata pendente |
+| **Nº de competências** | INT 1 = 10; INT 2 = 12; INT 3 = 15; INT 4 = 19 |
+| **Retomar Fôlego** | 2 + Vontade − Peso da armadura, mínimo 1 |
+| **Teto de Exaustão** | Vontade + 1 |
+| **Especialização de competências** | orçamento baseado em Vontade; valor exato pendente |
+| **Progressão de competências** | pontos por avanço baseados em Vontade; valor exato pendente |
+| **Resistência a Ferimentos** | igual para todos; só habilidades alteram |
 
-*Por que a Resistência a Ferimentos não deriva de Vigor: Vigor já deriva o Fôlego. Se derivasse os dois, Vigor tenderia a concentrar importância demais. Ser mais resistente a Ferimentos é escolha de habilidade, não de ficha.*
+## 5. Identidade mecânica
 
-## 5. Papel de cada atributo
-
-- **Vigor** — corpo: força, Fôlego, resistência física e acesso às competências físicas.
-- **Agilidade** — controle corporal: precisão, movimento, reação e **Iniciativa**.
-- **Percepção** — leitura do ambiente: Alerta, emboscadas, armas de fogo, rastreamento e sobrevivência.
-- **Intelecto** — conhecimento e amplitude técnica; quanto maior, mais competências o personagem domina, com ganho crescente nos níveis altos.
-- **Vontade** — disciplina, profundidade de especialização, Exaustão e resistência mental.
+- **Vigor** = quanto seu corpo aguenta.
+- **Agilidade** = quão rápido você entra em ação e controla o corpo.
+- **Percepção** = quanto do perigo você percebe antes que ele se imponha.
+- **Intelecto** = quantas ferramentas diferentes você possui.
+- **Vontade** = quanto você consegue se recompor, persistir e aprofundar treinamento.
 
 ## 6. Em aberto
 
-- Distribuição inicial de ranks e relação definitiva entre Vontade e quantidade de competências em Profissional/Mestre.
-- Atributo 4 em jogo: por qual moeda de progressão? (ver [Pendências](../ideias/pendencias.md)).
-- Revisar em playtest o peso das diferenças raciais registradas em `povos-jogaveis.md`, especialmente o humano (+1 ponto de atributo, +1 Intelecto e +1 habilidade).
+- Fórmula final do **Alerta** e interação entre Percepção passiva, Busca e emboscadas.
+- Quantidade exata de pontos de especialização concedidos por Vontade na criação.
+- Quantidade exata de pontos de competência concedidos por Vontade em cada avanço.
+- Atributo 4 em jogo: por qual moeda de progressão? Ver [Pendências](../ideias/pendencias.md).
+- Revisar em playtest o peso das diferenças raciais, especialmente o humano.
