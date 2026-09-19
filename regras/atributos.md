@@ -6,10 +6,12 @@ Estado: referência unificada de atributos, com os bônus humanos de setembro.
 
 ## 1. A regra de ouro
 
-**Atributo NUNCA soma na rolagem.** A rolagem é sempre `3d6 + competência − Ameaça`.
+**Atributos não somam nas rolagens comuns de competência.** A rolagem-base de ação continua sendo `3d6 + competência − Ameaça`.
 
-Atributo serve para três coisas, e só:
-1. **Derivar números da ficha** (Fôlego, quantas competências, teto de Exaustão).
+**Exceção definida:** Agilidade fornece o valor-base somado aos **testes de Iniciativa**.
+
+Atributos servem para:
+1. **Derivar números da ficha** (Fôlego, Iniciativa, Alerta, quantidade de competências, teto de Exaustão).
 2. **Limitar o quanto uma competência pode subir** (rank máximo = atributo âncora + 1; Mestre exige atributo 3+).
 3. **Ser pré-requisito de habilidades.**
 
@@ -25,47 +27,47 @@ Não existe atributo 0. Um personagem com 1 é ruim naquilo — não é incapaz.
 
 | Atributo | Do que trata | O que deriva |
 |---|---|---|
-| **Vigor** | força, resistência física, capacidade de aguentar | **Fôlego máximo = Vigor + 7** |
-| **Agilidade** | velocidade, precisão, mãos, corpo | nada direto — aparece via competências (esquivar é Acrobacia) |
+| **Vigor** | força, robustez e capacidade de esforço físico | **Fôlego máximo = Vigor + 7** |
+| **Agilidade** | velocidade, coordenação, precisão corporal e destreza | **valor-base somado aos testes de Iniciativa** |
 | **Percepção** | sentidos, atenção, leitura de ambiente | **Alerta** (passivo, decide surpresa e emboscada) |
-| **Intelecto** | educação, raciocínio técnico, conhecimento | **Largura da pirâmide = 3 + Intelecto** (quantas competências você tem) |
-| **Vontade** | disciplina, teimosia, autocontrole, presença | **Altura da pirâmide = Vontade** (quantas podem chegar a Profissional/Mestre)<br>**Teto de Exaustão = Vontade + 1** |
+| **Intelecto** | educação, raciocínio técnico, conhecimento | **Largura da pirâmide = 3 + Intelecto** (regra de quantidade em revisão) |
+| **Vontade** | disciplina, determinação, autocontrole e presença | **Altura da pirâmide = Vontade** (quantas podem chegar a Profissional/Mestre)<br>**Teto de Exaustão = Vontade + 1** |
 
 ### Competências ancoradas em cada atributo
 
-- **Vigor** — Pugilismo, Armas Pesadas, Atletismo, Labuta, Resiliência, Força Bruta, Intimidação
-- **Agilidade** — Armas Leves, Arcos e Bestas, Furtividade, Mãos Leves, Acrobacia, Arrombamento, Condução
+- **Vigor** — Combate Corpo a Corpo, Armas Pesadas, Força Bruta, Resistência, Intimidação
+- **Agilidade** — Armas Leves, Bestas, Furtividade, Mãos Leves, Acrobacia, Arrombamento, Condução, Reflexos, Esquiva
 - **Percepção** — Armas de Fogo, Busca, Rastrear, Sobrevivência, Intuição, Avaliar
-- **Intelecto** — Medicina, Mecânica, Química, Saberes Antigos, Naturalismo
-- **Vontade** — Persuasão, Enganação, Barganha, Comando, Adestramento, Sangue Frio
+- **Intelecto** — Medicina, Mecânica, Química, Saberes Antigos, Naturalismo, Operar Mecanismos
+- **Vontade** — Persuasão, Enganação, Barganha, Lidar com Animais, Vontade
 
 Detalhe de cada uma em `competencias.md`.
 
 ## 4. Bloco derivado da ficha
 
-Todo personagem calcula estes cinco números, e só estes:
-
-| Número | Fórmula |
+| Número | Fórmula / regra |
 |---|---|
 | **Fôlego máximo** | Vigor + 7 |
-| **Nº de competências** | 3 + Intelecto |
-| **Nº delas em Profissional/Mestre** | Vontade (na criação, sempre 1 Profissional + 2 Práticos + resto Aprendiz) |
+| **Iniciativa** | Agilidade é o valor-base somado ao teste |
+| **Alerta** | derivado de Percepção |
+| **Nº de competências** | **em revisão**; a fórmula anterior `3 + Intelecto` ainda não foi substituída por uma nova decisão |
+| **Nº delas em Profissional/Mestre** | Vontade (na criação, regra ainda sujeita à revisão da progressão) |
 | **Teto de Exaustão** | Vontade + 1 — no teto está *Esgotado*; acima dele, *Colapso*. Cada ponto tira **2** do Fôlego máximo |
 | **Resistência a Ferimentos** | **igual para todos**: cai com 2 Graves, 3 Leves, ou 1 Grave + 2 Leves. Grave na cabeça derruba na hora. Só habilidade muda isso |
 
-*Por que a Resistência não deriva de Vigor: já deriva o Fôlego. Se derivasse os dois, Vigor viraria o único atributo que importa. Ser mais resistente é escolha de habilidade, não de ficha.*
+*Por que a Resistência a Ferimentos não deriva de Vigor: Vigor já deriva o Fôlego. Se derivasse os dois, Vigor tenderia a concentrar importância demais. Ser mais resistente a Ferimentos é escolha de habilidade, não de ficha.*
 
-## 5. Por que cada atributo vale a pena
+## 5. Papel de cada atributo
 
-Teste de sanidade do chassi — nenhum atributo pode ser pedágio universal nem lixo:
-
-- **Vigor** — mais Fôlego, ou seja, mais rodadas de pé numa luta. É o atributo mais direto do combate.
-- **Agilidade** — não dá número, dá *teto*: é o que permite ser Profissional em Armas Leves, Furtividade ou Acrobacia. Personagem de agilidade baixa pode até ter a competência, mas não chega longe nela.
-- **Percepção** — decide quem é emboscado, e ancora Armas de Fogo e toda a leitura de Wasteland. Num jogo de expedição, é o atributo que evita o combate acontecer nos termos do inimigo.
-- **Intelecto** — largura da ficha. Personagem de Intelecto 1 é fundo e estreito; de Intelecto 3 é largo e versátil. Nenhum dos dois é errado.
-- **Vontade** — profundidade da ficha **e** quanto de estrada o personagem aguenta. Vontade 1 significa teto de Exaustão 2: forte por uma tarde, inútil numa semana de viagem.
+- **Vigor** — corpo: força, Fôlego, resistência física e acesso às competências físicas.
+- **Agilidade** — controle corporal: precisão, movimento, reação e **Iniciativa**.
+- **Percepção** — leitura do ambiente: Alerta, emboscadas, armas de fogo, rastreamento e sobrevivência.
+- **Intelecto** — conhecimento e amplitude técnica. A relação exata com a quantidade de competências está em revisão.
+- **Vontade** — disciplina, profundidade de especialização, Exaustão e resistência mental.
 
 ## 6. Em aberto
 
-- Atributo 4 em jogo: por qual moeda de progressão? (ver [Pendências](../ideias/pendencias.md))
+- Quantidade-base de competências e relação definitiva com Intelecto.
+- Distribuição inicial de ranks e relação definitiva entre Vontade e quantidade de competências em Profissional/Mestre.
+- Atributo 4 em jogo: por qual moeda de progressão? (ver [Pendências](../ideias/pendencias.md)).
 - Revisar em playtest o peso das diferenças raciais registradas em `povos-jogaveis.md`, especialmente o humano (+1 ponto de atributo, +1 Intelecto e +1 habilidade).
