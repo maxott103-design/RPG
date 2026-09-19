@@ -1,6 +1,6 @@
 # Fôlego, Exaustão e Defesa
 
-Estado: consolidado com as decisões de 17/09/2026.
+Estado: consolidado com as decisões de 19/09/2026.
 
 ## Fôlego (PF)
 
@@ -29,7 +29,7 @@ O contador de defesas zera no início do seu turno. Ferimentos aumentam custos; 
 ### Defesa (reação, opcional)
 
 - **Aparar:** 3d6 + competência da arma empunhada − Ameaça. Sucesso evita o ataque. Armas leves não permitem aparar, salvo habilidade específica.
-- **Esquivar:** 3d6 + Acrobacia − Ameaça − penalidades de carga.
+- **Esquivar:** 3d6 + **Esquiva** − Ameaça − penalidades de carga.
 - **Esquiva decisiva:** evita o golpe sem sair do lugar.
 - **Esquiva moderada (10–14):** precisa se afastar 1 quadrado. Sem espaço livre e válido, sofre o Ferimento.
 - O recuo da Esquiva **não provoca ataque de oportunidade**.
@@ -61,7 +61,7 @@ O contador de defesas zera no início do seu turno. Ferimentos aumentam custos; 
 
 ## Exaustão
 
-**Ganha 1 ponto ao**: terminar um combate Quebrado (fonte universal de combate); usar habilidades que forçam o corpo (ver [Habilidades](habilidades.md)); falhar em Sangue Frio num gatilho de horror; passar um dia sem comida, água ou sono; marcha forçada, frio ou calor extremo sem proteção.
+**Ganha 1 ponto ao**: terminar um combate Quebrado (fonte universal de combate); usar habilidades que forçam o corpo (ver [Habilidades](habilidades.md)); falhar em **Vontade** num gatilho de horror; passar um dia sem comida, água ou sono; marcha forçada, frio ou calor extremo sem proteção.
 
 **Efeitos:**
 
