@@ -1,10 +1,16 @@
-# Igreja e assimilação
+# Igreja da Unificação e assimilação
 
-Estado: **Fundamentos consolidados pelo autor; nome, símbolo e organização ainda incompletos**. Atualização: 05/10/2026.
+Estado: **Fundamentos consolidados pelo autor; símbolo e organização ainda incompletos**. Atualização: 05/10/2026.
 
 Fontes anteriores: C02, C03, R01 e M01; consulte [procedência e limites](../fontes/README.md). Atualização: decisões explícitas do autor na conversa de 05/10/2026 sobre Igreja, antiarcano e cidade amaldiçoada.
 
 **Conteúdo do mestre.** A natureza da Igreja é um segredo da ambientação; não corresponde ao conhecimento comum dos fiéis.
+
+## Distinção entre as tradições religiosas
+
+A designação usada pelo autor é **Igreja da Unificação**; a **Grande Comunhão** é a doutrina pregada. Sua mensagem enfatiza comunhão, amor ao próximo e altruísmo, enquanto a assimilação retira arcano do ciclo e ameaça a continuidade da vida.
+
+O [reino teocrático do Norte](../worldbuilding/reino-teocratico-do-norte.md) segue [cultos distintos](cultos-do-norte.md), surgidos da resistência ao antiarcano. Seus sacerdotes não são partes desta coletividade. A expressão “todos os padres são corrompidos” neste documento aplica-se à Igreja da Unificação, não a todo religioso do mundo.
 
 ## Fundamento: uma manifestação organizada do antiarcano
 
@@ -62,7 +68,7 @@ O padre assimilado ligado ao contexto da aventura já possuía uma direção vis
 
 ## Questões em aberto
 
-- Nome da Igreja e da ordem, desenho definitivo do emblema, hierarquia, leis, alcance territorial e relação com o reino teocrático a nordeste.
+- Nome da ordem interna, desenho definitivo do emblema, hierarquia, leis e alcance territorial. O reino ao norte segue outra tradição; os detalhes do confronto entre ambos permanecem abertos.
 - Ritos e mecanismo concreto da entrega voluntária de arcano; efeitos sobre os fiéis.
 - Formação histórica da instituição e limites de autonomia, memória e conexão dos sacerdotes.
 - Papel específico da ordem secreta dentro da coletividade.

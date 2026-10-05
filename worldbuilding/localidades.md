@@ -46,6 +46,12 @@ Os pterossauros do vale vivem livremente, mas descendem de uma espécie domestic
 
 Ver [Cidade amaldiçoada — núcleo e possibilidades](cidade-amaldicoada.md).
 
+## Reino teocrático do Norte
+
+Definições de 05/10/2026: região fértil ao norte, cortada por uma cordilheira e conectada por rios; arquipélagos são possibilidade. Reino monumental, militarizado e escravista, menos industrializado que as Confederações. Sua tradição de cultos arcanos é distinta da Igreja da Unificação; o rei é também líder espiritual ligado ao mártir fundador.
+
+Ver [Reino do Norte](reino-teocratico-do-norte.md), [vestimentas e equipamentos](../estetica/reino-do-norte.md) e [propostas de fronteiras](fronteiras-reino-confederacoes.md). Nome próprio, capital e mapa permanecem abertos.
+
 ## Pendências
 
 Plantas, nomes do entreposto, bairros, população, localização precisa das minas e traçado ferroviário não foram recuperados.

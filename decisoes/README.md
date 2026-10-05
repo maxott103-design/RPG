@@ -11,3 +11,5 @@ O conteúdo foi organizado a partir das [fontes disponíveis](../fontes/README.m
 Para novas entradas, use os [modelos](../modelos/README.md).
 
 - [0004 — Unificação do repositório](0004-unificacao-do-repositorio.md)
+
+- [0005 — Reino do Norte e cultos arcanos](0005-reino-do-norte-e-cultos-arcanos.md)

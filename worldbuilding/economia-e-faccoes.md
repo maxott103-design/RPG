@@ -18,7 +18,7 @@ Ferrovia e caravanas conectam os núcleos habitados. Carroças são puxadas por 
 | Guildas de engenheiros | Conhecimento e atividade técnica; detalhes não recuperados |
 | Guildas de exploradores | Exploração; relação formal com a SEDP não definida no material |
 | Sociedade Expedicionária de Pedra Negra — SEDP | Expedições e contato da aventura piloto, com sede decadente e liderança do Comissário |
-| Igreja | Repressão à magia, elfos/meio-elfos e artefatos; ver lore para segredos |
+| Igreja da Unificação | Repressão à magia, elfos/meio-elfos e artefatos; ver lore para segredos |
 
 ## Cadeia da resina colossal
 
@@ -39,6 +39,14 @@ A capital histórica, política e populacional da Ordem é **Meteora**, cidade c
 A cidade da Caída controla a fonte material; os Aeronautas controlam parte decisiva da transformação e do uso. Essa relação cria uma interdependência econômica e geopolítica de alto valor estratégico.
 
 Ver [Araucárias colossais e derivados](araucarias-colossais-e-resina.md) e [Meteora](meteora.md).
+
+## Reino do Norte — contraste incorporado em 05/10/2026
+
+O [reino teocrático do Norte](reino-teocratico-do-norte.md) tem economia menos industrializada, população numerosa, ampla escravidão e conexões fluviais. Sua direção econômica é de maior robustez local e menor interdependência que as Confederações. Redundância provincial de agricultura e oficinas é uma proposta de implementação, não uma cadeia produtiva já quantificada.
+
+Sua tradição de [cultos arcanos](../lore/cultos-do-norte.md) é independente e adversária da Igreja da Unificação. O rei é líder político e espiritual, sem eliminar a diversidade dos sacerdócios.
+
+Trocas comerciais, choque cultural, expansão lenta e possíveis pontos de contato estão em [Fronteiras e relações](fronteiras-reino-confederacoes.md), com hipóteses identificadas.
 
 ## Em aberto
 

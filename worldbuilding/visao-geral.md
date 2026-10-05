@@ -85,7 +85,7 @@ Algumas estruturas da civilização antiga podem não ter sido feitas para prote
 
 Uma porta gigantesca enterrada pode não ser uma entrada: pode ser uma contenção. Uma fábrica abandonada pode ser uma prisão. Isso permite reinterpretar ruínas já mencionadas sem reescrever a história.
 
-## 6. A Igreja
+## 6. A Igreja da Unificação
 
 A Igreja anti-magia deixa de ser "a facção que odeia magia" e passa a ter relação ambígua com o desastre.
 
@@ -136,7 +136,10 @@ O cotidiano usa carvão, vapor, mecanismos, ferrovia, caravanas e força animal.
 
 - [Localidades](localidades.md): Pedra Negra, entreposto, SEDP e ruínas.
 - [Confederação dos Vales](confederacao-dos-vales.md): organização regional.
-- Confederação agrícola em uma península e reino teocrático a nordeste; não presumir controle da Igreja inteira por esse reino.
+- Confederação agrícola em uma península.
+- [Reino teocrático do Norte](reino-teocratico-do-norte.md): localização atualizada pelo autor em 05/10/2026; substitui a indicação anterior de nordeste. Civilização imperial agrária, fluvial, militarizada e escravista, com monumentos de pedra e mármore.
+- Seus [cultos diversos](../lore/cultos-do-norte.md) são distintos da Igreja da Unificação. Ritos arcanos sutis funcionam de verdade, sem sacrifícios; o rei também exerce liderança espiritual vinculada a um mártir.
+- [Fronteiras e contato com as Confederações](fronteiras-reino-confederacoes.md): barreira geográfica e aproximação militar recente são propostas ainda não fechadas.
 - Cidade voadora élfica como remanescente do mundo anterior.
 - [Economia e facções](economia-e-faccoes.md): carvão, guildas e dependência aeronáutica da resina.
 - [Araucárias colossais](araucarias-colossais-e-resina.md): Caída e Altiva.

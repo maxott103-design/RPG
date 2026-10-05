@@ -4,6 +4,8 @@
 - [Armas e armaduras](armas-e-armaduras.md)
 - [Briefings visuais e miniaturas](cenas-e-personagens.md)
 
+- [Reino do Norte — vestimentas, monumentos e equipamentos](reino-do-norte.md)
+
 ## Como interpretar
 
 O conteúdo foi organizado a partir das [fontes disponíveis](../fontes/README.md). Cada documento distingue informações recuperadas, decisões explícitas e lacunas. As divergências não foram resolvidas por suposição.

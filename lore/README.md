@@ -1,8 +1,10 @@
 # Lore
 
 - [Arcano, antiarcano e colapso](cosmologia-e-colapso.md)
-- [Igreja, coletividade e assimilação](igreja.md)
+- [Igreja da Unificação, coletividade e assimilação](igreja.md)
 - [Arcano vital e resina da araucária](arcano-vital-e-resina.md)
+
+- [Cultos do Norte, mártir e ritos arcanos](cultos-do-norte.md)
 
 ## Como interpretar
 
