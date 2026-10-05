@@ -38,6 +38,14 @@ Descoberta por Dorian durante um voo nas costas de um pterossauro, a instalaçã
 
 Os pterossauros do vale vivem livremente, mas descendem de uma espécie domesticada antes da Grande Guerra. Parte dos filhotes é capturada e criada pelos Aeronautas como montaria. Ver [Meteora](meteora.md).
 
+## Cidade amaldiçoada — sem nome
+
+**Primeiros rascunhos, registrados em 05/10/2026.** Uma entidade singular protege a cidade e exige sacrifícios. Os cidadãos conhecem a maldição e a cultuam secretamente numa igreja pagã. Todo padre recém-chegado passa por um ritual de assimilação à presença local.
+
+Às 14h, o toque do sino anuncia que algo sairá para se alimentar. Todos se recolhem imediatamente, em silêncio e de maneira quase coreografada. Nome, localização, frequência do toque e regras do pacto permanecem abertos.
+
+Ver [Cidade amaldiçoada — núcleo e possibilidades](cidade-amaldicoada.md).
+
 ## Pendências
 
 Plantas, nomes do entreposto, bairros, população, localização precisa das minas e traçado ferroviário não foram recuperados.

@@ -7,6 +7,7 @@
 - [Confederação dos Vales](confederacao-dos-vales.md)
 - [Araucárias colossais e resina](araucarias-colossais-e-resina.md)
 - [Meteora, capital dos Aeronautas](meteora.md)
+- [Cidade amaldiçoada — primeiros rascunhos](cidade-amaldicoada.md)
 
 ## Como interpretar
 

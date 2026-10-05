@@ -1,6 +1,6 @@
 # Visão Geral do Mundo — cânone de trabalho
 
-Estado: visão geral unificada. Atualizada em 17/09/2026; detalhes recentes de resina, Confederações e Aeronautas estão nos documentos temáticos.
+Estado: visão geral unificada. Atualizada em 17/09/2026, com revisão da cosmologia e da Igreja em 05/10/2026; detalhes recentes de resina, Confederações e Aeronautas estão nos documentos temáticos.
 
 ---
 
@@ -22,7 +22,9 @@ Quase toda campanha acontece na primeira camada. Cada camada abaixo é mais rara
 
 - **Arcano natural** — a energia da vida deste mundo. Acumulada por eras na matéria orgânica, como petróleo. Drasticamente reduzida desde o feitiço dos altos elfos, mas não extinta. Vida, decomposição e resina participam de sua retenção e recomposição; ver [Arcano vital e resina](../lore/arcano-vital-e-resina.md).
 - **Arcano alienígena** — a mesma coisa, de outro mundo, vinda pelo Portal.
-- **Antiarcano** (= "arcano corrompido" na transcrição antiga) — o arcano alienígena depois de ter sido consumido e distorcido por alguma inteligência do outro lado. Não é magia maligna: é uma ecologia estranha tentando transformar o mundo em algo que consiga habitar.
+- **Antiarcano** (= "arcano corrompido" na transcrição antiga) — energia natural que assimila, absorve e acumula arcano. Assim como o arcano, não tem consciência ou intenção própria. Suas manifestações podem formar consciências distintas. A origem exata permanece aberta; é hipótese que suas propriedades atuais tenham surgido no encontro com o arcano deste mundo.
+
+O ciclo arcano se desenvolveu em relação relativamente simbiótica com a vida; a retenção pelo antiarcano altera esse equilíbrio. Não há uma guerra intencional entre as forças. A atribuição antiga da origem do antiarcano a uma inteligência externa não é mais definição vigente. Ver [Cosmologia e colapso](../lore/cosmologia-e-colapso.md).
 
 ## 3. Por que a Wasteland é perigosa
 
@@ -92,6 +94,8 @@ A crença oficial — *"o arcano destruiu o mundo"* — é **parcialmente verdad
 A pergunta que a torna interessante: e se, dentro da Igreja, houver quem saiba que **eliminar o arcano não resolve o problema**?
 
 Consequência prática de mesa: a Igreja é ao mesmo tempo perseguidora, fonte de informação e, às vezes, a única gente que já viu aquilo antes.
+
+**Definição de 05/10/2026:** todos os padres são corrompidos e partes de uma coletividade capaz de encenar indivíduos agradáveis e convincentes. A semelhança entre eles é atribuída à doutrinação, mas decorre de sua natureza compartilhada. A Igreja emergiu quase por seleção natural como uma forma eficiente de obter arcano entregue pelos fiéis. Sua Grande Comunhão é doutrina, não propósito universal do antiarcano. Há manifestações independentes completamente fora de seu controle. Ver [Igreja e assimilação](../lore/igreja.md) e [cidade amaldiçoada](cidade-amaldicoada.md).
 
 ## 7. Escala de raridade (contrato com a mesa)
 

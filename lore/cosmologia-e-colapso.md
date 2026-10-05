@@ -1,6 +1,6 @@
 # Cosmologia e colapso
 
-Estado: **Registrado no contexto; cronologia incompleta**. Organização: 13/09/2026.
+Estado: **Registrado no contexto; cronologia incompleta**. Organização: 13/09/2026. Fundamentos atualizados por decisão do autor em 05/10/2026.
 
 Fontes: C02, C03, R01 e M01. Consulte [procedência e limites](../fontes/README.md).
 
@@ -8,7 +8,15 @@ Conteúdo do mestre.
 
 ## Arcano e antiarcano
 
-O arcano é associado à energia vital. O antiarcano é uma força assimiladora. Corrupção, assimilação e mutação fazem parte do horror do cenário; não foi recuperada uma classificação completa de seus estágios ou efeitos.
+Arcano e antiarcano são energias naturais, sem consciência, propósito moral ou intenção próprios. Influenciam a vida independentemente de serem compreendidos, assim como a gravidade influencia a anatomia e o funcionamento de um organismo.
+
+O arcano integra um ciclo planetário relativamente simbiótico com a vida. O antiarcano tem caráter assimilador: absorve, retém e acumula arcano, alterando esse ciclo. Não existe uma guerra intencional entre as duas forças; o conflito vivido pelos habitantes resulta de seus efeitos.
+
+Consciências podem emergir de estruturas formadas por essas energias. Isso não torna consciente a energia em si. A Igreja é uma dessas organizações; existem outras manifestações independentes, inclusive fora de seu controle. Corrupção, assimilação e mutação fazem parte do horror do cenário, mas sua classificação completa continua aberta.
+
+**Hipótese em aberto:** as propriedades assimiladoras observadas neste mundo podem ter surgido quando o antiarcano se fundiu ou interagiu com o arcano natural local. Não está definido como ele se comportava antes desse encontro.
+
+A formação da Igreja foi aprovada como um processo quase análogo à seleção natural, no qual formas eficientes de persistência e obtenção de arcano deram origem à instituição. Ver [Igreja e assimilação](igreja.md).
 
 ## Catástrofe antiga
 
@@ -36,8 +44,12 @@ A referência geral herdada é cerca de mil anos desde a Grande Guerra, sem data
 
 - Arcano natural: energia vital deste mundo, drasticamente reduzida, não extinta.
 - Arcano alienígena: energia proveniente do outro mundo pelo Portal.
-- Antiarcano: arcano alienígena consumido e distorcido por uma inteligência do outro lado, com caráter assimilador. “Arcano corrompido” é o termo antigo.
+- Antiarcano: energia natural de caráter assimilador, sem consciência própria. “Arcano corrompido” é o termo antigo. A antiga atribuição de sua origem a uma inteligência do outro lado deixa de ser definição vigente; sua origem exata e a hipótese de propriedades emergentes no contato com o arcano local permanecem abertas.
 - A corrupção distorce a pessoa e sua relação com o ofício: trabalhador, soldado, técnico e médico podem conservar vestígios reconhecíveis em transformações distintas.
 - Reversibilidade, tempo de transformação e persistência da consciência permanecem em aberto.
 
 As instalações concebidas como prisões/contenções são proposta, não explicação definitiva para toda ruína. A situação atual do Portal e o destino da entidade mencionada nas fontes antigas permanecem sem definição.
+
+## Registro da revisão de 05/10/2026
+
+A nova definição distingue energias impessoais de consciências emergentes. Referências anteriores a uma inteligência externa não estabelecem uma mente universal por trás do antiarcano. A existência ou o destino de entidades específicas ligadas ao Portal continuam questões próprias, sem resolver a natureza das forças. Esta revisão preserva o ciclo vital detalhado em [Arcano vital e resina](arcano-vital-e-resina.md).
