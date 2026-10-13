@@ -16,13 +16,17 @@ O fundador da religião **continua existindo como imperador**. Não se deve trat
 
 ## Os gigantes e a criação dos paladinos
 
-Gigantes são uma espécie existente no cenário: medem aproximadamente **4 a 5 metros** e são **muito raros no mundo civilizado**. Sua origem, cultura, distribuição e relação com o Império não foram definidas.
+Gigantes são uma espécie existente no cenário: medem aproximadamente **4 a 5 metros** e são **muito raros no mundo civilizado**. São biologicamente menos capazes de cognição complexa do que humanos, vivem em grupos **tribais, de organização quase selvagem**, e possuem uma caracterização rústica, caricatural. Sua origem e distribuição geográfica exatas não foram definidas.
+
+**O Império captura gigantes à força e os transporta para o ritual de criação dos paladinos.** A transformação depende, portanto, da captura coercitiva de indivíduos dessa espécie; não se trata de uma colaboração voluntária. O destino da consciência/cérebro original do gigante e os métodos de captura ainda não foram detalhados.
 
 O procedimento para criar um paladino utiliza a transferência do **cérebro de um guerreiro humano excepcional para o corpo de um gigante**. A união é viabilizada por arcano e antiarcano: o caráter assimilador do antiarcano permite integrar estruturas orgânicas incompatíveis e o arcano participa da sustentação/estabilização do novo organismo. Não se trata de uma técnica médica normal nem de engenharia genética moderna plenamente dominada.
 
+A **ordem conta com doze paladinos**, número escolhido intencionalmente por seu paralelo simbólico com os doze apóstolos. Não está definido se o imperador — fundador e primeiro paladino da história — entra nessa contagem, ou se os doze são seus sucessores/servidores. A história individual e as funções de cada um ainda estão abertas.
+
 O resultado é um guerreiro de força e porte descomunais. O imaginário desejado é o de um combatente individual excepcional, de armadura muito espessa, capaz de empunhar uma espada enorme semelhante à “tábua” de *Kenshi*. Poder enfrentar e até matar sozinho um dinossauro gigantesco é a escala heroica pretendida, **não uma garantia automática de vitória**. Sua mera chegada a uma cidade pode colocar a guarnição inteira em alerta. Esses guerreiros são extraordinariamente raros, jamais tropas banais.
 
-**Ainda em aberto:** recrutamento e seleção, participação ou sacrifício dos gigantes, taxa de sobrevivência, número de paladinos vivos, organização interna da ordem, equipamento padronizado, limites físicos, vulnerabilidade a armas modernas, manutenção, e possíveis efeitos colaterais individuais. Exemplos e números propostos pelo assistente anteriormente não se tornam cânone por mera sugestão.
+**Ainda em aberto:** recrutamento e seleção dos guerreiros humanos, técnica de captura e destino da consciência original dos gigantes, taxa de sobrevivência, distinção entre os doze e o imperador, organização interna da ordem, equipamento padronizado, limites físicos, vulnerabilidade a armas modernas, manutenção e possíveis efeitos colaterais individuais. Exemplos não aprovados pelo autor não se tornam cânone por mera sugestão.
 
 A ordem de paladinos não deve ser confundida automaticamente com a [ordem de cavaleiros sagrados montados](../worldbuilding/reino-teocratico-do-norte.md) já concebida para o Império. O vínculo hierárquico entre ambas permanece aberto.
 
@@ -80,9 +84,9 @@ Compartilhar propriedades antiarcanas **não** as torna uma única mente, uma or
 
 - Nome do Império, do imperador, da ordem paladina e das ordens sacerdotais.
 - Relação entre imperador eterno e o modelo anterior de rei/reencarnação/descendência; versão popular da biografia do fundador, seu suposto martírio e legitimidade dinástica.
-- Fonte e disponibilidade dos gigantes, consentimento, custos e frequência de criação dos paladinos.
+- Fonte geográfica e disponibilidade dos gigantes capturados à força, custos e frequência de criação dos paladinos; se o imperador integra ou não a contagem dos doze.
 - Alcance de seus sentidos, modo de comunicação com paladinos, limites físicos e relação com o trono.
 - Estrutura e rivalidades da ordem de intérpretes; quais pessoas conhecem o procedimento proibido.
 - Confronto concreto entre as três manifestações e os limites de interação entre elas.
 
-**Não consolidado como fato:** número de oito a doze paladinos; decadência inevitável da mente de todo paladino; imperador necessariamente desejando morrer; onisciência do imperador; o imperador ser o criador ou controlador de toda manifestação antiarcana.
+**Não consolidado como fato:** decadência inevitável da mente de todo paladino; imperador necessariamente desejando morrer; onisciência do imperador; o imperador ser o criador ou controlador de toda manifestação antiarcana. **Consolidado em atualização posterior:** doze paladinos e gigantes capturados compulsoriamente.
