@@ -52,6 +52,8 @@ Existem manifestações do antiarcano completamente fora do controle da Igreja e
 
 A Igreja é uma forma particular e bem-sucedida de organização, não representante de todo fenômeno antiarcano. A extensão de suas relações com outras manifestações ainda precisa ser desenvolvida.
 
+A cosmologia atualmente reconhece **três fenômenos independentes**: a coletividade da Igreja, a entidade da cidade amaldiçoada e **o imperador do Norte**, primeiro paladino e epicentro assimilador cuja energia é uma união estável entre arcano e antiarcano. O imperador **não pode ser assimilado pelo fenômeno particular da Igreja da Unificação**. Isso não torna todos os fenômenos parte de uma mesma mente ou hierarquia. Ver [O Imperador e os Paladinos](imperador-e-paladinos.md).
+
 ## Cidade amaldiçoada e culto local
 
 Na [cidade amaldiçoada, ainda sem nome](../worldbuilding/cidade-amaldicoada.md), os moradores cultuam secretamente uma entidade singular que protege a cidade e exige sacrifícios. Essa entidade não é a Grande Comunhão.
