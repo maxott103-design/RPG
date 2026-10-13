@@ -1,10 +1,10 @@
 # Reino teocrático do Norte
 
 - Estado: fundamentos definidos; desenvolvimentos propostos identificados abaixo.
-- Atualização: 05/10/2026.
+- Atualização: 12/10/2026.
 - Fonte: conversa do autor de 05/10/2026, após a consolidação da Igreja e da cidade amaldiçoada.
 - Visibilidade: mestre; história real dos cultos e natureza do arcano são segredos.
-- Nome próprio do país e do mártir: em aberto. “Reino”, “império” e “civilização imperial” descrevem o mesmo projeto em desenvolvimento, sem fixar titulatura oficial.
+- Nome próprio do país, do imperador e da ordem paladina: em aberto. “Reino”, “império” e “civilização imperial” descrevem o mesmo projeto em desenvolvimento, sem fixar titulatura oficial.
 
 ## Identidade consolidada
 
@@ -24,29 +24,31 @@ Como interpretação de trabalho, foram propostas terras baixas quentes e úmida
 
 ## Origem religiosa e memória política
 
-No pós-guerra, uma pessoa com acesso a documentos do mundo antigo e conhecimento superior do arcano percebeu a ameaça: a retenção de arcano pelo antiarcano interromperia o ciclo e, em última instância, comprometeria a continuidade da vida no planeta.
+No pós-guerra, o fundador da tradição religiosa e do Império encontrou e decifrou **documentos de experimentos pré-Guerra**. Com esse conhecimento, tornou-se **o primeiro paladino** mediante um procedimento arcano-antiarcano realizado com o corpo de um gigante. Compreendeu a ameaça do desequilíbrio do antiarcano ao ciclo vital e fundou uma religião e uma civilização militar voltadas ao seu combate.
 
-Organizou uma resistência que se tornou tradição religiosa. Essa figura central é lembrada como mártir, santo, semideus ou campeão exemplar; a classificação final e as circunstâncias de sua morte permanecem abertas.
+**O fundador não está morto: ele continua existindo como o imperador.** Sua transformação e a natureza antiarcana dos paladinos são **a maior heresia oculta do Império**. Com o passar dos séculos, sua consciência e a união estável de arcano com antiarcano expandiram-se; ele se tornou um epicentro assimilador disforme, com feridas tratadas e alimentação administrada diariamente por sacerdotes secretos. Ver [O Imperador e os Paladinos](../lore/imperador-e-paladinos.md).
 
-Com o tempo, a mensagem se deturpou em preconceito. Apenas alguns altos sacerdotes conservam a explicação verdadeira. A missão pública exige destruir aquilo que o antiarcano corrompeu.
+O imperador realmente enxerga manifestações e movimentos do antiarcano e entende que seu avanço ameaça a continuidade da vida. Sua intenção de proteger a vida é legítima, mas a perspectiva desumana adquirida com o tempo o levou a aceitar sacrifícios extremos. Estar certo sobre a ameaça **não** torna cada decisão ou método automaticamente correto.
 
-“Altos sacerdotes” designa autoridades de cultos específicos: não existe uma Igreja única com hierarquia universal. Ver [Cultos, mártir e ritos arcanos](../lore/cultos-do-norte.md).
+A veneração pública do fundador pode preservar a linguagem de mártir, santo ou avatar, mas **não se deve declarar como fato histórico sua morte**. A versão oficial de seu estado, a estrutura do trono e a relação com a realeza pública ainda não foram definidas. Apenas um número ínfimo de pessoas conhece sua verdadeira condição; a extensão do sigilo permanece aberta.
 
-## Rei e autoridade espiritual
+A religião mantém **vários cultos, templos e sacerdócios**, sem uma Igreja única e universal. Os [cultos do Norte](../lore/cultos-do-norte.md) não pertencem à coletividade sacerdotal da Igreja da Unificação.
 
-O rei também é líder espiritual. Sua legitimidade está ligada à ideia de ser reencarnação ou descendente direto do mártir. A linhagem real pode possuir uma distinção fenotípica singular, ainda não escolhida.
+## Autoridade imperial e sacerdócios
 
-Isso coexiste com vários templos e sacerdócios ligados entre si, sem uma hierarquia religiosa unificada. A relação exata entre prerrogativas régias e autonomia ritual dos cultos precisa ser definida.
+O imperador é **o próprio fundador ainda existente** e fonte última de autoridade espiritual na origem do Império. Sua mente é praticamente incompreensível e transmite principalmente intenções. Somente raríssimos **Intérpretes da Vontade**, nascidos com aptidão para conduzir arcano e dotados de treino especializado adicional, conseguem realizar rituais de comunicação. Interpretam e transmitem sua vontade às instituições imperiais.
 
-### Propostas de desenvolvimento
+Intérpretes podem adulterar mensagens e acreditar que enganam o imperador. Ele, porém, percebe manipulações e pode tolerá-las por necessidade, já que os intérpretes são escassos. Não reprime automaticamente: quando julga oportuno, exerce sua justiça. Sua comunicação direta, de alguma forma, com os paladinos cria um canal distinto dos intérpretes.
 
-- A família real descende do mártir, mas somente o soberano consagrado é reconhecido como seu retorno.
-- A sucessão combina linhagem e reconhecimento ritual, permitindo disputas entre parentes e sacerdócios.
-- O rei protege templos, preside festividades comuns e declara guerras sagradas; cada culto preserva autoridade sobre seus próprios ritos.
-- Distinção física sugerida: mecha branca delimitada desde o nascimento. Não foi escolhida como traço definitivo, nem comprova reencarnação.
-- Ocorrência do traço fora da família reconhecida poderia gerar uma crise dinástica.
+O modelo anterior de **rei descendente ou reencarnação de um mártir falecido** não pode ser aplicado literalmente à figura do fundador, agora estabelecido como imperador vivo. Se há reis subordinados, sucessão dinástica, substitutos visíveis ou um título público diferente, isso **continua em aberto**. Propostas antigas de família real, fenótipo, mecha branca, rito de sucessão e crise dinástica não estão aprovadas.
 
-Não está estabelecido que a reencarnação seja um fenômeno real, ao contrário dos efeitos sutis dos ritos, que foram expressamente definidos como reais.
+Essa autoridade imperial coexiste com a autonomia ritual de diferentes cultos; a distribuição política e administrativa de competências ainda precisa ser concebida.
+
+## Paladinos e aparato militar
+
+Uma ordem raríssima de guerreiros gigantescos, produzidos pela união arcano-antiarcana entre cérebro de guerreiro humano excepcional e corpo de gigante (espécie de **4 a 5 metros**, rara no mundo civilizado). Seus membros vestem armaduras muito grossas, carregam armas de escala descomunal — a imagem de uma espada tipo “tábua” — e podem representar força individual capaz de enfrentar grandes dinossauros. A aparição de um paladino causa alerta mesmo em uma cidade fortificada.
+
+O rito que os cria é a **maior heresia do Estado**, ocultada pela doutrina pública de combate ao antiarcano. Quantidade, organização, custo e recrutamento não estão definidos. A ordem de paladinos não se confunde automaticamente com a **ordem de cavaleiros sagrados montados**, elite de armaduras pesadas e melhores equipamentos já proposta para os exércitos; a relação entre ambas está por desenvolver. Ver [O Imperador e os Paladinos](../lore/imperador-e-paladinos.md).
 
 ## Economia e escravidão
 
@@ -74,4 +76,4 @@ Quantidade por si só não resolve grande disparidade de poder de fogo. Terreno,
 - [Cultos do Norte](../lore/cultos-do-norte.md): religião dispersa, ritos reais e mártir.
 - [Identidade visual](../estetica/reino-do-norte.md): fundamentos e propostas climáticas.
 
-Permanecem abertos nomes, mapa, capital, demografia, dinastia, traço físico, sucessão, alcance da autoridade real, administração provincial e estágio exato das relações externas.
+Permanecem abertos nomes, mapa, capital, demografia, eventual dinastia ou reis públicos, traço físico e sucessão se existentes, autoridade dos sacerdócios e intérpretes, administração provincial e estágio exato das relações externas.
