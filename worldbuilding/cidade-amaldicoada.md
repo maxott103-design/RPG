@@ -1,7 +1,7 @@
 # Cidade amaldiçoada — primeiros rascunhos
 
 - Estado: **Em desenvolvimento; núcleo definido e possibilidades separadas abaixo**.
-- Última atualização: 05/10/2026.
+- Última atualização: 12/10/2026 (distinção cosmológica; núcleo local de 05/10 preservado).
 - Área: localidades.
 - Visibilidade narrativa: mestre.
 - Nome, localização e pertencimento político: não definidos.
@@ -14,6 +14,12 @@ Uma cidade convive com uma maldição conhecida pelos cidadãos e mantida em seg
 Há uma igreja pagã local, na qual os cidadãos cultuam secretamente a criatura. O culto pode funcionar dentro da estrutura aparente da Igreja; sua apresentação externa ainda é rascunho.
 
 A entidade não é a Grande Comunhão pregada pela Igreja, nem uma expressão obrigatoriamente subordinada à coletividade institucional. É uma manifestação local com existência própria.
+
+## Terceira manifestação do antiarcano
+
+Esta entidade foi reafirmada pelo autor como a **terceira manifestação conhecida do antiarcano** no cenário, ao lado da [Igreja da Unificação](../lore/igreja.md) e do [imperador do Norte](../lore/imperador-e-paladinos.md). Ela é uma manifestação local independente: não é um braço obrigatório da coletividade da Igreja nem um desdobramento do epicentro assimilador imperial.
+
+Essas três manifestações não tornam consciente o antiarcano como energia universal, nem estabelecem conexão hierárquica ou mental entre elas. A origem específica da entidade local continua em aberto.
 
 ## O sino das duas da tarde
 
