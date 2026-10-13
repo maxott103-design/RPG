@@ -10,6 +10,7 @@
 - [Cidade amaldiçoada — primeiros rascunhos](cidade-amaldicoada.md)
 
 - [Reino teocrático do Norte](reino-teocratico-do-norte.md)
+- [Imperador e Paladinos — segredo do mestre](../lore/imperador-e-paladinos.md)
 - [Fronteiras e relações com as Confederações — propostas](fronteiras-reino-confederacoes.md)
 
 ## Como interpretar
