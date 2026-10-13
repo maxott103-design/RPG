@@ -18,6 +18,16 @@ Consciências podem emergir de estruturas formadas por essas energias. Isso não
 
 A formação da Igreja foi aprovada como um processo quase análogo à seleção natural, no qual formas eficientes de persistência e obtenção de arcano deram origem à instituição. Ver [Igreja e assimilação](igreja.md).
 
+## Três manifestações distintas do antiarcano
+
+Estão estabelecidas **três manifestações com consciência ou vontade própria**, não equivalentes a uma inteligência universal do antiarcano:
+
+1. **Igreja da Unificação:** consciência coletiva que assimila, retém arcano e se organiza institucionalmente, incluindo seus sacerdotes. [Igreja](igreja.md).
+2. **Imperador do Norte:** o primeiro paladino, hoje um **epicentro de assimilação** cuja energia vital é uma **união estável e crescente de arcano e antiarcano**. Sua consciência expandida é singular, desumana, perspicaz e capaz de perceber as movimentações do antiarcano e seu desequilíbrio no ciclo vital. Não é assimilável pelo fenômeno específico da Igreja; não afirmar por isso imunidade a toda influência antiarcana. [Imperador e Paladinos](imperador-e-paladinos.md).
+3. **Entidade da cidade amaldiçoada:** manifestação autônoma e local, que protege a população em troca de sacrifícios; o **sino das 14h** assinala o recolhimento enquanto algo sai para se alimentar. [Cidade amaldiçoada](../worldbuilding/cidade-amaldicoada.md).
+
+Essas manifestações compartilham natureza ou propriedades do antiarcano, mas **não uma vontade única ou subordinação automática entre si**. O antiarcano permanece energia natural impessoal. O imperador é, no mundo atual, o único ser conhecido que realmente percebe e compreende a escala de sua influência no ciclo vital e a necessidade de conter seu desequilíbrio. Seu diagnóstico está correto; a correção moral ou a inevitabilidade de cada método por ele utilizado não estão estabelecidas.
+
 ## Catástrofe antiga
 
 O contexto do projeto atribui aos elfos a abertura de um portal. A tentativa de fechá-lo levou ao colapso do mundo. A síntese de julho recuperada descreve um portal extradimensional aberto pelo mundo antigo e uma tentativa conjunta de fechamento que contaminou o mundo.
