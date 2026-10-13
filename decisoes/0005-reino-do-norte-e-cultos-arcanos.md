@@ -4,6 +4,8 @@
 - Estado: definições explícitas incorporadas; sugestões preservadas como propostas.
 - Fonte: conversa do autor após o registro da Igreja e da cidade amaldiçoada.
 
+> **Nota histórica (12/10/2026):** as decisões 2 e 5 foram parcialmente superadas. O fundador não morreu: é o primeiro paladino e imperador ainda existente. A hipótese de rei descendente/reencarnação permanece em aberto como eventual versão pública ou arranjo político, não como fundamento canônico. Ver [0006 — Imperador e manifestações](0006-imperador-paladinos-manifestacoes.md). Este registro de 05/10 é preservado como histórico, não como regra mais recente.
+
 ## Decisões
 
 1. O reino teocrático fica ao norte, substituindo a indicação anterior de nordeste; tem região fértil, cordilheira e conexões fluviais. Arquipélagos são possibilidade.
