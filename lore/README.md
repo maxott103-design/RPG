@@ -3,6 +3,7 @@
 - [Arcano, antiarcano e colapso](cosmologia-e-colapso.md)
 - [Igreja da Unificação, coletividade e assimilação](igreja.md)
 - [Arcano vital e resina da araucária](arcano-vital-e-resina.md)
+- [O Imperador, os Paladinos e a heresia fundadora](imperador-e-paladinos.md)
 
 - [Cultos do Norte, mártir e ritos arcanos](cultos-do-norte.md)
 
