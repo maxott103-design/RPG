@@ -13,3 +13,5 @@ Para novas entradas, use os [modelos](../modelos/README.md).
 - [0004 — Unificação do repositório](0004-unificacao-do-repositorio.md)
 
 - [0005 — Reino do Norte e cultos arcanos](0005-reino-do-norte-e-cultos-arcanos.md)
+
+- [0006 — O Imperador, os Paladinos e as três manifestações](0006-imperador-paladinos-manifestacoes.md)
