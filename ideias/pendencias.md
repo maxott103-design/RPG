@@ -1,6 +1,6 @@
 # Pendências atuais
 
-Atualizado em 17/09/2026. Esta lista reúne decisões ainda abertas; não inclui conteúdo que já foi recuperado e incorporado.
+Atualizado em 13/11/2026. Esta lista reúne decisões ainda abertas; não inclui conteúdo que já foi recuperado e incorporado.
 
 ## Combate — decisões do autor
 
@@ -15,18 +15,7 @@ Atualizado em 17/09/2026. Esta lista reúne decisões ainda abertas; não inclui
 9. Escudos: inclusão não decidida; fora da regra ativa.
 10. Diferenciar o nome da defesa “aparar” do recurso “Aparo” da armadura, se desejado.
 
-## Inconsistências herdadas a fechar
-
-- Nomeados: confirmar limiares de queda por Leves e combinação Leve/Grave.
-- Alerta: fórmula/procedimento de surpresa ainda não explícito.
-- Sangramento: duração exata dos “minutos” após chegar a 0; passagem das rodadas para tempo fora de combate.
-- Fôlego máximo sob Exaustão: definir mínimo e ajuste do Fôlego atual quando o máximo cai, inclusive em Último Fôlego.
-- Inconsciente sem Ferimento Grave: efeito de novo ataque simples, sem presumir morte automática.
-- Coisa do poço tem duas exceções, apesar da recomendação de uma.
-- Tiros de besta contra jogadores, alcances e operação com apenas um braço.
-- “Forçar Ferimento” do resumo antigo não tem procedimento independente na base mais nova; habilidades de ignorar Ferimentos estão documentadas. Não inventar uma ação universal adicional.
-
-## Habilidades e criação
+## Habilidades e progressão
 
 - Revisão v5 permanece proposta: categorias, nomes, custos e relação com v4.
 - Ler a Guarda e Pó na Cara: adaptar efeitos que pressupõem defesa paga do inimigo.
@@ -34,11 +23,22 @@ Atualizado em 17/09/2026. Esta lista reúne decisões ainda abertas; não inclui
 - Não Cai/Casca Grossa × Difícil de Derrubar; cabeça Grave e consciência.
 - Guarda Alta × deslocamento obrigatório de Esquiva; Abrir Caminho × ataque pesado que normalmente não drena.
 - Ponto Fraco × dreno no decisivo ainda não definido; revisar habilidades que modificam dreno.
-- Humano: bônus fixo de Intelecto respeita o teto inicial? Aplicar escolhas e recalcular as duas fichas humanas.
+- Aquisição em jogo, ranks e pré-requisitos das habilidades convencionais.
 - Habilidades do meio-elfo; conceito futuro dos Mestiços.
 - Origens, equipamento inicial, progressão de atributos/competências/habilidades e pré-requisitos.
 - Fratura, Corpo Estranho e Trauma continuam propostas.
 - Catálogo de estados de medo/Sangue Frio e habilidades de ruínas.
+
+## Conhecimentos Arcanos — estrutura aprovada, parâmetros em aberto
+
+- Nome definitivo da trilha, quantidade de graus e limiares de progressão.
+- Quantidade de fragmentos por grau e relação com nível geral do personagem.
+- Frequência de tentativas de estudo durante descansos, falhas, ajuda e número de sucessos.
+- Limites de Adaptações e Manifestações por personagem.
+- Custos, usos, duração, alcance e recuperação das Manifestações.
+- Compatibilidade, incompatibilidade e possível conflito entre conhecimentos arcanos e antiarcanos.
+- Definir quais exemplos de Adaptações e Manifestações serão convertidos em opções mecânicas finais.
+- Definir instituições, programas científicos, artefatos e cronologia específica da pesquisa arcana na Grande Guerra.
 
 ## Mundo, aventura e produção
 
