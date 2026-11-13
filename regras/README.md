@@ -1,6 +1,6 @@
 # Regras — referência unificada
 
-Atualização: **17/09/2026**. Esta pasta é a referência atual. A base completa antes guardada em `versao-claude` foi integrada; suas versões antigas estão no histórico.
+Atualização: **13/11/2026**. Esta pasta é a referência atual. A base completa antes guardada em `versao-claude` foi integrada; suas versões antigas estão no histórico.
 
 - [Guia de leitura para o jogador](guia-do-jogador.md)
 
@@ -26,8 +26,11 @@ Atualização: **17/09/2026**. Esta pasta é a referência atual. A base complet
 ## Habilidades e desenvolvimento
 
 - [Catálogo de habilidades](habilidades.md)
+- [Conhecimentos Arcanos, Adaptações e Manifestações](conhecimentos-arcanos.md)
 - [Revisões propostas da v5](../ideias/habilidades-em-revisao.md)
 - [Pendências atuais](../ideias/pendencias.md)
 - [Playtests](../playtests/README.md)
 
 “Moderado”, “mediano” e “fraco” nas fontes correspondem à faixa 10–14. A nomenclatura atual usa “moderado”. O catálogo distingue explicitamente propostas e efeitos que precisam de adaptação; não são liberados apenas por terem sido importados.
+
+A trilha de Conhecimentos Arcanos registra uma estrutura conceitual aprovada em 13/11/2026; seus valores, limiares e procedimentos finais ainda dependem de definição e playtest.
