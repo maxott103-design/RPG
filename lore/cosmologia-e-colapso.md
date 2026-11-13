@@ -1,6 +1,6 @@
 # Cosmologia e colapso
 
-Estado: **Registrado no contexto; cronologia incompleta**. Organização: 13/09/2026. Fundamentos atualizados por decisão do autor em 05/10/2026.
+Estado: **Registrado no contexto; cronologia incompleta**. Organização: 13/09/2026. Fundamentos atualizados por decisões do autor em 05/10/2026 e 13/11/2026.
 
 Fontes: C02, C03, R01 e M01. Consulte [procedência e limites](../fontes/README.md).
 
@@ -17,6 +17,18 @@ Consciências podem emergir de estruturas formadas por essas energias. Isso não
 **Hipótese em aberto:** as propriedades assimiladoras observadas neste mundo podem ter surgido quando o antiarcano se fundiu ou interagiu com o arcano natural local. Não está definido como ele se comportava antes desse encontro.
 
 A formação da Igreja foi aprovada como um processo quase análogo à seleção natural, no qual formas eficientes de persistência e obtenção de arcano deram origem à instituição. Ver [Igreja e assimilação](igreja.md).
+
+## Alma, consciência e reserva arcana
+
+Todo ser vivo possui uma alma relacionada ao arcano e ao antiarcano. A dimensão dessa alma é influenciada pela dimensão e complexidade da consciência do ser, não apenas por sua massa física.
+
+Assim, proporcionalmente, um elfo possui uma reserva arcana muito maior que uma bactéria não apenas por sua constituição material, mas também porque sua consciência é muito mais desenvolvida. A consciência ampliada permite conter e conduzir uma quantidade maior de arcano.
+
+Quando os seres vivos desenvolvem ou transcendem sua consciência, ampliam essa capacidade. Em escala histórica, esse processo também contribui para aumentar a quantidade de arcano presente no mundo. Essa propriedade liga consciência e arcano e explica por que a magia era possível em eras esquecidas.
+
+A relação entre consciência e arcano pode ser desenvolvida pelos personagens por meio da trilha provisoriamente chamada [Conhecimentos Arcanos](../regras/conhecimentos-arcanos.md). Essa trilha representa expansão da consciência, não uma reserva convencional de mana.
+
+A relação não torna o arcano ou o antiarcano conscientes, nem implica que ambos tenham efeitos idênticos. O antiarcano conserva seu caráter assimilador. A forma exata pela qual cada um se relaciona com a alma e se manifesta em um indivíduo depende de princípios ainda estudados no sistema.
 
 ## Três manifestações distintas do antiarcano
 
@@ -40,7 +52,7 @@ Uma cidade voadora élfica permanece como vestígio do mundo antigo. A síntese 
 
 ## Ciclo vital e recuperação do arcano
 
-Todo ser vivo nasce com uma componente arcana, ligada à dimensão vital ou espiritual. A disponibilidade de arcano no mundo foi drasticamente reduzida por uma magia de escala excepcional, mas nunca desapareceu por completo.
+A disponibilidade de arcano no mundo foi drasticamente reduzida por uma magia de escala excepcional, mas nunca desapareceu por completo.
 
 Ao longo dos milênios, morte e decomposição continuaram devolvendo gradualmente essa componente ao ambiente, permitindo que bolsões arcanos voltassem a se formar, embora sem recuperar os níveis das antigas eras.
 
@@ -63,3 +75,7 @@ As instalações concebidas como prisões/contenções são proposta, não expli
 ## Registro da revisão de 05/10/2026
 
 A nova definição distingue energias impessoais de consciências emergentes. Referências anteriores a uma inteligência externa não estabelecem uma mente universal por trás do antiarcano. A existência ou o destino de entidades específicas ligadas ao Portal continuam questões próprias, sem resolver a natureza das forças. Esta revisão preserva o ciclo vital detalhado em [Arcano vital e resina](arcano-vital-e-resina.md).
+
+## Registro da revisão de 13/11/2026
+
+Foi explicitada a relação entre dimensão da alma, consciência e reserva arcana. A consciência desenvolvida amplia a capacidade de conter e conduzir arcano, e a transcendência dos seres contribui para a recuperação/aumento do arcano no mundo. A trilha de Conhecimentos Arcanos representa essa expansão nos personagens. Ver [decisão 0007](../decisoes/0007-conhecimentos-arcanos-e-pesquisa.md).
